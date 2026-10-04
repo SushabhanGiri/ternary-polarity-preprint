@@ -1,0 +1,16 @@
+TERNARY POLARITY TP-D v0.3 — ZENODO PACKAGE VALIDATION
+
+Assembly date: 2026-10-02
+
+Checks executed from the assembled reproducibility tree:
+- publication/preprint/make_figures.py: PASS
+- publication/preprint/assemble_supplement.py: PASS
+- code/test_dual_tp.py: PASS (5 tests)
+- code/test_tpd_phase3.py: PASS (29 tests)
+- code/tpd_final_regression.py: PASS (13/13 cross-artifact checks)
+
+Combined unit/regression tests represented above: 34
+Failed cross-artifact checks: []
+
+This validation confirms internal consistency of the frozen package under the available environment.
+It is not an independent experimental or phenomenological validation of the physical model.

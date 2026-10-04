@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "parameters": {
+    "mA": 62.0,
+    "mB": 62.2,
+    "mu_A": 1.0,
+    "mu_B": 1.0,
+    "lambda_HA": 0.0005539381702448959,
+    "lambda_HB": 0.0004917087212953458,
+    "lambda_AB": 1e-05,
+    "lambda_A": 0.1,
+    "lambda_B": 0.1,
+    "bare_mA2": 3827.2089463056527,
+    "bare_mB2": 3853.935254335698
+  },
+  "parent_matching": {
+    "f_m_GeV": 1000.0,
+    "f_E_GeV": 1000.0,
+    "g_m": 0.3,
+    "g_E": 0.3,
+    "vector_mass_GeV": 899.9999999999999,
+    "radial_mass_GeV": 632.4555320336759
+  },
+  "extra_state_decays": {
+    "A": {
+      "vector": {
+        "mass_GeV": 899.9999999999999,
+        "decay": "X -> S Sbar",
+        "width_GeV": 0.5219259583592187,
+        "lifetime_s": 1.2611213264219012e-24,
+        "width_over_H_at_T_equal_mass": 458682258549.46246
+      },
+      "radial": {
+        "mass_GeV": 632.4555320336759,
+        "decay": "rho -> S S S and charge conjugate",
+        "open": true,
+        "amplitude_each_charge": 0.002,
+        "phase_space_integral_GeV4": 59055266765.60852,
+        "quadrature_error_GeV4": 0.3835601806640625,
+        "width_each_charge_GeV": 1.960594618379034e-08,
+        "total_width_GeV": 3.921189236758068e-08,
+        "lifetime_s": 1.6786028859045618e-17,
+        "width_over_H_at_T_equal_mass": 69782.3955808738
+      }
+    },
+    "B": {
+      "vector": {
+        "mass_GeV": 899.9999999999999,
+        "decay": "X -> S Sbar",
+        "width_GeV": 0.5218280687747989,
+        "lifetime_s": 1.2613578998259274e-24,
+        "width_over_H_at_T_equal_mass": 458596230608.23627
+      },
+      "radial": {
+        "mass_GeV": 632.4555320336759,
+        "decay": "rho -> S S S and charge conjugate",
+        "open": true,
+        "amplitude_each_charge": 0.002,
+        "phase_space_integral_GeV4": 58952394401.16472,
+        "quadrature_error_GeV4": 0.3734283447265625,
+        "width_each_charge_GeV": 1.9571793259732107e-08,
+        "total_width_GeV": 3.9143586519464213e-08,
+        "lifetime_s": 1.68153206036116e-17,
+        "width_over_H_at_T_equal_mass": 69660.83690502444
+      }
+    }
+  },
+  "late_time_annihilation": {
+    "components": {
+      "A": {
+        "xi": 0.4936302940231049,
+        "zero_velocity_sigma_v_GeV_minus2": 1.2579994039300233e-11,
+        "zero_velocity_sigma_v_cm3_per_s": 1.4684990289853663e-28,
+        "conservative_feff_one_pann_cm3_s_GeV": 5.77145857809583e-31
+      },
+      "B": {
+        "xi": 0.4969193185064992,
+        "zero_velocity_sigma_v_GeV_minus2": 2.1299185828278118e-11,
+        "zero_velocity_sigma_v_cm3_per_s": 2.4863154632102776e-28,
+        "conservative_feff_one_pann_cm3_s_GeV": 9.8704648937262e-31
+      }
+    },
+    "conservative_feff_one_pann_total_cm3_s_GeV": 1.564192347182203e-30,
+    "Planck_2018_95CL_pann_limit_cm3_s_GeV": 3.2e-28,
+    "ratio_to_limit": 0.004888101084944385,
+    "source": "Planck Collaboration 2018 VI, arXiv:1807.06209v4, Eq. 87c",
+    "interpretation": "f_eff=1 is conservative; the actual SM final-state deposition efficiency is smaller"
+  },
+  "self_interaction_conservative_bounds": {
+    "A": {
+      "amplitude_envelope": 1.0026014568158168,
+      "sigma_over_mass_upper_envelope_cm2_per_g": 4.582002116099231e-12
+    },
+    "B": {
+      "amplitude_envelope": 1.0025847540864963,
+      "sigma_over_mass_upper_envelope_cm2_per_g": 4.5377935091041564e-12
+    }
+  },
+  "topological_defects": {
+    "object": "local strings from each broken U(1); no domain walls from a gauged residual Z3",
+    "Gmu_order_estimate_each_sector": 1.0596975670816314e-30,
+    "estimate": "2*pi*f^2/Mbar_Pl^2; order-one string-profile factors omitted"
+  },
+  "verdict": {
+    "unintended_parent_relic": "none at the matched pole point: every vector and radial has a prompt open decay",
+    "BBN_or_late_entropy": "pass by more than fifteen orders of magnitude in lifetime",
+    "CMB_energy_injection": "pass under the conservative f_eff=1 mapping",
+    "dark_radiation": "none: both Goldstones are eaten and all parent excitations are massive and prompt",
+    "classification": "verified model-dependent cosmology pass at leading order"
+  }
+}

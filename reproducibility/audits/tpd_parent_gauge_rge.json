@@ -1,0 +1,64 @@
+{
+  "TP_G0_factorization_failure": {
+    "beta_lambda_APhi_m_at_zero_per_log_mu": 0.005722113846201026,
+    "beta_lambda_BPhi_E_at_zero_per_log_mu": 0.005950086509396285,
+    "gauge_source_terms_16pi2": {
+      "lambda_APhi_m": "108*g_m^4",
+      "lambda_BPhi_E": "108*g_E^4"
+    },
+    "interpretation": "The factorized zero-portal benchmark is not an RG-invariant surface. Positive portals are generated immediately above the parent threshold.",
+    "scalar_source_terms_16pi2": {
+      "lambda_APhi_m": "36*kappa_m^2",
+      "lambda_BPhi_E": "36*kappa_E^2"
+    }
+  },
+  "new_abelian_gauge_terms_in_scalar_quartic_betas": {
+    "kappa_E": "-36*g_E^2*kappa_E",
+    "kappa_m": "-36*g_m^2*kappa_m",
+    "lambda_A": "-12*g_m^2*lambda_A + 6*g_m^4",
+    "lambda_AB": "-6*g_m^2*lambda_AB + -6*g_E^2*lambda_AB",
+    "lambda_APhi_E": "-6*g_m^2*lambda_APhi_E + -54*g_E^2*lambda_APhi_E",
+    "lambda_APhi_m": "-60*g_m^2*lambda_APhi_m + 108*g_m^4",
+    "lambda_B": "-12*g_E^2*lambda_B + 6*g_E^4",
+    "lambda_BPhi_E": "-60*g_E^2*lambda_BPhi_E + 108*g_E^4",
+    "lambda_BPhi_m": "-54*g_m^2*lambda_BPhi_m + -6*g_E^2*lambda_BPhi_m",
+    "lambda_H": "0",
+    "lambda_HA": "-6*g_m^2*lambda_HA",
+    "lambda_HB": "-6*g_E^2*lambda_HB",
+    "lambda_HPhi_E": "-54*g_E^2*lambda_HPhi_E",
+    "lambda_HPhi_m": "-54*g_m^2*lambda_HPhi_m",
+    "lambda_Phi_E": "-108*g_E^2*lambda_Phi_E + 486*g_E^4",
+    "lambda_Phi_m": "-108*g_m^2*lambda_Phi_m + 486*g_m^4",
+    "lambda_Phi_mPhi_E": "-54*g_m^2*lambda_Phi_mPhi_E + -54*g_E^2*lambda_Phi_mPhi_E"
+  },
+  "one_loop_abelian_landau_estimates": {
+    "E": {
+      "coupling": 0.3,
+      "ln_Lambda_over_mu": 263.18945069571623,
+      "log10_Lambda_over_GeV": 117.30172613229752,
+      "reference_scale_GeV": 1000.0
+    },
+    "m": {
+      "coupling": 0.3,
+      "ln_Lambda_over_mu": 263.18945069571623,
+      "log10_Lambda_over_GeV": 117.30172613229752,
+      "reference_scale_GeV": 1000.0
+    },
+    "warning": "Formal one-loop estimates far above the Planck scale have no physical EFT significance; they only show that g=0.30 is not the first perturbative obstruction."
+  },
+  "one_loop_gauge_betas": {
+    "b_E": "10/3",
+    "b_m": "10/3",
+    "convention": "(16*pi^2) beta_g = b*g^3",
+    "derivation": "For each U(1), one complex q=1 scalar and one complex q=3 scalar give b=(1^2+3^2)/3=10/3."
+  },
+  "one_loop_kinetic_mixing_sources": {
+    "Y-E": 0,
+    "Y-m": 0,
+    "m-E": 0,
+    "reason": "No active field carries both charges in any pair; charge conjugations provide all-orders protection on this slice."
+  },
+  "schema_version": 1,
+  "scope_warning": "This is not the full TP-G parent RGE system. SM gauge/Yukawa terms, dimensionful parameters, threshold matching, and nonzero kinetic mixing remain open.",
+  "slice": "epsilon_Ym=epsilon_YE=epsilon_mE=0, protected by C_m x C_E"
+}

@@ -1,0 +1,216 @@
+{
+  "anomaly_audit": {
+    "U1_E_cubed": 0,
+    "U1_m_cubed": 0,
+    "charged_chiral_fermions": 0,
+    "mixed_SM": 0,
+    "mixed_abelian": 0,
+    "mixed_gravitational": 0,
+    "reason": "Only scalars carry the new charges and all SM fermions are neutral."
+  },
+  "breaking_vevs": {
+    "Phi_E": "f_E/sqrt(2)",
+    "Phi_m": "f_m/sqrt(2)"
+  },
+  "charges": {
+    "A": [
+      1,
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "Phi_E": [
+      0,
+      3
+    ],
+    "Phi_m": [
+      3,
+      0
+    ]
+  },
+  "gauge_kinetic_terms": [
+    "-F_Y^2/4",
+    "-F_m^2/4",
+    "-F_E^2/4",
+    "-epsilon_Ym F_Y^{mu nu} F_m_{mu nu}/2",
+    "-epsilon_YE F_Y^{mu nu} F_E_{mu nu}/2",
+    "-epsilon_mE F_m^{mu nu} F_E_{mu nu}/2"
+  ],
+  "goldstones": "arg(Phi_m) and arg(Phi_E) are eaten; two radial modes remain",
+  "higgs_neutral_invariants": [
+    "HdagH",
+    "(HdagH)^2",
+    "HdagH |Phi_m|^2",
+    "HdagH |Phi_E|^2",
+    "HdagH |A|^2",
+    "HdagH |B|^2"
+  ],
+  "kinetic_positivity": "The full symmetric 3x3 Abelian kinetic matrix must be positive definite. In the epsilon_Ym=epsilon_YE=0 slice this requires abs(epsilon_mE)<1.",
+  "low_energy_cubic_matching": {
+    "mu_A": "3*kappa_m*f_m/sqrt(2)",
+    "mu_B": "3*kappa_E*f_E/sqrt(2)"
+  },
+  "mixed_vector_mass_eigenvalues": "On the epsilon_Ym=epsilon_YE=0 slice: [(M_m^2+M_E^2) +/- sqrt((M_m^2-M_E^2)^2+4*epsilon_mE^2*M_m^2*M_E^2)]/[2*(1-epsilon_mE^2)]",
+  "one_loop_mixing_source_traces": {
+    "Tr(Q_m Q_E)": 0,
+    "Tr(Y Q_E)": 0,
+    "Tr(Y Q_m)": 0,
+    "reason": "No field in the frozen scalar-only completion carries both relevant charges."
+  },
+  "parent_group": "U(1)_m x U(1)_E",
+  "pure_scalar_invariants_through_dimension_4": {
+    "1": [],
+    "2": [
+      {
+        "conjugate": "Phi_m Phi_m_dag",
+        "monomial": "Phi_m Phi_m_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_E Phi_E_dag",
+        "monomial": "Phi_E Phi_E_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "A A_dag",
+        "monomial": "A A_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "B B_dag",
+        "monomial": "B B_dag",
+        "self_conjugate": true
+      }
+    ],
+    "3": [],
+    "4": [
+      {
+        "conjugate": "Phi_m^2 Phi_m_dag^2",
+        "monomial": "Phi_m^2 Phi_m_dag^2",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_m Phi_m_dag Phi_E Phi_E_dag",
+        "monomial": "Phi_m Phi_m_dag Phi_E Phi_E_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_m Phi_m_dag A A_dag",
+        "monomial": "Phi_m Phi_m_dag A A_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_m Phi_m_dag B B_dag",
+        "monomial": "Phi_m Phi_m_dag B B_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_m_dag A^3",
+        "monomial": "Phi_m A_dag^3",
+        "self_conjugate": false
+      },
+      {
+        "conjugate": "Phi_m A_dag^3",
+        "monomial": "Phi_m_dag A^3",
+        "self_conjugate": false
+      },
+      {
+        "conjugate": "Phi_E^2 Phi_E_dag^2",
+        "monomial": "Phi_E^2 Phi_E_dag^2",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_E Phi_E_dag A A_dag",
+        "monomial": "Phi_E Phi_E_dag A A_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_E Phi_E_dag B B_dag",
+        "monomial": "Phi_E Phi_E_dag B B_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "Phi_E_dag B^3",
+        "monomial": "Phi_E B_dag^3",
+        "self_conjugate": false
+      },
+      {
+        "conjugate": "Phi_E B_dag^3",
+        "monomial": "Phi_E_dag B^3",
+        "self_conjugate": false
+      },
+      {
+        "conjugate": "A^2 A_dag^2",
+        "monomial": "A^2 A_dag^2",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "A A_dag B B_dag",
+        "monomial": "A A_dag B B_dag",
+        "self_conjugate": true
+      },
+      {
+        "conjugate": "B^2 B_dag^2",
+        "monomial": "B^2 B_dag^2",
+        "self_conjugate": true
+      }
+    ]
+  },
+  "random_mass_formula_check": {
+    "maximum_relative_error": 8.294872005002147e-14,
+    "points": 500,
+    "seed": 20260919
+  },
+  "residual_action": {
+    "A": "A -> exp(2*pi*i*n_m/3) A",
+    "B": "B -> exp(2*pi*i*n_E/3) B"
+  },
+  "residual_elements": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "residual_group": "Z3_m x Z3_E",
+  "schema_version": 1,
+  "scope_warning": "This is a scalar-only parent completion. All hypercharge/new-sector and inter-new-sector kinetic mixings are symmetry allowed; threshold matching, the full scalar vacuum, cosmic strings, and gauge-sector unitarity remain to be completed.",
+  "unmixed_vector_masses": {
+    "M_E^2": "9*g_E^2*f_E^2",
+    "M_m^2": "9*g_m^2*f_m^2"
+  },
+  "zero_mixing_status": "Not implied by gauge symmetry. It can be protected by independent charge-conjugation automorphisms C_m and C_E when all corresponding scalar couplings are real; otherwise all three mixings are independent parameters."
+}

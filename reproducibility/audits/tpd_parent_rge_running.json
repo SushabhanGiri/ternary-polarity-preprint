@@ -1,0 +1,124 @@
+{
+  "atol": 1e-11,
+  "final": {
+    "g1": 0.4523109116756744,
+    "g2": 0.5179493779445867,
+    "g3": 0.5193807488856538,
+    "g_E": 0.319931414639876,
+    "g_m": 0.319931414639876,
+    "kappa_E": 0.2895468394038518,
+    "kappa_m": 0.040405656136496756,
+    "lambda_A": 0.8154880292079418,
+    "lambda_AB": 0.9154542671265381,
+    "lambda_APhi_E": 0.031369707225902516,
+    "lambda_APhi_m": 0.38299618066019653,
+    "lambda_B": 12.56637061435916,
+    "lambda_BPhi_E": 1.0461396989347636,
+    "lambda_BPhi_m": 0.041692694424654564,
+    "lambda_H": -0.028543925332217498,
+    "lambda_HA": 0.04661301018804939,
+    "lambda_HB": 0.1737574397704093,
+    "lambda_HPhi_E": 0.006200573482956797,
+    "lambda_HPhi_m": 0.002255261562209443,
+    "lambda_Phi_E": 2.5727639880989885,
+    "lambda_Phi_m": 2.5526206917429084,
+    "lambda_Phi_mPhi_E": 0.0014815063727979904,
+    "yb": 0.006176711319613926,
+    "yt": 0.4346948994429669,
+    "ytau": 0.009761161515914985
+  },
+  "first_sufficient_BFB_certificate_failure_GeV": 356055632.5419543,
+  "four_pi_boundary_GeV": 6.282717790532647e+16,
+  "high_energy_scalar_unitarity_boundary_GeV": 3.3306151190996704e+16,
+  "initial": {
+    "g1": 0.3618440874985012,
+    "g2": 0.63844250470991,
+    "g3": 1.0598063910134743,
+    "g_E": 0.3,
+    "g_m": 0.3,
+    "kappa_E": 0.042426406871192854,
+    "kappa_m": 0.0282842712474619,
+    "lambda_A": 0.20943329922306395,
+    "lambda_AB": 0.1046953012002569,
+    "lambda_APhi_E": 0.0,
+    "lambda_APhi_m": 0.0,
+    "lambda_B": 0.26485069643859965,
+    "lambda_BPhi_E": 0.0,
+    "lambda_BPhi_m": 0.0,
+    "lambda_H": 0.09899347986618148,
+    "lambda_HA": 0.021422020013009045,
+    "lambda_HB": 0.032237276365926736,
+    "lambda_HPhi_E": 0.0,
+    "lambda_HPhi_m": 0.0,
+    "lambda_Phi_E": 0.2,
+    "lambda_Phi_m": 0.2,
+    "lambda_Phi_mPhi_E": 0.0,
+    "yb": 0.014733091894108749,
+    "yt": 0.863391648077678,
+    "ytau": 0.01031484638686445
+  },
+  "last_integrated_scale_GeV": 6.282717790532647e+16,
+  "matching_scale_GeV": 1000.0,
+  "maximum_scalar_scattering_eigenvalue": 50.31194363414982,
+  "minimum_sufficient_BFB_margin": -0.028543925332217498,
+  "portal_generation": {
+    "lambda_AB": {
+      "at_10_TeV": 0.10983069666016199,
+      "at_1_TeV": 0.1046953012002569,
+      "at_last_scale": 0.9154542671265381
+    },
+    "lambda_APhi_E": {
+      "at_10_TeV": 2.1367398320978693e-05,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.031369707225902516
+    },
+    "lambda_APhi_m": {
+      "at_10_TeV": 0.013107607829547355,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.38299618066019653
+    },
+    "lambda_BPhi_E": {
+      "at_10_TeV": 0.013677956784068517,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 1.0461396989347636
+    },
+    "lambda_BPhi_m": {
+      "at_10_TeV": 2.054967847235493e-05,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.041692694424654564
+    },
+    "lambda_HA": {
+      "at_10_TeV": 0.02293371375025858,
+      "at_1_TeV": 0.021422020013009045,
+      "at_last_scale": 0.04661301018804939
+    },
+    "lambda_HB": {
+      "at_10_TeV": 0.0346823526680925,
+      "at_1_TeV": 0.032237276365926736,
+      "at_last_scale": 0.1737574397704093
+    },
+    "lambda_HPhi_E": {
+      "at_10_TeV": 6.7570444597048605e-06,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.006200573482956797
+    },
+    "lambda_HPhi_m": {
+      "at_10_TeV": 4.298063813410171e-06,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.002255261562209443
+    },
+    "lambda_Phi_mPhi_E": {
+      "at_10_TeV": 4.002915974704885e-09,
+      "at_1_TeV": 0.0,
+      "at_last_scale": 0.0014815063727979904
+    }
+  },
+  "rtol": 2e-10,
+  "sample_points": 1200,
+  "schema_version": 1,
+  "scope_warning": "Leading one-loop dimensionless, zero-kinetic-mixing result. Dimensionful running, exact multi-field vacuum tracking, finite threshold corrections, two-loop terms, and full gauge-sector finite-energy unitarity remain open.",
+  "solver_message": "A termination event occurred.",
+  "solver_success": true,
+  "stopped_at_four_pi_boundary": true,
+  "threshold_scheme": "Single step at 1 TeV; finite threshold corrections and the 0.63/0.90 TeV mass splitting are neglected."
+}

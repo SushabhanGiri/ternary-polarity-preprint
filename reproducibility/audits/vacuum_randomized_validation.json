@@ -1,0 +1,16 @@
+{
+  "attempts": 40,
+  "bounded_cases_checked": 40,
+  "criterion": "absolute energy mismatch > 2e-6 times the larger of 1 and the two energy magnitudes",
+  "failure_count": 0,
+  "failures": [],
+  "seed": 20260915,
+  "winning_branches": {
+    "H": 2,
+    "HS-inert": 2,
+    "HSchi-1": 10,
+    "S": 4,
+    "Schi-1": 12,
+    "origin": 10
+  }
+}

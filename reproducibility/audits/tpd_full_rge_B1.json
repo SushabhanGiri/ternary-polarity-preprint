@@ -1,0 +1,73 @@
+{
+  "atol": 1e-10,
+  "final": {
+    "g1": 0.4376847833420452,
+    "g2": 0.528985919886215,
+    "g3": 0.5449928308332282,
+    "lambda_A": 1.1033372031513833,
+    "lambda_AB": 1.5311108219757488,
+    "lambda_B": 12.566370614359133,
+    "lambda_H": 0.0308412917250397,
+    "lambda_HA": 0.6019617906064405,
+    "lambda_HB": 1.4723068476732912,
+    "mA2": 106258.34461489906,
+    "mB2": 810605.1204741523,
+    "muA": 154.3136588176738,
+    "muB": 895.616365274681,
+    "muH2": -42271.139132581004,
+    "yb": 0.006589640186570406,
+    "yt": 0.4592594628394539,
+    "ytau": 0.009942984032175037
+  },
+  "first_BFB_failure_GeV": null,
+  "first_sufficient_global_EW_failure_GeV": 230538665.08263382,
+  "first_sufficient_global_EW_failure_conditions": [
+    "global_margin_muH2"
+  ],
+  "four_pi_boundary_GeV": 1353415660777141.2,
+  "initial": {
+    "g1": 0.3583,
+    "g2": 0.6478,
+    "g3": 1.1666,
+    "lambda_A": 0.2,
+    "lambda_AB": 0.1,
+    "lambda_B": 0.25,
+    "lambda_H": 0.12938347743146458,
+    "lambda_HA": 0.18,
+    "lambda_HB": 0.18,
+    "mA2": 26943.814044,
+    "mB2": 154543.814044,
+    "muA": 60.0,
+    "muB": 90.0,
+    "muH2": 7843.78125,
+    "yb": 0.0164,
+    "yt": 0.9369,
+    "ytau": 0.0102
+  },
+  "last_integrated_scale_GeV": 1353415660777141.2,
+  "minimum_margins": {
+    "BFB_margin": 0.004085940278701075,
+    "global_margin_A_cubic": 44898.8652792,
+    "global_margin_B_cubic": 339623.581599,
+    "global_margin_mA2": 26943.814044,
+    "global_margin_mB2": 154543.814044,
+    "global_margin_muH2": -42271.139132581004,
+    "global_margin_portal_min": 0.1
+  },
+  "mu0_GeV": 173.0,
+  "requested_mu_max_GeV": 2.435e+18,
+  "rtol": 2e-10,
+  "sample_points": 6000,
+  "sampled_first_failure_details": {
+    "failed_margins": {
+      "muH2": -1.448353779590497
+    },
+    "scale_GeV": 230900524.50090176
+  },
+  "schema_version": 1,
+  "scope": "One-loop MS-bar running with no threshold matching or two-loop terms. Running sufficient tree-level inequalities are diagnostics, not an RG-improved tunnelling calculation.",
+  "solver_message": "A termination event occurred.",
+  "solver_success": true,
+  "stopped_at_four_pi_boundary": true,
+  "unitarity_boundary_GeV": 717907445525117.0
+}

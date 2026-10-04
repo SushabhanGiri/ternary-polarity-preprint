@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "parameters": {
+    "mA": 62.0,
+    "mB": 62.2,
+    "mu_A": 1.0,
+    "mu_B": 1.0,
+    "lambda_HA": 0.0005539381702448959,
+    "lambda_HB": 0.0004917087212953458,
+    "lambda_AB": 1e-05,
+    "lambda_A": 0.1,
+    "lambda_B": 0.1,
+    "bare_mA2": 3827.2089463056527,
+    "bare_mB2": 3853.935254335698
+  },
+  "cubic_processes": {
+    "semiannihilation_SS_to_Sbar_h": {
+      "kinematic_condition": "m_S >= m_h",
+      "A_open": false,
+      "B_open": false,
+      "verdict": "exactly closed for both pole components"
+    },
+    "three_to_two_conservative_bounds": {
+      "A": {
+        "x": 20.0,
+        "temperature_GeV": 3.1,
+        "equilibrium_total_number_density_GeV3": 7.642188119839335e-07,
+        "amplitude_bound_GeV_minus1": 0.0026014568158168575,
+        "sigma_v2_bound_GeV_minus5": 4.495504680213214e-14,
+        "rate_GeV": 2.625511363275711e-26,
+        "Hubble_GeV": 1.1975427476673361e-17,
+        "rate_over_Hubble": 2.192415567953528e-09,
+        "bound_convention": "100*mu*lambda/m^2 amplitude envelope and 1/(64*pi^2*m^3) phase-space envelope"
+      },
+      "B": {
+        "x": 20.0,
+        "temperature_GeV": 3.1100000000000003,
+        "equilibrium_total_number_density_GeV3": 7.716383605458794e-07,
+        "amplitude_bound_GeV_minus1": 0.0025847540864962107,
+        "sigma_v2_bound_GeV_minus5": 4.3952905344551004e-14,
+        "rate_GeV": 2.6170692045513523e-26,
+        "Hubble_GeV": 1.2052812913333241e-17,
+        "rate_over_Hubble": 2.1713347941012668e-09,
+        "bound_convention": "100*mu*lambda/m^2 amplitude envelope and 1/(64*pi^2*m^3) phase-space envelope"
+      }
+    },
+    "maximum_rate_over_Hubble": 2.192415567953528e-09,
+    "verdict": "negligible; no Boltzmann-system extension justified"
+  },
+  "point_matched_parent_running": {
+    "matching_scale_GeV": 1000.0,
+    "threshold_scheme": "Single step at 1 TeV; finite threshold corrections and the 0.63/0.90 TeV mass splitting are neglected.",
+    "first_sufficient_BFB_failure_GeV": 336214838.995694,
+    "high_energy_scalar_unitarity_boundary_GeV": 5.285040384006824e+17,
+    "four_pi_boundary_GeV": 1.0336730992015489e+18,
+    "final_lambda_H_at_four_pi_boundary": -0.029727800065484547,
+    "lambda_H_at_scalar_unitarity_boundary": -0.029710656108744026,
+    "scope": "Leading one-loop dimensionless, zero-kinetic-mixing result. Dimensionful running, exact multi-field vacuum tracking, finite threshold corrections, two-loop terms, and full gauge-sector finite-energy unitarity remain open."
+  },
+  "one_loop_metastability_estimate": {
+    "quartic_envelope_abs": 0.029710656108744026,
+    "bounce_action_8pi2_over_3abs_lambda": 885.8419340603454,
+    "bounce_scale_envelope_GeV": 5.285040384006824e+17,
+    "cutoff_choice": "first high-energy scalar partial-wave unitarity boundary; no bounce claim is extrapolated beyond it",
+    "log_decay_probability_upper_envelope": -337.23090352592976,
+    "cosmological_lifetime_safe_in_this_approximation": true,
+    "classification": "one-loop leading-log metastability estimate, not a multi-field loop-improved bounce"
+  },
+  "classification": "cubic effects negligible; point is metastable but cosmologically safe in the stated one-loop envelope"
+}

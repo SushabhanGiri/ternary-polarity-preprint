@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "parameters": {
+    "mA": 62.0,
+    "mB": 62.2,
+    "mu_A": 1.0,
+    "mu_B": 1.0,
+    "lambda_HA": 0.0005539381702448959,
+    "lambda_HB": 0.0004917087212953458,
+    "lambda_AB": 1e-05,
+    "lambda_A": 0.1,
+    "lambda_B": 0.1,
+    "bare_mA2": 3827.2089463056527,
+    "bare_mB2": 3853.935254335698
+  },
+  "nominal": {
+    "Omega_A_h2": 0.059235635282772585,
+    "Omega_B_h2": 0.059630318220779896,
+    "Omega_total_h2": 0.11886595350355247,
+    "fraction_A": 0.4983397982080903,
+    "fraction_B": 0.5016602017919097,
+    "late_yields_per_charge": {
+      "A": 1.742183574585674e-12,
+      "B": 1.7481524218005698e-12
+    },
+    "freezeout_EOS_at_xA_20": {
+      "temperature_GeV": 3.1,
+      "g_rho": 84.57471505269423,
+      "g_s": 84.11874993190345,
+      "dln_gs_dlnT": 0.04537809278735272
+    },
+    "solver": {
+      "rate_table_points_per_component": 110,
+      "eos_scale": 1.0,
+      "x_initial": 5.0,
+      "x_final": 5000.0,
+      "nfev": 4906,
+      "rtol": 1e-08,
+      "atol": 5e-16
+    }
+  },
+  "rate_table_convergence_150_points": {
+    "Omega_A_h2": 0.059228207721017764,
+    "Omega_B_h2": 0.05963145330431851,
+    "Omega_total_h2": 0.11885966102533627,
+    "fraction_A": 0.49830369033605615,
+    "fraction_B": 0.501696309663944,
+    "late_yields_per_charge": {
+      "A": 1.7419651220270631e-12,
+      "B": 1.7481856984808923e-12
+    },
+    "freezeout_EOS_at_xA_20": {
+      "temperature_GeV": 3.1,
+      "g_rho": 84.57471505269423,
+      "g_s": 84.11874993190345,
+      "dln_gs_dlnT": 0.04537809278735272
+    },
+    "solver": {
+      "rate_table_points_per_component": 150,
+      "eos_scale": 1.0,
+      "x_initial": 5.0,
+      "x_final": 5000.0,
+      "nfev": 4671,
+      "rtol": 1e-08,
+      "atol": 5e-16
+    }
+  },
+  "eos_plus_minus_5_percent": {
+    "minus_5_percent": {
+      "Omega_A_h2": 0.060825863925541825,
+      "Omega_B_h2": 0.061223377081699684,
+      "Omega_total_h2": 0.12204924100724152,
+      "fraction_A": 0.498371505005368,
+      "fraction_B": 0.501628494994632,
+      "late_yields_per_charge": {
+        "A": 1.7889539047770001e-12,
+        "B": 1.7948553371778903e-12
+      },
+      "freezeout_EOS_at_xA_20": {
+        "temperature_GeV": 3.1,
+        "g_rho": 80.34597930005951,
+        "g_s": 79.91281243530827,
+        "dln_gs_dlnT": 0.04537809278735272
+      },
+      "solver": {
+        "rate_table_points_per_component": 110,
+        "eos_scale": 0.95,
+        "x_initial": 5.0,
+        "x_final": 5000.0,
+        "nfev": 4959,
+        "rtol": 1e-08,
+        "atol": 5e-16
+      }
+    },
+    "plus_5_percent": {
+      "Omega_A_h2": 0.057765867063293896,
+      "Omega_B_h2": 0.05816151702554528,
+      "Omega_total_h2": 0.11592738408883918,
+      "fraction_A": 0.49829354399152065,
+      "fraction_B": 0.5017064560084793,
+      "late_yields_per_charge": {
+        "A": 1.6989561146588873e-12,
+        "B": 1.7050923066912361e-12
+      },
+      "freezeout_EOS_at_xA_20": {
+        "temperature_GeV": 3.1,
+        "g_rho": 88.80345080532895,
+        "g_s": 88.32468742849863,
+        "dln_gs_dlnT": 0.04537809278735272
+      },
+      "solver": {
+        "rate_table_points_per_component": 110,
+        "eos_scale": 1.05,
+        "x_initial": 5.0,
+        "x_final": 5000.0,
+        "nfev": 4736,
+        "rtol": 1e-08,
+        "atol": 5e-16
+      }
+    }
+  },
+  "numerical_relative_difference_total_110_vs_150": 5.294040183123627e-05,
+  "thermal_rate": "direct finite-width Gondolo-Gelmini integral with stable scaled-Bessel evaluation; includes off-pole continuum",
+  "equation_of_state": "temperature-dependent ideal-gas SM species with massive thresholds and a smooth QCD parton-to-pion interpolation",
+  "dominant_theory_limitation": "precision lattice/perturbative-QCD equation of state and higher-order energy-dependent virtual-Higgs width are not included",
+  "relic_target_comparison": {
+    "Omega_DM_h2_reference": 0.12,
+    "nominal_fractional_offset": -0.00945038747039606,
+    "EOS_sensitivity_absolute_range": [
+      0.11592738408883918,
+      0.12204924100724152
+    ]
+  },
+  "two_component_direct_detection": {
+    "components": {
+      "A": {
+        "mass_GeV": 62.0,
+        "xi_using_OmegaDM_h2_0p1200": 0.4936302940231049,
+        "raw_sigma_SI_cm2": 6.803033178549791e-49,
+        "effective_sigma_SI_cm2": 3.358183268176471e-49,
+        "LZ_limit_cm2": 2.5059615801633362e-48,
+        "R": 0.13400777149814036
+      },
+      "B": {
+        "mass_GeV": 62.2,
+        "xi_using_OmegaDM_h2_0p1200": 0.4969193185064992,
+        "raw_sigma_SI_cm2": 5.326477218896094e-49,
+        "effective_sigma_SI_cm2": 2.64682942965424e-49,
+        "LZ_limit_cm2": 2.5086541389559775e-48,
+        "R": 0.10550794501930692
+      }
+    },
+    "combined_nearly_degenerate_rate_ratio": 0.2395157165174473,
+    "xenon_nucleus_mass_proxy_GeV": 122.0,
+    "relative_reduced_mass_difference": 0.0021365276172464753,
+    "relative_recoil_scale_difference": 0.00427761998475229,
+    "relative_LZ_limit_difference": 0.0010744613221347343,
+    "interpretation": "The 0.2 GeV mass split changes the xenon recoil scale by less than 0.5 percent, so the spectra are experimentally indistinguishable for this exclusion-level comparison and their rates may be summed."
+  },
+  "Higgs_invisible": {
+    "predicted_branching_fraction": 0.00016881251378729717,
+    "ATLAS_observed_95CL_limit": 0.107,
+    "prediction_over_limit": 0.001577687044741095,
+    "source": "ATLAS Collaboration, arXiv:2301.10731, combined 7/8/13 TeV direct searches"
+  },
+  "collider_sanity": {
+    "minimal_TPD": "Only the tiny invisible Higgs width is new at tree level; no Higgs mixing occurs because A and B have zero vevs.",
+    "protected_TPG_slice": "The new vectors have zero hypercharge kinetic mixing and the parent radials have zero Higgs portal at matching, so no additional tree-level SM production channel is introduced.",
+    "scope": "Nonzero kinetic mixing or parent Higgs-radial portals would require a separate collider analysis and are not part of the frozen benchmark."
+  },
+  "classification": "conditional phenomenological pass at leading order; precision SM equation-of-state and higher-order virtual-Higgs-width uncertainties remain explicit"
+}

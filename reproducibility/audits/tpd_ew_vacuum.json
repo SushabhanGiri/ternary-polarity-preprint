@@ -1,0 +1,95 @@
+{
+  "analytic_sufficient_global_EW_conditions": {
+    "A_single_field_nonnegative": true,
+    "B_single_field_nonnegative": true,
+    "SM_Higgs_minimum": true,
+    "nonnegative_portals": true,
+    "positive_dark_masses": true
+  },
+  "analytic_sufficient_global_EW_pass": true,
+  "differential_evolution_cross_check": {
+    "V_GeV4": -118880914.16162233,
+    "bounds_GeV": [
+      0.0,
+      2500.0
+    ],
+    "coordinates_GeV": [
+      246.22000441961129,
+      8.10690357866406e-06,
+      7.5720281485268805e-06
+    ],
+    "difference_from_EW_V_GeV4": 5.796551704406738e-06,
+    "seed": 20260915,
+    "success": true
+  },
+  "electroweak_point": {
+    "V_GeV4": -118880914.16162813,
+    "coordinates_GeV": [
+      246.22,
+      0.0,
+      0.0
+    ],
+    "gradient_inf_norm": 2.239357854705304e-10,
+    "hessian_eigenvalues_GeV2": [
+      15687.562499999996,
+      32400.0,
+      160000.0
+    ]
+  },
+  "exact_copositivity_test": {
+    "bar_AB": 0.273606797749979,
+    "bar_HA": 0.17086234949885856,
+    "bar_HB": 0.19484957424988847,
+    "final_margin": 0.2450987210137727,
+    "pairwise_margin": 0.17086234949885856,
+    "passes": true
+  },
+  "parameters": {
+    "lambda_a": 0.2,
+    "lambda_ab": 0.1,
+    "lambda_b": 0.25,
+    "lambda_h": 0.12938347743146458,
+    "lambda_ha": 0.02,
+    "lambda_hb": 0.03,
+    "m_a2": 31793.757116,
+    "m_b2": 159090.635674,
+    "mu_a": 60.0,
+    "mu_b": 90.0,
+    "mu_h2": 7843.78125
+  },
+  "radial_convention": "HdagH=h^2/2, |A|^2=a^2/2, |B|^2=b^2/2; phases minimized",
+  "schema_version": 1,
+  "stationary_points": [
+    {
+      "V_GeV4": -118880914.16162813,
+      "a_GeV": 0.0,
+      "b_GeV": 0.0,
+      "gradient_inf_norm": 2.239357854705304e-10,
+      "h_GeV": 246.22,
+      "radial_hessian_eigenvalues_GeV2": [
+        15687.562499999996,
+        32400.0,
+        160000.0
+      ],
+      "radial_local_minimum": true
+    },
+    {
+      "V_GeV4": 0.0,
+      "a_GeV": 0.0,
+      "b_GeV": 0.0,
+      "gradient_inf_norm": 0.0,
+      "h_GeV": 0.0,
+      "radial_hessian_eigenvalues_GeV2": [
+        -7843.78125,
+        31793.757116,
+        159090.635674
+      ],
+      "radial_local_minimum": false
+    }
+  ],
+  "target_physical_masses_GeV": {
+    "A": 180.0,
+    "B": 400.0,
+    "h": 125.25
+  }
+}

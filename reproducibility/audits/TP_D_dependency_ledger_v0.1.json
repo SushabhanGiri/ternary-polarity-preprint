@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "theory_version": "TP-D v0.1",
+  "freeze_date": "2026-09-15",
+  "nodes": [
+    {
+      "id": "A1",
+      "type": "assumption",
+      "statement": "Exact internal symmetry Z3_m x Z3_E"
+    },
+    {
+      "id": "A2",
+      "type": "assumption",
+      "statement": "A and B are local Lorentz-scalar SM singlets with charges (1,0) and (0,1)"
+    },
+    {
+      "id": "A3",
+      "type": "assumption",
+      "statement": "All Standard-Model fields are neutral under the dual symmetry"
+    },
+    {
+      "id": "D1",
+      "type": "derived",
+      "statement": "Projected charge qP=q_m+q_E has a three-element kernel",
+      "depends_on": ["A1"]
+    },
+    {
+      "id": "D2",
+      "type": "derived",
+      "statement": "A and B have equal projected charge and unequal kernel charge",
+      "depends_on": ["A1", "A2", "D1"]
+    },
+    {
+      "id": "D3",
+      "type": "derived",
+      "statement": "Cross kinetic, bilinear, mixed-cubic, phase-sensitive quartic, and off-diagonal Higgs-portal operators are forbidden",
+      "depends_on": ["A1", "A2", "A3", "D2"]
+    },
+    {
+      "id": "D4",
+      "type": "derived",
+      "statement": "Forbidden-operator surface is perturbatively RG invariant",
+      "depends_on": ["A1", "D3"]
+    },
+    {
+      "id": "D5",
+      "type": "derived",
+      "statement": "Kernel-changing S-matrix amplitudes vanish in exact TP-D",
+      "depends_on": ["A1", "D2", "D4"]
+    },
+    {
+      "id": "M1",
+      "type": "model_result",
+      "statement": "An inert tree-level benchmark satisfies sufficient dark-sector global-origin and dark-scalar high-energy unitarity conditions",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "D6",
+      "type": "derived",
+      "statement": "The full H+A+B quartic potential has exact three-field copositivity conditions",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "M2",
+      "type": "model_result",
+      "statement": "Benchmark B0 has an analytically certified global inert electroweak tree-level vacuum",
+      "depends_on": ["M1", "D6"]
+    },
+    {
+      "id": "D7",
+      "type": "derived",
+      "statement": "The complete 36-channel high-energy scalar/Goldstone quartic spectrum reduces to fixed multiplicities plus a three-by-three singlet block",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "D8",
+      "type": "derived",
+      "statement": "Two independent one-loop scalar-quartic RGE derivations agree coefficient by coefficient",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "M3",
+      "type": "model_result",
+      "statement": "B0 loses the one-loop absolute-BFB condition near 3.57e8 GeV; diagnostic B1 remains BFB until its perturbative boundary near 7.18e14 GeV",
+      "depends_on": ["D6", "D7", "D8"]
+    },
+    {
+      "id": "M4",
+      "type": "model_result",
+      "statement": "B0 passes the complete finite-energy physical-scalar partial-wave test from threshold to 20 TeV",
+      "depends_on": ["M2", "D7"]
+    },
+    {
+      "id": "P1",
+      "type": "prediction",
+      "statement": "Gamma(B -> A + h)=0 when the channel is kinematically open and the kernel symmetry is exact",
+      "depends_on": ["A3", "D5"]
+    },
+    {
+      "id": "O1",
+      "type": "open_problem",
+      "statement": "Find a nonzero overconstrained relation not reproducible by a tuned generic Z3",
+      "depends_on": ["P1"]
+    },
+    {
+      "id": "O2",
+      "type": "open_problem",
+      "statement": "Complete gauge-sector finite-energy unitarity, dimensionful and higher-loop TP-D RGEs, metastability, and current-data phenomenology",
+      "depends_on": ["M2", "M3", "M4"]
+    },
+    {
+      "id": "G1",
+      "type": "gate",
+      "statement": "Later gravity/flavour/unification modules may be promoted only after O1 and O2 are resolved",
+      "depends_on": ["O1", "O2"]
+    }
+  ]
+}

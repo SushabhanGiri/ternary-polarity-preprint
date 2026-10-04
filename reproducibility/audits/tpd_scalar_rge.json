@@ -1,0 +1,45 @@
+{
+  "beta_functions": {
+    "lambda_A": {
+      "lambda_A*lambda_A": "20",
+      "lambda_AB*lambda_AB": "1",
+      "lambda_HA*lambda_HA": "2"
+    },
+    "lambda_AB": {
+      "lambda_A*lambda_AB": "8",
+      "lambda_AB*lambda_AB": "4",
+      "lambda_AB*lambda_B": "8",
+      "lambda_HA*lambda_HB": "4"
+    },
+    "lambda_B": {
+      "lambda_AB*lambda_AB": "1",
+      "lambda_B*lambda_B": "20",
+      "lambda_HB*lambda_HB": "2"
+    },
+    "lambda_H": {
+      "lambda_H*lambda_H": "24",
+      "lambda_HA*lambda_HA": "1",
+      "lambda_HB*lambda_HB": "1"
+    },
+    "lambda_HA": {
+      "lambda_A*lambda_HA": "8",
+      "lambda_AB*lambda_HB": "2",
+      "lambda_H*lambda_HA": "12",
+      "lambda_HA*lambda_HA": "4"
+    },
+    "lambda_HB": {
+      "lambda_AB*lambda_HA": "2",
+      "lambda_B*lambda_HB": "8",
+      "lambda_H*lambda_HB": "12",
+      "lambda_HB*lambda_HB": "4"
+    }
+  },
+  "exact_agreement": true,
+  "methods": [
+    "four-index quartic tensor",
+    "one-loop effective-potential Hessian"
+  ],
+  "normalization": "Each polynomial is (16*pi^2) beta_lambda, scalar-only one-loop",
+  "schema_version": 1,
+  "scope": "Scalar quartics only. Standard-Model gauge/Yukawa terms and dimensionful mass/cubic beta functions are separate tasks."
+}

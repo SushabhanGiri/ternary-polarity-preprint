@@ -1,0 +1,8 @@
+Independent one-loop effective-potential Hessian check passed exactly.
+beta_lamH = 24*lamH^2 + 1*lamHS^2 + 1*lamHc^2
+beta_lamS = 2*lamHS^2 + 20*lamS^2 + 1*lamSc^2
+beta_lamc = 18*kappa^2 + 2*lamHc^2 + 1*lamSc^2 + 20*lamc^2
+beta_lamHS = 12*lamH*lamHS + 4*lamHS^2 + 8*lamHS*lamS + 2*lamHc*lamSc
+beta_lamHc = 12*lamH*lamHc + 2*lamHS*lamSc + 4*lamHc^2 + 8*lamHc*lamc
+beta_lamSc = 36*kappa^2 + 4*lamHS*lamHc + 8*lamS*lamSc + 4*lamSc^2 + 8*lamSc*lamc
+beta_kappa = 6*kappa*lamSc + 12*kappa*lamc

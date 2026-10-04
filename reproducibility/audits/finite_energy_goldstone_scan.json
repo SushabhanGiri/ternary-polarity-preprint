@@ -1,0 +1,227 @@
+{
+  "channel_count": 36,
+  "gX": 0.2,
+  "last_scan_point": {
+    "max_abs_eigenvalue": 0.023963233826400743,
+    "max_eigenvalue": 0.00019223625604855904,
+    "min_eigenvalue": -0.023963233826400743,
+    "retained_channels": 36,
+    "sqrt_s_GeV": 20000.0
+  },
+  "mX_GeV": 600.0000000000001,
+  "maximum_over_scan": {
+    "max_abs_eigenvalue": 0.023963233826400743,
+    "max_eigenvalue": 0.00019223625604855904,
+    "min_eigenvalue": -0.023963233826400743,
+    "retained_channels": 36,
+    "sqrt_s_GeV": 20000.0
+  },
+  "method": "Feynman-gauge Goldstone external states with scalar-potential interactions only",
+  "passes_abs_Re_a0_le_half": true,
+  "sampled_scan": [
+    {
+      "max_abs_eigenvalue": 0.01592423598396534,
+      "max_eigenvalue": 0.010800255454640096,
+      "min_eigenvalue": -0.01592423598396534,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 1549.262312724122
+    },
+    {
+      "max_abs_eigenvalue": 0.01933888671552009,
+      "max_eigenvalue": 0.01933888671552009,
+      "min_eigenvalue": -0.01664456501073031,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 1720.99095625387
+    },
+    {
+      "max_abs_eigenvalue": 0.017429088272633644,
+      "max_eigenvalue": 0.017429088272633644,
+      "min_eigenvalue": -0.017326372353043965,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 1911.754934708091
+    },
+    {
+      "max_abs_eigenvalue": 0.017934323966253586,
+      "max_eigenvalue": 0.013859102629719205,
+      "min_eigenvalue": -0.017934323966253586,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 2123.6642279261378
+    },
+    {
+      "max_abs_eigenvalue": 0.018460836360166683,
+      "max_eigenvalue": 0.010188187785827026,
+      "min_eigenvalue": -0.018460836360166683,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 2359.062697364893
+    },
+    {
+      "max_abs_eigenvalue": 0.01891541755126333,
+      "max_eigenvalue": 0.006797159836947352,
+      "min_eigenvalue": -0.01891541755126333,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 2620.5540108066866
+    },
+    {
+      "max_abs_eigenvalue": 0.01931217485933614,
+      "max_eigenvalue": 0.0037879012889914026,
+      "min_eigenvalue": -0.01931217485933614,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 2911.0304407025246
+    },
+    {
+      "max_abs_eigenvalue": 0.019665650922314662,
+      "max_eigenvalue": 0.0011744537308756905,
+      "min_eigenvalue": -0.019665650922314662,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 3233.704854680003
+    },
+    {
+      "max_abs_eigenvalue": 0.019989581587988414,
+      "max_eigenvalue": 0.0005428756841727271,
+      "min_eigenvalue": -0.019989581587988414,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 3592.146252052743
+    },
+    {
+      "max_abs_eigenvalue": 0.020296418376329495,
+      "max_eigenvalue": 0.00048685471399862026,
+      "min_eigenvalue": -0.020296418376329495,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 3990.319239389419
+    },
+    {
+      "max_abs_eigenvalue": 0.020596755738818695,
+      "max_eigenvalue": 0.0004389592171466298,
+      "min_eigenvalue": -0.020596755738818695,
+      "retained_channels": 32,
+      "sqrt_s_GeV": 4432.627881769093
+    },
+    {
+      "max_abs_eigenvalue": 0.02089858449954987,
+      "max_eigenvalue": 0.0003980547132872569,
+      "min_eigenvalue": -0.02089858449954987,
+      "retained_channels": 33,
+      "sqrt_s_GeV": 4923.964414747737
+    },
+    {
+      "max_abs_eigenvalue": 0.021205322895707274,
+      "max_eigenvalue": 0.0003631536232201251,
+      "min_eigenvalue": -0.021205322895707274,
+      "retained_channels": 33,
+      "sqrt_s_GeV": 5469.763355823477
+    },
+    {
+      "max_abs_eigenvalue": 0.021516364991702813,
+      "max_eigenvalue": 0.00033340242712648664,
+      "min_eigenvalue": -0.021516364991702813,
+      "retained_channels": 33,
+      "sqrt_s_GeV": 6076.061613910358
+    },
+    {
+      "max_abs_eigenvalue": 0.021827034407990963,
+      "max_eigenvalue": 0.0003080656568629874,
+      "min_eigenvalue": -0.021827034407990963,
+      "retained_channels": 34,
+      "sqrt_s_GeV": 6749.565261672434
+    },
+    {
+      "max_abs_eigenvalue": 0.02213057028604326,
+      "max_eigenvalue": 0.00028651024533300545,
+      "min_eigenvalue": -0.02213057028604326,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 7497.723709265752
+    },
+    {
+      "max_abs_eigenvalue": 0.022420170831339275,
+      "max_eigenvalue": 0.00026819144460641005,
+      "min_eigenvalue": -0.022420170831339275,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 8328.812099900551
+    },
+    {
+      "max_abs_eigenvalue": 0.022690403914689704,
+      "max_eigenvalue": 0.0002526405725998047,
+      "min_eigenvalue": -0.022690403914689704,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 9252.02283857471
+    },
+    {
+      "max_abs_eigenvalue": 0.022937756457175024,
+      "max_eigenvalue": 0.0002394544860917975,
+      "min_eigenvalue": -0.022937756457175024,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 10277.567266348839
+    },
+    {
+      "max_abs_eigenvalue": 0.023160561657464187,
+      "max_eigenvalue": 0.00022828656561435184,
+      "min_eigenvalue": -0.023160561657464187,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 11416.788604749852
+    },
+    {
+      "max_abs_eigenvalue": 0.023358633686634735,
+      "max_eigenvalue": 0.00021883898583998105,
+      "min_eigenvalue": -0.023358633686634735,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 12682.287419545264
+    },
+    {
+      "max_abs_eigenvalue": 0.02353283854401959,
+      "max_eigenvalue": 0.00021085606881392227,
+      "min_eigenvalue": -0.02353283854401959,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 14088.060991603177
+    },
+    {
+      "max_abs_eigenvalue": 0.023684712370545948,
+      "max_eigenvalue": 0.00020411854981390893,
+      "min_eigenvalue": -0.023684712370545948,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 15649.658136374863
+    },
+    {
+      "max_abs_eigenvalue": 0.023816163183484864,
+      "max_eigenvalue": 0.00019843861640584794,
+      "min_eigenvalue": -0.023816163183484864,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 17384.35118440907
+    },
+    {
+      "max_abs_eigenvalue": 0.023929255608466447,
+      "max_eigenvalue": 0.00019365560716825734,
+      "min_eigenvalue": -0.023929255608466447,
+      "retained_channels": 36,
+      "sqrt_s_GeV": 19311.32702512001
+    }
+  ],
+  "scan_points": 220,
+  "scope_warning": "Gauge vertices and transverse-vector channels are omitted; gX only fixes the dark Goldstone Feynman-gauge mass.",
+  "sqrt_s_range_GeV": [
+    1549.262312724122,
+    20000.0
+  ],
+  "tu_policy": "Remove every state participating in any detected t/u pole before diagonalisation.",
+  "zero_mode_assignments": {
+    "0": {
+      "Feynman_gauge_mass_GeV": 80.4,
+      "dominant_original_field_index": 2,
+      "label": "SM charged Goldstone"
+    },
+    "1": {
+      "Feynman_gauge_mass_GeV": 91.2,
+      "dominant_original_field_index": 3,
+      "label": "SM neutral Goldstone"
+    },
+    "2": {
+      "Feynman_gauge_mass_GeV": 80.4,
+      "dominant_original_field_index": 1,
+      "label": "SM charged Goldstone"
+    },
+    "3": {
+      "Feynman_gauge_mass_GeV": 600.0000000000001,
+      "dominant_original_field_index": 5,
+      "label": "dark Goldstone"
+    }
+  }
+}

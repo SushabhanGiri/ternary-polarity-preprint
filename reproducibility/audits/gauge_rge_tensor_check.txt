@@ -1,0 +1,6 @@
+Exact U(1)_X gauge contributions; RHS equals (16*pi^2)*beta:
+beta_lamS  += -108*gX^2*lamS + 486*gX^4
+beta_lamc  +=  -12*gX^2*lamc +   6*gX^4
+beta_lamSc +=  -60*gX^2*lamSc + 108*gX^4
+beta_kappa +=  -36*gX^2*kappa
+Checks: Luo-Wang-Xiao quartic gauge tensor projections passed exactly.

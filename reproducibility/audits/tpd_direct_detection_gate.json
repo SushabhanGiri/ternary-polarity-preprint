@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "status": "direct-detection gate complete for the four leading-order relic-compatible scan points",
+  "observed_dark_matter_density": {
+    "Omega_DM_h2": 0.12,
+    "usage": "xi_i = Omega_i h^2 / 0.1200; not Omega_i divided by the model point's own total"
+  },
+  "experimental_limit": {
+    "experiment": "LUX-ZEPLIN (LZ)",
+    "analysis": "combined WS2024+WS2022, 4.2 tonne-years, 280 live days",
+    "observable": "spin-independent WIMP-nucleon cross section",
+    "confidence_level": "90% C.L.",
+    "statistical_curve": "minus-one-sigma power-constrained upper limit",
+    "source": "J. Aalbers et al. (LZ Collaboration), Phys. Rev. Lett. 135, 011802 (2025)",
+    "source_arxiv": "arXiv:2410.17036v3",
+    "source_version_date": "2025-07-01",
+    "hepdata_record": "155182 (blocked by access verification; not retried)",
+    "curve_method": "programmatic log-log interpolation of the solid black vector path embedded in Figure 5",
+    "curve_precision_note": "figure-extracted rather than official table; adequate here because excluding R values are >= O(10)",
+    "minimum_crosscheck": {
+      "mass_GeV": 40.0,
+      "interpolated_sigma_cm2": 2.181944193867808e-48,
+      "paper_text_sigma_cm2": 2.2e-48
+    },
+    "anchors_mass_sigma": [
+      {
+        "mass_GeV": 8.999873039956151,
+        "sigma_cm2": 9.797227809738317e-47
+      },
+      {
+        "mass_GeV": 10.999888354967954,
+        "sigma_cm2": 2.6406338711831287e-47
+      },
+      {
+        "mass_GeV": 12.999780701650794,
+        "sigma_cm2": 1.2144858878895756e-47
+      },
+      {
+        "mass_GeV": 15.999387216884728,
+        "sigma_cm2": 5.856882293704316e-48
+      },
+      {
+        "mass_GeV": 17.000965904920015,
+        "sigma_cm2": 5.044835131368774e-48
+      },
+      {
+        "mass_GeV": 19.00113905459313,
+        "sigma_cm2": 3.920028943217777e-48
+      },
+      {
+        "mass_GeV": 21.000872105833714,
+        "sigma_cm2": 3.264777456921613e-48
+      },
+      {
+        "mass_GeV": 23.00030397893577,
+        "sigma_cm2": 2.91092833171704e-48
+      },
+      {
+        "mass_GeV": 25.99842764034406,
+        "sigma_cm2": 2.5810392591291095e-48
+      },
+      {
+        "mass_GeV": 28.9978784499666,
+        "sigma_cm2": 2.4279029190940864e-48
+      },
+      {
+        "mass_GeV": 32.00173574201404,
+        "sigma_cm2": 2.2932287444308035e-48
+      },
+      {
+        "mass_GeV": 36.001253736949586,
+        "sigma_cm2": 2.2121492952207323e-48
+      },
+      {
+        "mass_GeV": 40.00195669705331,
+        "sigma_cm2": 2.181930262018854e-48
+      },
+      {
+        "mass_GeV": 43.000866456012666,
+        "sigma_cm2": 2.2179834764749708e-48
+      },
+      {
+        "mass_GeV": 45.99860200921274,
+        "sigma_cm2": 2.2685313409320425e-48
+      },
+      {
+        "mass_GeV": 65.00173803925314,
+        "sigma_cm2": 2.545781009952359e-48
+      },
+      {
+        "mass_GeV": 90.99669112515235,
+        "sigma_cm2": 3.214529630047458e-48
+      },
+      {
+        "mass_GeV": 128.99290809767834,
+        "sigma_cm2": 4.2089509926296196e-48
+      },
+      {
+        "mass_GeV": 181.98544606430096,
+        "sigma_cm2": 5.533624143533744e-48
+      },
+      {
+        "mass_GeV": 255.98039131581444,
+        "sigma_cm2": 8.154800239208194e-48
+      },
+      {
+        "mass_GeV": 360.9941333610592,
+        "sigma_cm2": 1.0968889962579296e-47
+      },
+      {
+        "mass_GeV": 507.98111888790385,
+        "sigma_cm2": 1.5465881764288349e-47
+      },
+      {
+        "mass_GeV": 1007.9275282861014,
+        "sigma_cm2": 3.0558332083063575e-47
+      },
+      {
+        "mass_GeV": 1999.9127540727939,
+        "sigma_cm2": 5.733085408468076e-47
+      },
+      {
+        "mass_GeV": 4999.537240885337,
+        "sigma_cm2": 1.4450676106227775e-46
+      },
+      {
+        "mass_GeV": 9998.638452097659,
+        "sigma_cm2": 2.9305880096381764e-46
+      }
+    ]
+  },
+  "model_to_limit_mapping": {
+    "elastic_scattering": true,
+    "spin_independent": true,
+    "momentum_independent_at_xenon_recoil_scale": true,
+    "approximately_isospin_conserving_Higgs_exchange": true,
+    "standard_halo_model_required": true,
+    "local_fraction_assumption": "rho_i/rho_DM = Omega_i/Omega_DM",
+    "nucleon_matrix_element": "f_N=0.30; hadronic uncertainty cannot bridge the smallest excluding factor",
+    "amplitude_interference": "none in the tested minimal TP-D EFT: each component has one diagonal SM-Higgs mediator amplitude",
+    "parent_model_caveat": "additional Higgs-radial mixing or kinetic-mixing amplitudes would define a modified TP-G benchmark and require a new likelihood; they are absent in the tested factorized point",
+    "multicomponent_logic": "if one positive component rate alone exceeds the single-component limit after local-density rescaling, the combined point is conservatively excluded; a combined likelihood is unnecessary for that conclusion"
+  },
+  "points": [
+    {
+      "sample_index": 151,
+      "complete_parameter_vector": {
+        "mA": 287.3881512232936,
+        "mB": 451.8144614670611,
+        "mu_A": 552.4374722909085,
+        "mu_B": 278.8235522379704,
+        "lambda_HA": 0.09848361249209668,
+        "lambda_HB": 0.24677287862566083,
+        "lambda_AB": 0.0142443640566163,
+        "lambda_A": 0.5697719148807844,
+        "lambda_B": 0.21616641581403365,
+        "cubic_fraction_A": 0.8646424329744765,
+        "cubic_fraction_B": 0.4507755868618819,
+        "bare_mA2": 79606.70000034533,
+        "bare_mB2": 196656.09250922033
+      },
+      "model_total_omega_h2": 0.11997492054127079,
+      "components": {
+        "A": {
+          "mass_GeV": 287.3881512232936,
+          "omega_h2": 0.05650700711798012,
+          "xi_Omega_i_over_observed_DM": 0.47089172598316764,
+          "portal_lambda_Hi": 0.09848361249209668,
+          "sigma_SI_raw_cm2": 1.0246338214374994e-45,
+          "sigma_SI_effective_cm2": 4.8249158867743285e-46,
+          "LZ_90CL_limit_cm2": 9.01070913928837e-48,
+          "R_effective_over_limit": 53.54646135160214,
+          "verdict": "excluded"
+        },
+        "B": {
+          "mass_GeV": 451.8144614670611,
+          "omega_h2": 0.06346791342329067,
+          "xi_Omega_i_over_observed_DM": 0.5288992785274222,
+          "portal_lambda_Hi": 0.24677287862566083,
+          "sigma_SI_raw_cm2": 2.6090495498101463e-45,
+          "sigma_SI_effective_cm2": 1.3799244245368821e-45,
+          "LZ_90CL_limit_cm2": 1.374645349342602e-47,
+          "R_effective_over_limit": 100.38403179385904,
+          "verdict": "excluded"
+        }
+      },
+      "excluding_components": [
+        "A",
+        "B"
+      ],
+      "point_verdict": "excluded"
+    },
+    {
+      "sample_index": 82,
+      "complete_parameter_vector": {
+        "mA": 172.02646388157828,
+        "mB": 351.580748326872,
+        "mu_A": 205.24342772782526,
+        "mu_B": 483.64172271123607,
+        "lambda_HA": 0.1040147876278821,
+        "lambda_HB": 0.004932664607549693,
+        "lambda_AB": 0.2436293520012642,
+        "lambda_A": 0.23736802495493511,
+        "lambda_B": 0.566519453683174,
+        "cubic_fraction_A": 0.8635839963191949,
+        "cubic_fraction_B": 0.6095829745462049,
+        "bare_mA2": 26440.193034091215,
+        "bare_mB2": 123459.50295320906
+      },
+      "model_total_omega_h2": 0.12756721572886592,
+      "components": {
+        "A": {
+          "mass_GeV": 172.02646388157828,
+          "omega_h2": 0.027119023901193605,
+          "xi_Omega_i_over_observed_DM": 0.22599186584328004,
+          "portal_lambda_Hi": 0.1040147876278821,
+          "sigma_SI_raw_cm2": 3.176030556167037e-45,
+          "sigma_SI_effective_cm2": 7.177570713634591e-46,
+          "LZ_90CL_limit_cm2": 5.291486446345743e-48,
+          "R_effective_over_limit": 135.64375126749803,
+          "verdict": "excluded"
+        },
+        "B": {
+          "mass_GeV": 351.580748326872,
+          "omega_h2": 0.10044819182767231,
+          "xi_Omega_i_over_observed_DM": 0.8370682652306026,
+          "portal_lambda_Hi": 0.004932664607549693,
+          "sigma_SI_raw_cm2": 1.7195218533891655e-48,
+          "sigma_SI_effective_cm2": 1.4393571748425795e-48,
+          "LZ_90CL_limit_cm2": 1.0721775041726657e-47,
+          "R_effective_over_limit": 0.13424616439357623,
+          "verdict": "not_individually_excluded"
+        }
+      },
+      "excluding_components": [
+        "A"
+      ],
+      "point_verdict": "excluded"
+    },
+    {
+      "sample_index": 141,
+      "complete_parameter_vector": {
+        "mA": 141.5633313987751,
+        "mB": 414.3938204085377,
+        "mu_A": 53.736630922940215,
+        "mu_B": 762.7198087534923,
+        "lambda_HA": 0.14678717056077537,
+        "lambda_HB": 0.12758894938609996,
+        "lambda_AB": 0.007965433063952755,
+        "lambda_A": 0.11380312485785316,
+        "lambda_B": 0.44953884454699783,
+        "cubic_fraction_A": 0.42524447611557264,
+        "cubic_fraction_B": 0.9255360700684436,
+        "bare_mA2": 15590.742915971205,
+        "bare_mB2": 167854.7437606654
+      },
+      "model_total_omega_h2": 0.13011600262950962,
+      "components": {
+        "A": {
+          "mass_GeV": 141.5633313987751,
+          "omega_h2": 0.018199567700279022,
+          "xi_Omega_i_over_observed_DM": 0.15166306416899186,
+          "portal_lambda_Hi": 0.14678717056077537,
+          "sigma_SI_raw_cm2": 9.318506901211178e-45,
+          "sigma_SI_effective_cm2": 1.4132733101175844e-45,
+          "LZ_90CL_limit_cm2": 4.531913881106729e-48,
+          "R_effective_over_limit": 311.84910993331846,
+          "verdict": "excluded"
+        },
+        "B": {
+          "mass_GeV": 414.3938204085377,
+          "omega_h2": 0.11191643492923059,
+          "xi_Omega_i_over_observed_DM": 0.9326369577435882,
+          "portal_lambda_Hi": 0.12758894938609996,
+          "sigma_SI_raw_cm2": 8.28790524745253e-46,
+          "sigma_SI_effective_cm2": 7.72960673605125e-46,
+          "LZ_90CL_limit_cm2": 1.2601579516806207e-47,
+          "R_effective_over_limit": 61.338395918881375,
+          "verdict": "excluded"
+        }
+      },
+      "excluding_components": [
+        "A",
+        "B"
+      ],
+      "point_verdict": "excluded"
+    },
+    {
+      "sample_index": 10,
+      "complete_parameter_vector": {
+        "mA": 321.22316379752084,
+        "mB": 343.47164751512366,
+        "mu_A": 550.7208236554189,
+        "mu_B": 983.4851594184845,
+        "lambda_HA": 0.08403040257131071,
+        "lambda_HB": 0.23262961079199376,
+        "lambda_AB": 0.005419119392901066,
+        "lambda_A": 0.43863273126001967,
+        "lambda_B": 0.9848090619859332,
+        "cubic_fraction_A": 0.8737365383059459,
+        "cubic_fraction_B": 0.9918891066769313,
+        "bare_mA2": 100637.17928016328,
+        "bare_mB2": 110921.27033923657
+      },
+      "model_total_omega_h2": 0.13575466503623257,
+      "components": {
+        "A": {
+          "mass_GeV": 321.22316379752084,
+          "omega_h2": 0.12405708555163213,
+          "xi_Omega_i_over_observed_DM": 1.0338090462636012,
+          "portal_lambda_Hi": 0.08403040257131071,
+          "sigma_SI_raw_cm2": 5.974965730786023e-46,
+          "sigma_SI_effective_cm2": 6.176973623601599e-46,
+          "LZ_90CL_limit_cm2": 9.918482555564764e-48,
+          "R_effective_over_limit": 62.2774057321501,
+          "verdict": "excluded"
+        },
+        "B": {
+          "mass_GeV": 343.47164751512366,
+          "omega_h2": 0.011697579484600443,
+          "xi_Omega_i_over_observed_DM": 0.09747982903833703,
+          "portal_lambda_Hi": 0.23262961079199376,
+          "sigma_SI_raw_cm2": 4.0067137859605756e-45,
+          "sigma_SI_effective_cm2": 3.9057377486098505e-46,
+          "LZ_90CL_limit_cm2": 1.0508169080001432e-47,
+          "R_effective_over_limit": 37.168584925446574,
+          "verdict": "excluded"
+        }
+      },
+      "excluding_components": [
+        "A",
+        "B"
+      ],
+      "point_verdict": "excluded"
+    }
+  ],
+  "gate_summary": {
+    "points_tested": 4,
+    "points_excluded": 4,
+    "minimum_excluding_R": 37.168584925446574,
+    "verdict": "all_four_points_robustly_excluded",
+    "scope": "rejects these four scan points, not the complete TP-D parameter space"
+  },
+  "analytic_interpretation": {
+    "direct_detection_scaling": "sigma_SI_i is proportional to lambda_Hi^2/m_i^2",
+    "portal_freezeout_scaling": "away from poles and thresholds, Higgs-portal annihilation is proportional to lambda_Hi^2, so lowering lambda_Hi raises Omega_i and does not generically lower xi_i*sigma_i",
+    "semiannihilation_scaling": "sigma_v(XX->Xbar h) is proportional to mu_i^2*lambda_Hi^2; increasing a vacuum-allowed cubic can reduce the portal needed for freeze-out",
+    "conversion_limitation": "BBbar<->AAbar conserves total dark-particle number and cannot alone cure overabundance/direct-detection tension",
+    "physical_reason": "the four random-scan solutions obtain adequate depletion using Higgs portals large enough to generate xenon recoil rates tens to hundreds of times above LZ"
+  },
+  "next_targeted_directions": [
+    {
+      "priority": 1,
+      "region": "Higgs resonance m_i approximately m_h/2",
+      "reason": "resonant annihilation can reduce the portal without a corresponding zero-momentum direct-detection enhancement",
+      "required_upgrade": "thermal averaging with the finite Higgs width; the existing threshold solver is not valid on the pole"
+    },
+    {
+      "priority": 2,
+      "region": "semi-annihilation-dominated, near-maximal vacuum-safe cubic with small Higgs portal",
+      "reason": "mu_i supplies an independent depletion lever while sigma_SI remains controlled by lambda_Hi",
+      "required_upgrade": "targeted scan with exact vacuum and finite-energy unitarity filters; reject rapidly nonperturbative self-couplings"
+    },
+    {
+      "priority": 3,
+      "region": "secluded TP-G annihilation into lighter dark vectors or radials",
+      "reason": "dark-sector final states can decouple freeze-out from Higgs exchange",
+      "required_upgrade": "repair the accidental rho_E relic and complete parent matching/kinetic-mixing constraints first"
+    },
+    {
+      "priority": 4,
+      "region": "scalar-mediator interference blind spot",
+      "reason": "amplitude cancellation is possible only after adding quantified Higgs-radial mixing",
+      "required_upgrade": "treat as a modified parent model with added parameters, tuning cost, and loop stability audit"
+    }
+  ]
+}

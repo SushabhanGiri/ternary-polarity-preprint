@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "field_order": [
+    "A",
+    "A_dagger",
+    "B",
+    "B_dagger"
+  ],
+  "charges": {
+    "A": [
+      1,
+      0
+    ],
+    "B": [
+      0,
+      1
+    ]
+  },
+  "projection": "q_P = q_m + q_E mod 3",
+  "kernel": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "non_derivative_operator_classes": [
+    {
+      "dimension": 2,
+      "representative": "A A†",
+      "conjugate": "A A†",
+      "self_conjugate": true,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 2,
+      "representative": "A† B",
+      "conjugate": "A B†",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 2,
+      "representative": "B B†",
+      "conjugate": "B B†",
+      "self_conjugate": true,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 3,
+      "representative": "A† B†^2",
+      "conjugate": "A B^2",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 3,
+      "representative": "A†^2 B†",
+      "conjugate": "A^2 B",
+      "self_conjugate": false,
+      "q_m": 1,
+      "q_e": 2,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 3,
+      "representative": "A†^3",
+      "conjugate": "A^3",
+      "self_conjugate": false,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 3,
+      "representative": "B†^3",
+      "conjugate": "B^3",
+      "self_conjugate": false,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 4,
+      "representative": "A A† B B†",
+      "conjugate": "A A† B B†",
+      "self_conjugate": true,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 4,
+      "representative": "A A†^2 B",
+      "conjugate": "A^2 A† B†",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "A^2 A†^2",
+      "conjugate": "A^2 A†^2",
+      "self_conjugate": true,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    },
+    {
+      "dimension": 4,
+      "representative": "A† B^2 B†",
+      "conjugate": "A B B†^2",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "A†^2 B^2",
+      "conjugate": "A^2 B†^2",
+      "self_conjugate": false,
+      "q_m": 1,
+      "q_e": 2,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "B^2 B†^2",
+      "conjugate": "B^2 B†^2",
+      "self_conjugate": true,
+      "q_m": 0,
+      "q_e": 0,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": true,
+      "comparator_only": false
+    }
+  ],
+  "comparator_only_non_derivative": [
+    {
+      "dimension": 2,
+      "representative": "A† B",
+      "conjugate": "A B†",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 3,
+      "representative": "A† B†^2",
+      "conjugate": "A B^2",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 3,
+      "representative": "A†^2 B†",
+      "conjugate": "A^2 B",
+      "self_conjugate": false,
+      "q_m": 1,
+      "q_e": 2,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "A A†^2 B",
+      "conjugate": "A^2 A† B†",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "A† B^2 B†",
+      "conjugate": "A B B†^2",
+      "self_conjugate": false,
+      "q_m": 2,
+      "q_e": 1,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    },
+    {
+      "dimension": 4,
+      "representative": "A†^2 B^2",
+      "conjugate": "A^2 B†^2",
+      "self_conjugate": false,
+      "q_m": 1,
+      "q_e": 2,
+      "q_p": 0,
+      "projected_z3": true,
+      "dual_z3": false,
+      "comparator_only": true
+    }
+  ],
+  "kinetic_dimension_4": [
+    {
+      "operator": "∂_μ A† ∂^μ A",
+      "projected_z3": true,
+      "dual_z3": true
+    },
+    {
+      "operator": "∂_μ B† ∂^μ B",
+      "projected_z3": true,
+      "dual_z3": true
+    },
+    {
+      "operator": "∂_μ A† ∂^μ B + h.c.",
+      "projected_z3": true,
+      "dual_z3": false
+    }
+  ],
+  "higgs_portals": [
+    {
+      "dimension": 4,
+      "operator": "(H†H)|A|²",
+      "projected_z3": true,
+      "dual_z3": true
+    },
+    {
+      "dimension": 4,
+      "operator": "(H†H)|B|²",
+      "projected_z3": true,
+      "dual_z3": true
+    },
+    {
+      "dimension": 4,
+      "operator": "(H†H)A†B + h.c.",
+      "projected_z3": true,
+      "dual_z3": false
+    }
+  ]
+}

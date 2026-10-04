@@ -1,0 +1,107 @@
+{
+  "boundedness": {
+    "HS_boundary_margin": 0.41496835316263,
+    "lambdaChi_positive": true,
+    "lambdaH_positive": true,
+    "lambdaS_positive": true,
+    "passes_exact_radial_test_numerically": true,
+    "reduced_min_t": 0.33726824292910346,
+    "reduced_min_value": 0.22925487484191276
+  },
+  "conventions": "Natural units; all dimensionful inputs in GeV or GeV^2.",
+  "direct_global_search": {
+    "V": -75421601053.31998,
+    "gradient_inf_norm": 0.11383817077148706,
+    "optimizer_success": true,
+    "point": [
+      246.00000239654594,
+      999.9999997906181,
+      0.0
+    ],
+    "search_upper_bound": 3000.0
+  },
+  "enumerated_global_candidate": {
+    "V": -75421601053.31999,
+    "branch": "HS-inert",
+    "h": 246.00000000000006,
+    "radial_hessian_eigenvalues": [
+      15692.732481730702,
+      250000.0,
+      600041.427518269
+    ],
+    "radial_local_minimum": true,
+    "s": 999.9999999999999,
+    "stationarity_relative_residual": 1.9789490457703288e-16,
+    "x": 0.0
+  },
+  "parameters": {
+    "kappa": 0.05,
+    "lamH": 0.13,
+    "lamHS": 0.02,
+    "lamHc": 0.05,
+    "lamS": 0.3,
+    "lamSc": 0.08,
+    "lamc": 0.25,
+    "muH2": 17867.08,
+    "muS2": 300605.16,
+    "muc2": 208487.1
+  },
+  "stationary_points": [
+    {
+      "V": -75421601053.31999,
+      "branch": "HS-inert",
+      "h": 246.00000000000006,
+      "radial_hessian_eigenvalues": [
+        15692.732481730702,
+        250000.0,
+        600041.427518269
+      ],
+      "radial_local_minimum": true,
+      "s": 999.9999999999999,
+      "stationarity_relative_residual": 1.9789490457703288e-16,
+      "x": 0.0
+    },
+    {
+      "V": -75302885182.18802,
+      "branch": "S",
+      "h": 0.0,
+      "radial_hessian_eigenvalues": [
+        -7846.908000000001,
+        248567.788,
+        601210.3199999998
+      ],
+      "radial_local_minimum": false,
+      "s": 1001.0080918753854,
+      "stationarity_relative_residual": 0.0,
+      "x": 0.0
+    },
+    {
+      "V": -613908745.6276926,
+      "branch": "H",
+      "h": 370.72776659305805,
+      "radial_hessian_eigenvalues": [
+        -299230.7692307692,
+        35734.159999999996,
+        211923.07692307694
+      ],
+      "radial_local_minimum": false,
+      "s": 0.0,
+      "stationarity_relative_residual": 0.0,
+      "x": 0.0
+    },
+    {
+      "V": 0.0,
+      "branch": "origin",
+      "h": 0.0,
+      "radial_hessian_eigenvalues": [
+        -300605.16,
+        -17867.08,
+        208487.1
+      ],
+      "radial_local_minimum": false,
+      "s": 0.0,
+      "stationarity_relative_residual": 0.0,
+      "x": 0.0
+    }
+  ]
+}

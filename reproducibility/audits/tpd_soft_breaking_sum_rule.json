@@ -1,0 +1,48 @@
+{
+  "benchmark_examples": {
+    "0.001": {
+      "B_to_A_h_width_GeV": 1.9302368381558686e-10,
+      "G12_GeV": 0.002462198358533662,
+      "ctau_m": 1.0222941379181506e-06,
+      "eta_effective_G12_over_v": 9.999993333334668e-06,
+      "soft_delta2_GeV2": 127.59991493335035,
+      "sum_rule_residual_GeV": 1.734723475976807e-18
+    },
+    "0.01": {
+      "B_to_A_h_width_GeV": 1.929982060277892e-08,
+      "G12_GeV": 0.024620358566162355,
+      "ctau_m": 1.0224290914684904e-08,
+      "eta_effective_G12_over_v": 9.99933334666654e-05,
+      "soft_delta2_GeV2": 1275.9149350346506,
+      "sum_rule_residual_GeV": -1.3877787807814457e-17
+    },
+    "1e-05": {
+      "B_to_A_h_width_GeV": 1.930239411549676e-14,
+      "G12_GeV": 2.4621999998358514e-05,
+      "ctau_m": 0.010222927749963346,
+      "eta_effective_G12_over_v": 9.999999999333325e-08,
+      "soft_delta2_GeV2": 1.2759999999149334,
+      "sum_rule_residual_GeV": -2.710505431213761e-20
+    },
+    "1e-07": {
+      "B_to_A_h_width_GeV": 1.930239411807016e-18,
+      "G12_GeV": 2.462199999999982e-07,
+      "ctau_m": 102.22927748600425,
+      "eta_effective_G12_over_v": 9.999999999999926e-10,
+      "soft_delta2_GeV2": 0.012759999999999916,
+      "sum_rule_residual_GeV": -4.235164736271502e-22
+    }
+  },
+  "generic_Z3_identity": "2 G12 cos(2 theta)-(G22-G11) sin(2 theta)=2 v eta_HAB",
+  "higgs_matrix": "G_h=v R(theta)^T [[lambda_HA,eta_HAB],[eta_HAB,lambda_HB]] R(theta)",
+  "independent_random_checks": 1000,
+  "mass_matrix": "[[M_A^2, delta^2], [delta^2, M_B^2]]",
+  "maximum_absolute_identity_error_GeV": 6.821210263296962e-13,
+  "minimal_soft_TP_sum_rule": "2 G12 cos(2 theta)=(G22-G11) sin(2 theta)",
+  "mixing_relation": "tan(2 theta)=2 delta^2/(M_B^2-M_A^2)",
+  "model": "TP-Bsoft: dimension-two A^dag B breaking only; eta_HAB=0",
+  "novelty_warning": "The matrix identity is standard two-state mixing/alignment algebra. Its use as a TP benchmark is potentially distinctive, but literature novelty is not demonstrated.",
+  "observability_condition": "theta is physical only if another interaction identifies the A/B charge basis. TP-G gauge-current couplings can do this in principle; the Higgs portal alone cannot.",
+  "radiative_status": "In a mass-independent scheme, a dimension-two soft breaking does not create an inhomogeneous beta function for the forbidden dimension-four eta_HAB operator. Physical amplitudes still receive calculable loop corrections.",
+  "schema_version": 1
+}

@@ -1,0 +1,182 @@
+{
+  "TP_G0_zero_portal_sources": {
+    "lambda_APhi_E": {},
+    "lambda_APhi_m": {
+      "kappa_m*kappa_m": "36"
+    },
+    "lambda_BPhi_E": {
+      "kappa_E*kappa_E": "36"
+    },
+    "lambda_BPhi_m": {},
+    "lambda_HPhi_E": {},
+    "lambda_HPhi_m": {},
+    "lambda_Phi_mPhi_E": {}
+  },
+  "beta_functions": {
+    "kappa_E": {
+      "kappa_E*lambda_B": "12",
+      "kappa_E*lambda_BPhi_E": "6"
+    },
+    "kappa_m": {
+      "kappa_m*lambda_A": "12",
+      "kappa_m*lambda_APhi_m": "6"
+    },
+    "lambda_A": {
+      "kappa_m*kappa_m": "18",
+      "lambda_A*lambda_A": "20",
+      "lambda_AB*lambda_AB": "1",
+      "lambda_APhi_E*lambda_APhi_E": "1",
+      "lambda_APhi_m*lambda_APhi_m": "1",
+      "lambda_HA*lambda_HA": "2"
+    },
+    "lambda_AB": {
+      "lambda_A*lambda_AB": "8",
+      "lambda_AB*lambda_AB": "4",
+      "lambda_AB*lambda_B": "8",
+      "lambda_APhi_E*lambda_BPhi_E": "2",
+      "lambda_APhi_m*lambda_BPhi_m": "2",
+      "lambda_HA*lambda_HB": "4"
+    },
+    "lambda_APhi_E": {
+      "lambda_A*lambda_APhi_E": "8",
+      "lambda_AB*lambda_BPhi_E": "2",
+      "lambda_APhi_E*lambda_APhi_E": "4",
+      "lambda_APhi_E*lambda_Phi_E": "8",
+      "lambda_APhi_m*lambda_Phi_mPhi_E": "2",
+      "lambda_HA*lambda_HPhi_E": "4"
+    },
+    "lambda_APhi_m": {
+      "kappa_m*kappa_m": "36",
+      "lambda_A*lambda_APhi_m": "8",
+      "lambda_AB*lambda_BPhi_m": "2",
+      "lambda_APhi_E*lambda_Phi_mPhi_E": "2",
+      "lambda_APhi_m*lambda_APhi_m": "4",
+      "lambda_APhi_m*lambda_Phi_m": "8",
+      "lambda_HA*lambda_HPhi_m": "4"
+    },
+    "lambda_B": {
+      "kappa_E*kappa_E": "18",
+      "lambda_AB*lambda_AB": "1",
+      "lambda_B*lambda_B": "20",
+      "lambda_BPhi_E*lambda_BPhi_E": "1",
+      "lambda_BPhi_m*lambda_BPhi_m": "1",
+      "lambda_HB*lambda_HB": "2"
+    },
+    "lambda_BPhi_E": {
+      "kappa_E*kappa_E": "36",
+      "lambda_AB*lambda_APhi_E": "2",
+      "lambda_B*lambda_BPhi_E": "8",
+      "lambda_BPhi_E*lambda_BPhi_E": "4",
+      "lambda_BPhi_E*lambda_Phi_E": "8",
+      "lambda_BPhi_m*lambda_Phi_mPhi_E": "2",
+      "lambda_HB*lambda_HPhi_E": "4"
+    },
+    "lambda_BPhi_m": {
+      "lambda_AB*lambda_APhi_m": "2",
+      "lambda_B*lambda_BPhi_m": "8",
+      "lambda_BPhi_E*lambda_Phi_mPhi_E": "2",
+      "lambda_BPhi_m*lambda_BPhi_m": "4",
+      "lambda_BPhi_m*lambda_Phi_m": "8",
+      "lambda_HB*lambda_HPhi_m": "4"
+    },
+    "lambda_H": {
+      "lambda_H*lambda_H": "24",
+      "lambda_HA*lambda_HA": "1",
+      "lambda_HB*lambda_HB": "1",
+      "lambda_HPhi_E*lambda_HPhi_E": "1",
+      "lambda_HPhi_m*lambda_HPhi_m": "1"
+    },
+    "lambda_HA": {
+      "lambda_A*lambda_HA": "8",
+      "lambda_AB*lambda_HB": "2",
+      "lambda_APhi_E*lambda_HPhi_E": "2",
+      "lambda_APhi_m*lambda_HPhi_m": "2",
+      "lambda_H*lambda_HA": "12",
+      "lambda_HA*lambda_HA": "4"
+    },
+    "lambda_HB": {
+      "lambda_AB*lambda_HA": "2",
+      "lambda_B*lambda_HB": "8",
+      "lambda_BPhi_E*lambda_HPhi_E": "2",
+      "lambda_BPhi_m*lambda_HPhi_m": "2",
+      "lambda_H*lambda_HB": "12",
+      "lambda_HB*lambda_HB": "4"
+    },
+    "lambda_HPhi_E": {
+      "lambda_APhi_E*lambda_HA": "2",
+      "lambda_BPhi_E*lambda_HB": "2",
+      "lambda_H*lambda_HPhi_E": "12",
+      "lambda_HPhi_E*lambda_HPhi_E": "4",
+      "lambda_HPhi_E*lambda_Phi_E": "8",
+      "lambda_HPhi_m*lambda_Phi_mPhi_E": "2"
+    },
+    "lambda_HPhi_m": {
+      "lambda_APhi_m*lambda_HA": "2",
+      "lambda_BPhi_m*lambda_HB": "2",
+      "lambda_H*lambda_HPhi_m": "12",
+      "lambda_HPhi_E*lambda_Phi_mPhi_E": "2",
+      "lambda_HPhi_m*lambda_HPhi_m": "4",
+      "lambda_HPhi_m*lambda_Phi_m": "8"
+    },
+    "lambda_Phi_E": {
+      "lambda_APhi_E*lambda_APhi_E": "1",
+      "lambda_BPhi_E*lambda_BPhi_E": "1",
+      "lambda_HPhi_E*lambda_HPhi_E": "2",
+      "lambda_Phi_E*lambda_Phi_E": "20",
+      "lambda_Phi_mPhi_E*lambda_Phi_mPhi_E": "1"
+    },
+    "lambda_Phi_m": {
+      "lambda_APhi_m*lambda_APhi_m": "1",
+      "lambda_BPhi_m*lambda_BPhi_m": "1",
+      "lambda_HPhi_m*lambda_HPhi_m": "2",
+      "lambda_Phi_m*lambda_Phi_m": "20",
+      "lambda_Phi_mPhi_E*lambda_Phi_mPhi_E": "1"
+    },
+    "lambda_Phi_mPhi_E": {
+      "lambda_APhi_E*lambda_APhi_m": "2",
+      "lambda_BPhi_E*lambda_BPhi_m": "2",
+      "lambda_HPhi_E*lambda_HPhi_m": "4",
+      "lambda_Phi_E*lambda_Phi_mPhi_E": "8",
+      "lambda_Phi_m*lambda_Phi_mPhi_E": "8",
+      "lambda_Phi_mPhi_E*lambda_Phi_mPhi_E": "4"
+    }
+  },
+  "coupling_count": 17,
+  "couplings": [
+    "lambda_H",
+    "lambda_A",
+    "lambda_B",
+    "lambda_Phi_m",
+    "lambda_Phi_E",
+    "lambda_HA",
+    "lambda_HB",
+    "lambda_HPhi_m",
+    "lambda_HPhi_E",
+    "lambda_AB",
+    "lambda_APhi_m",
+    "lambda_APhi_E",
+    "lambda_BPhi_m",
+    "lambda_BPhi_E",
+    "lambda_Phi_mPhi_E",
+    "kappa_m",
+    "kappa_E"
+  ],
+  "field_content": "H (4 real components) plus A, B, Phi_m, Phi_E (2 real components each)",
+  "low_energy_TP_D_limit_verified": true,
+  "methods": [
+    "one-loop effective-potential Hessian",
+    "independent quartic-tensor projections"
+  ],
+  "normalization": "Each polynomial is (16*pi^2) beta_coupling, scalar-only one-loop",
+  "schema_version": 1,
+  "scope_warning": "Scalar-only one-loop system. Gauge, Yukawa, dimensionful, kinetic-mixing, and threshold terms remain separate.",
+  "tensor_cross_checks": {
+    "kappa_E": true,
+    "kappa_m": true,
+    "lambda_A": true,
+    "lambda_APhi_m": true,
+    "lambda_H": true,
+    "lambda_HPhi_m": true,
+    "lambda_Phi_mPhi_E": true
+  }
+}

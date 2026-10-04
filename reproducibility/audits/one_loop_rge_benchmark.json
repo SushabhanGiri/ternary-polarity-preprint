@@ -1,0 +1,145 @@
+{
+  "final_state_at_integration_end": {
+    "Gxx": 0.10059587233078446,
+    "Gxy": 0.0,
+    "Gyx": 0.0,
+    "Gyy": 0.4345921755792046,
+    "g2": 0.5297368028328551,
+    "g3": 0.5433257725631504,
+    "kappa": 0.23509569119371698,
+    "lamH": 0.03455328994656129,
+    "lamHS": 0.13026916009503045,
+    "lamHc": 0.1680989713834618,
+    "lamS": 12.566370614359217,
+    "lamSc": 1.3039771930321091,
+    "lamc": 2.547138973729869,
+    "mH2": -20166.821926990295,
+    "mS2": -1241097.8829155003,
+    "mc2": 445304.11228584195,
+    "yb": 0.006732872813030384,
+    "yt": 0.4511833162681735,
+    "ytau": 0.009585817557395205
+  },
+  "first_failure": {
+    "bfb_margin_at_failed_sample": 2.072279462833653,
+    "first_failed_sample_scale_GeV": 753918423142961.0,
+    "reasons": [
+      "high_energy_scalar_unitarity"
+    ],
+    "refined_boundary": {
+      "root_method": "Brent bracketed solve in ln(mu)",
+      "scale_GeV": 750656059332220.8,
+      "state": {
+        "Gxx": 0.10058224343379442,
+        "Gxy": 0.0,
+        "Gyx": 0.0,
+        "Gyy": 0.43235630604105924,
+        "g2": 0.5316380813538898,
+        "g3": 0.5478930578286957,
+        "kappa": 0.2052376545130579,
+        "lamH": 0.03481791258098744,
+        "lamHS": 0.09728290484418567,
+        "lamHc": 0.1547004018583199,
+        "lamS": 6.270949159379191,
+        "lamSc": 0.8957550671427775,
+        "lamc": 2.108483720582251,
+        "mH2": -19759.94908045055,
+        "mS2": -943713.3523911788,
+        "mc2": 422427.0537007675,
+        "yb": 0.00680861944856321,
+        "yt": 0.455474575655345,
+        "ytau": 0.009613638198260612
+      },
+      "unitarity_spectral_radius": 25.132741228719144
+    },
+    "state_at_failed_sample": {
+      "Gxx": 0.10058233658166905,
+      "Gxy": 0.0,
+      "Gyx": 0.0,
+      "Gyy": 0.43237147341866583,
+      "g2": 0.531625014704674,
+      "g3": 0.5478614439712799,
+      "kappa": 0.20540868488098005,
+      "lamH": 0.03481586746357884,
+      "lamHS": 0.0974247552839404,
+      "lamHc": 0.15477976011074404,
+      "lamS": 6.292457349714912,
+      "lamSc": 0.8975250701524301,
+      "lamc": 2.1109655544760995,
+      "mH2": -19761.467797797828,
+      "mS2": -944981.8400758712,
+      "mc2": 422575.3348075336,
+      "yb": 0.006808095240189437,
+      "yt": 0.4554449516484666,
+      "ytau": 0.009613449634671851
+    },
+    "unitarity_spectral_radius_at_failed_sample": 25.21874432786322
+  },
+  "initial": {
+    "Gxx": 0.1,
+    "Gxy": 0.0,
+    "Gyx": 0.0,
+    "Gyy": 0.36,
+    "g2": 0.64,
+    "g3": 1.05,
+    "kappa": 0.05,
+    "lamH": 0.13,
+    "lamHS": 0.02,
+    "lamHc": 0.05,
+    "lamS": 0.3,
+    "lamSc": 0.08,
+    "lamc": 0.25,
+    "mH2": -17867.08,
+    "mS2": -300605.16,
+    "mc2": 208487.1,
+    "yb": 0.015,
+    "yt": 0.85,
+    "ytau": 0.01
+  },
+  "integration_end_GeV": 1415626626409899.5,
+  "maximum_dimensionless_coupling_before_failure": {
+    "absolute_value": 6.292457349714912,
+    "name": "lamS",
+    "scale_GeV": 753918423142961.0
+  },
+  "maximum_unitarity_before_failure": {
+    "scale_GeV": 753918423142961.0,
+    "spectral_radius": 25.21874432786322
+  },
+  "minimum_bfb_before_failure": {
+    "margin": 0.22925487484191243,
+    "scale_GeV": 999.9999999999998,
+    "t": 0.3372682772063685
+  },
+  "mu0_GeV": 1000.0,
+  "requested_mumax_GeV": 1e+19,
+  "samples": 1200,
+  "scalar_tensor_crosscheck": {
+    "maximum_absolute_residual": 0.0,
+    "passed": true
+  },
+  "scope_warnings": [
+    "One-loop MS-bar running only; two-loop terms and finite one-loop threshold corrections are omitted.",
+    "Tree-level BFB and high-energy scalar-unitarity tests are applied to running couplings; this is not a gauge-independent loop effective-potential analysis.",
+    "Input SM couplings at 1 TeV are illustrative rounded values, not a precision pole-to-MS-bar match.",
+    "The full 2x2 Abelian gauge matrix is implemented, but the benchmark starts on the zero-mixing trajectory."
+  ],
+  "solver": {
+    "atol": 1e-12,
+    "max_step_in_log_mu": 0.05,
+    "method": "DOP853",
+    "nfev": 8402,
+    "rtol": 2e-10
+  },
+  "status": "illustrative one-loop MS-bar evolution, not a precision fit",
+  "stopped_at_perturbative_boundary": true,
+  "tree_threshold_at_f_1000_GeV": {
+    "lambdaH_low": 0.12966666666666668,
+    "lambdaHc_low": 0.04733333333333334,
+    "lambdac_low": 0.24466666666666667,
+    "m_radial_tree": 774.5966692414834,
+    "mu3_coefficient_of_chi3_plus_hc": 35.35533905932737,
+    "scope": "Tree-level zero-momentum matching; one-loop finite thresholds and higher-dimensional operators omitted."
+  },
+  "zero_mixing_invariance_numerical_residual": 0.0
+}

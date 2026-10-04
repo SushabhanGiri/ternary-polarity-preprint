@@ -1,0 +1,9 @@
+Scalar-only one-loop contributions; each right-hand side equals (16*pi^2)*beta:
+beta_lamH = 24*lamH^2 + lamHS^2 + lamHc^2
+beta_lamS = 20*lamS^2 + 2*lamHS^2 + lamSc^2
+beta_lamc = 20*lamc^2 + 2*lamHc^2 + lamSc^2 + 18*kappa^2
+beta_lamHS = 12*lamH*lamHS + 8*lamHS*lamS + 4*lamHS^2 + 2*lamHc*lamSc
+beta_lamHc = 12*lamH*lamHc + 2*lamHS*lamSc + 8*lamHc*lamc + 4*lamHc^2
+beta_lamSc = 8*lamS*lamSc + 4*lamHS*lamHc + 8*lamSc*lamc + 4*lamSc^2 + 36*kappa^2
+beta_kappa = 12*kappa*lamc + 6*kappa*lamSc
+Checks: O(4) -> 24 lambda_H^2; O(2) -> 20 lambda^2 (passed).

@@ -1,0 +1,14 @@
+{
+  "method": "independent total-yield convention; BDF in log(x)",
+  "late_total_yields": {
+    "A_plus_Abar": 2.529348753137642e-11,
+    "B_plus_Bbar": 5.213006121446752e-12
+  },
+  "omega_h2": {
+    "A": 1.2483853705986145,
+    "B": 0.5717625114002798,
+    "total": 1.820147881998894
+  },
+  "nfev": 1948,
+  "relative_difference_from_primary_total": 2.6308542740549612e-05
+}

@@ -1,0 +1,69 @@
+{
+  "beta_functions": {
+    "kA": {
+      "kA*lambda_A": "12"
+    },
+    "kB": {
+      "kB*lambda_B": "12"
+    },
+    "lambda_A": {
+      "lambda_A*lambda_A": "20",
+      "lambda_AB*lambda_AB": "1",
+      "lambda_HA*lambda_HA": "2"
+    },
+    "lambda_AB": {
+      "lambda_A*lambda_AB": "8",
+      "lambda_AB*lambda_AB": "4",
+      "lambda_AB*lambda_B": "8",
+      "lambda_HA*lambda_HB": "4"
+    },
+    "lambda_B": {
+      "lambda_AB*lambda_AB": "1",
+      "lambda_B*lambda_B": "20",
+      "lambda_HB*lambda_HB": "2"
+    },
+    "lambda_H": {
+      "lambda_H*lambda_H": "24",
+      "lambda_HA*lambda_HA": "1",
+      "lambda_HB*lambda_HB": "1"
+    },
+    "lambda_HA": {
+      "lambda_A*lambda_HA": "8",
+      "lambda_AB*lambda_HB": "2",
+      "lambda_H*lambda_HA": "12",
+      "lambda_HA*lambda_HA": "4"
+    },
+    "lambda_HB": {
+      "lambda_AB*lambda_HA": "2",
+      "lambda_B*lambda_HB": "8",
+      "lambda_H*lambda_HB": "12",
+      "lambda_HB*lambda_HB": "4"
+    },
+    "mA2": {
+      "kA*kA": "8",
+      "lambda_A*mA2": "8",
+      "lambda_AB*mB2": "2",
+      "lambda_HA*muH2": "-4"
+    },
+    "mB2": {
+      "kB*kB": "8",
+      "lambda_AB*mA2": "2",
+      "lambda_B*mB2": "8",
+      "lambda_HB*muH2": "-4"
+    },
+    "muH2": {
+      "lambda_H*muH2": "12",
+      "lambda_HA*mA2": "-2",
+      "lambda_HB*mB2": "-2"
+    }
+  },
+  "exact_agreement": true,
+  "methods": [
+    "one-loop effective-potential Hessian",
+    "direct mass/cubic/quartic tensor contractions"
+  ],
+  "normalization": "Each polynomial is the scalar-only (16*pi^2) beta numerator; kA=muA/sqrt(2), kB=muB/sqrt(2)",
+  "schema_version": 1,
+  "scope": "Scalar-only one-loop MS-bar system. Gauge/Yukawa terms, thresholds, and two-loop terms are excluded.",
+  "z3_cubic_tensor_preserved": true
+}

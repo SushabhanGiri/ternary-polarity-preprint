@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "theory_version": "TP-D v0.2",
+  "freeze_date": "2026-09-19",
+  "nodes": [
+    {
+      "id": "A1",
+      "type": "assumption",
+      "statement": "Exact internal symmetry Z3_m x Z3_E"
+    },
+    {
+      "id": "A2",
+      "type": "assumption",
+      "statement": "A and B are local Lorentz-scalar SM singlets with charges (1,0) and (0,1)"
+    },
+    {
+      "id": "A3",
+      "type": "assumption",
+      "statement": "All Standard-Model fields are neutral under the dual symmetry"
+    },
+    {
+      "id": "D1",
+      "type": "derived",
+      "statement": "The projected charge has a nontrivial three-element kernel",
+      "depends_on": ["A1"]
+    },
+    {
+      "id": "D2",
+      "type": "derived",
+      "statement": "A and B have equal projected charge and unequal kernel charge",
+      "depends_on": ["A1", "A2", "D1"]
+    },
+    {
+      "id": "D3",
+      "type": "derived",
+      "statement": "Kernel-sensitive cross kinetic, bilinear, mixed-cubic, phase-sensitive quartic, and off-diagonal Higgs-portal operators are forbidden",
+      "depends_on": ["A1", "A2", "A3", "D2"]
+    },
+    {
+      "id": "D4",
+      "type": "derived",
+      "statement": "The forbidden-operator surface is perturbatively RG invariant",
+      "depends_on": ["A1", "D3"]
+    },
+    {
+      "id": "D5",
+      "type": "derived",
+      "statement": "Kernel-changing S-matrix amplitudes vanish in exact TP-D",
+      "depends_on": ["A1", "D2", "D4"]
+    },
+    {
+      "id": "D6",
+      "type": "derived",
+      "statement": "The complete H+A+B quartic boundedness problem reduces to exact three-by-three copositivity conditions",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "D7",
+      "type": "derived",
+      "statement": "The complete 36-channel high-energy scalar/Goldstone quartic spectrum reduces to fixed multiplicities and a three-by-three singlet block",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "D8",
+      "type": "derived",
+      "statement": "Two independent one-loop scalar-quartic RGE derivations agree coefficient by coefficient",
+      "depends_on": ["A1", "A2", "D3"]
+    },
+    {
+      "id": "D9",
+      "type": "derived",
+      "statement": "Two independent scalar mass and cubic one-loop RGE derivations agree and preserve the separate Z3 cubic tensors",
+      "depends_on": ["A1", "A2", "D3", "D4"]
+    },
+    {
+      "id": "D10",
+      "type": "derived",
+      "statement": "Charge-three scalar vacuum expectation values in U(1)_m x U(1)_E leave the exact residual group Z3_m x Z3_E",
+      "depends_on": ["A1", "A2"]
+    },
+    {
+      "id": "D11",
+      "type": "derived",
+      "statement": "The frozen scalar-only TP-G0 parent is free of continuous gauge and mixed gravitational anomalies because no chiral fermion carries a new charge",
+      "depends_on": ["D10"]
+    },
+    {
+      "id": "D12",
+      "type": "derived",
+      "statement": "The complete scalar-only one-loop beta system for all 17 CP-conserving TP-G quartics is independently tensor checked",
+      "depends_on": ["D10"]
+    },
+    {
+      "id": "M1",
+      "type": "model_result",
+      "statement": "B0 has an analytically certified global inert electroweak tree vacuum",
+      "depends_on": ["D6"]
+    },
+    {
+      "id": "M2",
+      "type": "model_result",
+      "statement": "B0 passes high-energy scalar/Goldstone quartic unitarity and finite-energy physical-scalar unitarity to 20 TeV",
+      "depends_on": ["D7", "M1"]
+    },
+    {
+      "id": "M3",
+      "type": "negative_model_result",
+      "statement": "B0 loses the one-loop BFB condition through the Higgs direction near 3.57e8 GeV",
+      "depends_on": ["D6", "D8", "D9"]
+    },
+    {
+      "id": "M4",
+      "type": "model_result",
+      "statement": "The leading B0 quartic-bounce diagnostic gives S4 about 961 below the scalar-unitarity boundary but is cutoff dominated",
+      "depends_on": ["M2", "M3"]
+    },
+    {
+      "id": "M5",
+      "type": "negative_model_result",
+      "statement": "Equal stabilizing portals in B1 keep quartics copositive but make the simple inert certificate fail when muH2 crosses zero near 2.31e8 GeV",
+      "depends_on": ["D8", "D9"]
+    },
+    {
+      "id": "M6",
+      "type": "conditional_model_result",
+      "statement": "Asymmetric portal B2 extends the simple certificate to about 1.46e15 GeV but is near-critical with minimum BFB margin about 3.3e-6",
+      "depends_on": ["D8", "D9", "M5"]
+    },
+    {
+      "id": "M7",
+      "type": "conditional_model_result",
+      "statement": "TP-G0 has a certified factorized global tree vacuum and passes the complete 78-channel high-energy scalar and Goldstone quartic unitarity test",
+      "depends_on": ["D10", "D11", "M1", "M2"]
+    },
+    {
+      "id": "M8",
+      "type": "constraint",
+      "statement": "TP-D high-scale running cannot be assigned to TP-G0 above the approximately 0.63 and 0.90 TeV parent thresholds",
+      "depends_on": ["M3", "M4", "M5", "M6", "M7"]
+    },
+    {
+      "id": "M9",
+      "type": "negative_model_result",
+      "statement": "The factorized TP-G0 zero-portal surface is not one-loop RG invariant: lambda_APhi_m and lambda_BPhi_E have positive scalar and gauge source terms",
+      "depends_on": ["D12", "M7", "M8"]
+    },
+    {
+      "id": "M10",
+      "type": "conditional_model_result",
+      "statement": "Leading one-loop step-matched TP-G0 running loses its sufficient BFB certificate near 3.56e8 GeV, reaches scalar unitarity near 3.33e16 GeV, and reaches a 4pi coupling near 6.28e16 GeV",
+      "depends_on": ["D12", "M8", "M9"]
+    },
+    {
+      "id": "P1",
+      "type": "prediction",
+      "statement": "Gamma(B -> A + h)=0 when the channel is kinematically open and kernel symmetry is exact",
+      "depends_on": ["A3", "D5"]
+    },
+    {
+      "id": "P2",
+      "type": "conditional_prediction",
+      "statement": "In TP-Bsoft with only dimension-two A-B breaking, 2 G12 cos(2 theta) = (G22-G11) sin(2 theta) at tree level",
+      "depends_on": ["D2", "D3", "D4"]
+    },
+    {
+      "id": "M11",
+      "type": "negative_model_result",
+      "statement": "The frozen TP-G0 benchmark contains an E-sector radial state with no open tree-level decay and is cosmologically incomplete until its lifetime and abundance are controlled",
+      "depends_on": ["M7", "M9"]
+    },
+    {
+      "id": "M12",
+      "type": "negative_model_result",
+      "statement": "The leading coupled annihilation, semi-annihilation, and conversion calculation gives Omega h^2 about 1.82 for B0, so B0 is rejected as a standard thermal-relic benchmark",
+      "depends_on": ["M1", "M2", "D5"]
+    },
+    {
+      "id": "D13",
+      "type": "derived",
+      "statement": "For the tested minimal TP-D EFT, diagonal SM-Higgs exchange maps to the standard elastic, momentum-independent, approximately isospin-conserving SI nucleon limit after component local-density rescaling",
+      "depends_on": ["A2", "A3", "D3"]
+    },
+    {
+      "id": "M13",
+      "type": "negative_model_result",
+      "statement": "All four relic-compatible points from the 160-point leading scan are excluded by the LZ 2025 power-constrained 90% C.L. SI limit; their minimum excluding abundance-weighted ratio is 37.17",
+      "depends_on": ["D13", "M12"]
+    },
+    {
+      "id": "M14",
+      "type": "conditional_model_result",
+      "statement": "A reduced Higgs-pole point at mA=62.0 GeV and mB=62.2 GeV reproduces Omega h^2 about 0.12 in a finite-width-validated coupled thermal diagnostic and has a combined LZ rate proxy about 0.242 while passing tree BFB and scalar unitarity; its one-loop absolute-stability certificate ends near 3.36e8 GeV",
+      "depends_on": ["D6", "D7", "D13", "M13"]
+    },
+    {
+      "id": "M15",
+      "type": "verified_model_result",
+      "statement": "For the Higgs-pole point, the complete new tree-level TP-D electroweak-vector channel block through 20 TeV has maximum J=0 singular value 1.805e-5 and satisfies the exact longitudinal/Goldstone equivalence identity; pure-SM vector scattering is unchanged because A and B are zero-vev electroweak singlets",
+      "depends_on": ["M14"]
+    },
+    {
+      "id": "M16",
+      "type": "conditional_model_result",
+      "statement": "The Higgs-pole point matched to the protected zero-kinetic-mixing TP-G parent passes all controlled finite-energy gauge blocks through 20 TeV, with maximum neutral J=0 eigenvalue 0.191; the verdict remains conditional because the unstable parent vector produces a physical on-shell u-channel scalar pole requiring a complex-mass or stable-state inclusive treatment for an unconditional S-matrix statement",
+      "depends_on": ["M14", "M15"]
+    },
+    {
+      "id": "M17",
+      "type": "conditional_model_result",
+      "statement": "The pole point gives Omega h^2=0.11887 with a temperature-dependent equation of state and finite-width off-pole thermal averaging; its nearly degenerate two-component LZ rate ratio is 0.2395 and its Higgs-invisible branching fraction is 1.69e-4",
+      "depends_on": ["D13", "M14", "M15", "M16"]
+    },
+    {
+      "id": "M18",
+      "type": "conditional_model_result",
+      "statement": "Cubic-induced number-changing rates are negligible for the pole point, while point-matched one-loop running loses absolute stability near 3.36e8 GeV but gives a leading-log bounce action about 886 before the scalar-unitarity cutoff and a cosmologically long-lived electroweak vacuum",
+      "depends_on": ["D8", "D9", "M17"]
+    },
+    {
+      "id": "M19",
+      "type": "verified_model_result",
+      "statement": "At the matched pole point both parent vectors and both parent radials decay promptly to dark scalars, the conservative Planck energy-injection ratio is 0.00489, and no late parent relic, dark radiation, or relevant defect constraint remains",
+      "depends_on": ["D10", "M16", "M17", "M18"]
+    },
+    {
+      "id": "M20",
+      "type": "negative_model_result",
+      "statement": "Broad TP-D novelty fails: semi-annihilation, multicomponent discrete dark matter, local U(1)-to-Z3 completion, product residual symmetries, and symmetry-protected transition zeros are established mechanisms; novelty of the exact projection/kernel presentation is not demonstrated",
+      "depends_on": ["D1", "D2", "D3", "D10", "M19"]
+    },
+    {
+      "id": "M21",
+      "type": "conditional_model_result",
+      "statement": "Exact TP-D supplies genuinely parameter-reducing falsifiable null amplitudes but no unique nonzero observable sum rule; the nonzero two-state Higgs alignment relation belongs only to the softly broken extension and is standard mixing algebra",
+      "depends_on": ["D3", "D5", "P1", "P2", "M20"]
+    },
+    {
+      "id": "O1",
+      "type": "resolved_limitation",
+      "statement": "The TP-Bsoft alignment relation is basis-covariant once the charge basis is operationally identified, but it is standard two-state algebra, is not loop-complete, and is not a unique TP-D prediction",
+      "depends_on": ["P1", "P2"]
+    },
+    {
+      "id": "O2",
+      "type": "open_problem",
+      "statement": "Perform threshold matching, quantify two-loop uncertainty, and calculate the multi-field effective-potential bounce where required",
+      "depends_on": ["M3", "M4", "M5", "M6"]
+    },
+    {
+      "id": "O3",
+      "type": "open_problem",
+      "statement": "Complete point-specific parent threshold/RG evolution and, if an unconditional full-S-matrix claim is required, replace the pole-excised unstable-vector diagnostic by a complex-mass or stable-state inclusive calculation",
+      "depends_on": ["D10", "D11", "D12", "M7", "M8", "M9", "M10"]
+    },
+    {
+      "id": "O4",
+      "type": "open_problem",
+      "statement": "Upgrade the conditionally viable Higgs-pole candidate with precision thermal-QCD input, a detector-level two-component xenon likelihood, finite parent threshold/two-loop running, and a gauge-controlled numerical multi-field bounce",
+      "depends_on": ["M14", "M15", "M16", "M17", "M18"]
+    },
+    {
+      "id": "O5",
+      "type": "retired_branch_issue",
+      "statement": "The rejected B0 parent retains its rho_E issue and is not repaired; the surviving pole parent instead opens prompt rho_E to BBB plus charge conjugate, so this is not a blocker for the promoted point",
+      "depends_on": ["M11"]
+    },
+    {
+      "id": "G1",
+      "type": "gate",
+      "statement": "Gravity, flavour, fundamental constants, quantum gravity, and unification remain outside the validated theory and must not be claimed; optional precision upgrades do not authorize those extensions",
+      "depends_on": ["O1", "O2", "O3", "O4", "O5"]
+    }
+  ]
+}

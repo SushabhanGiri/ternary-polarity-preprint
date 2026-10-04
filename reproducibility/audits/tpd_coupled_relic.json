@@ -1,0 +1,139 @@
+{
+  "nominal": {
+    "assumptions": {
+      "yield_convention": "per charge state; antiparticle density equal",
+      "tree_level": true,
+      "threshold_cross_sections": true,
+      "constant_gstar": 90.0,
+      "thermal_averaging": false,
+      "higgs_width_order": "tree level; hh treated as full separate 2-to-2 amplitude"
+    },
+    "parameters": {
+      "mA": 180.0,
+      "mB": 400.0,
+      "mu_A": 60.0,
+      "mu_B": 90.0,
+      "lambda_HA": 0.02,
+      "lambda_HB": 0.03,
+      "lambda_AB": 0.1
+    },
+    "rates_GeV_minus2": {
+      "ann_A_SM": 1.7768782018535695e-10,
+      "ann_A_hh": 8.201930307460096e-11,
+      "semi_A": 8.449567629121503e-11,
+      "ann_B_SM": 9.460019992926161e-11,
+      "ann_B_hh": 3.0047098720592265e-11,
+      "semi_B": 3.3214071321675984e-12,
+      "conversion_B_to_A": 5.551949564313204e-10,
+      "ann_A": 2.597071232599579e-10,
+      "ann_B": 1.2464729864985388e-10
+    },
+    "rates_cm3_s": {
+      "ann_A_SM": 2.074203032953429e-27,
+      "ann_A_hh": 9.574358389933336e-28,
+      "semi_A": 9.863432836975757e-28,
+      "ann_B_SM": 1.1042964081983007e-27,
+      "ann_B_hh": 3.50748763942795e-28,
+      "semi_B": 3.877177816706044e-29,
+      "conversion_B_to_A": 6.480956664947554e-27,
+      "ann_A": 3.0316388719467626e-27,
+      "ann_B": 1.4550451721410959e-27
+    },
+    "solver": {
+      "method": "Radau in log(x), x=mA/T",
+      "rtol": 2e-08,
+      "atol": 1e-15,
+      "x_initial": 1.0,
+      "x_final": 10000.0,
+      "nfev": 7059,
+      "rate_scales": {}
+    },
+    "late_yields_per_charge": {
+      "A": 1.2646301495298315e-11,
+      "B": 2.606483792015053e-12
+    },
+    "omega_h2": {
+      "A": 1.2483417132038874,
+      "B": 0.571758284616422,
+      "total": 1.8200999978203094,
+      "fraction_A": 0.6858643561885938,
+      "fraction_B": 0.31413564381140624
+    }
+  },
+  "diagnostics": {
+    "gstar_80": {
+      "A": 1.3278036924794483,
+      "B": 0.6080457804377324,
+      "total": 1.9358494729171807,
+      "fraction_A": 0.6859023447099671,
+      "fraction_B": 0.31409765529003286
+    },
+    "gstar_100": {
+      "A": 1.1812909077328015,
+      "B": 0.5411338384114658,
+      "total": 1.7224247461442674,
+      "fraction_A": 0.6858301997676122,
+      "fraction_B": 0.31416980023238783
+    },
+    "x_final_1e3": {
+      "A": 1.2705346668485666,
+      "B": 0.576838710682171,
+      "total": 1.8473733775307375,
+      "fraction_A": 0.6877519630313211,
+      "fraction_B": 0.3122480369686789
+    },
+    "x_final_1e5": {
+      "A": 1.2461668533700727,
+      "B": 0.5712551940497379,
+      "total": 1.8174220474198106,
+      "fraction_A": 0.685678296430514,
+      "fraction_B": 0.3143217035694859
+    },
+    "no_conversion": {
+      "A": 1.2034008719089255,
+      "B": 2.852546198285094,
+      "total": 4.055947070194019,
+      "fraction_A": 0.29670033929988143,
+      "fraction_B": 0.7032996607001186
+    },
+    "no_semiannihilation": {
+      "A": 1.4289796273156434,
+      "B": 0.5730522611086462,
+      "total": 2.0020318884242894,
+      "fraction_A": 0.7137646685739506,
+      "fraction_B": 0.28623533142604946
+    },
+    "all_number_changing_rates_times_2": {
+      "A": 0.6528509845334309,
+      "B": 0.4860670535423843,
+      "total": 1.1389180380758153,
+      "fraction_A": 0.573220339574578,
+      "fraction_B": 0.426779660425422
+    },
+    "all_number_changing_rates_times_10": {
+      "A": 0.13976862949000438,
+      "B": 0.22379434614900015,
+      "total": 0.3635629756390045,
+      "fraction_A": 0.38444131788817226,
+      "fraction_B": 0.6155586821118277
+    },
+    "cubics_at_99_percent_of_simple_global_certificate": {
+      "parameters": {
+        "mA": 180.0,
+        "mB": 400.0,
+        "mu_A": 236.83308558751855,
+        "mu_B": 592.3095871705916,
+        "lambda_HA": 0.02,
+        "lambda_HB": 0.03,
+        "lambda_AB": 0.1
+      },
+      "omega_h2": {
+        "A": 0.4578575213333004,
+        "B": 0.5219816550048835,
+        "total": 0.9798391763381838,
+        "fraction_A": 0.4672782354389905,
+        "fraction_B": 0.5327217645610095
+      }
+    }
+  }
+}

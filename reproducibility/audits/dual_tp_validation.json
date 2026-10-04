@@ -1,0 +1,89 @@
+{
+  "benchmark": {
+    "lambda_A": 0.2,
+    "lambda_AB": 0.1,
+    "lambda_B": 0.25,
+    "lambda_HA": 0.02,
+    "lambda_HB": 0.03,
+    "m_A": 180.0,
+    "m_B": 400.0,
+    "mu_A": 60.0,
+    "mu_B": 90.0
+  },
+  "kernel_sensitive_decay_example": {
+    "exact_TP_D_width_GeV": 0.0,
+    "generic_Z3_lambda_HAB": 0.01,
+    "generic_Z3_width_GeV": 0.00019302394118070448,
+    "m_A_GeV": 180.0,
+    "m_B_GeV": 400.0,
+    "m_h_GeV": 125.25,
+    "process": "B -> A + h",
+    "warning": "The generic-Z3 coupling is free and can be tuned to zero; only a nonzero observed width is a one-sided falsification of exact TP-D under the benchmark assumptions."
+  },
+  "mass_mixing_cross_check": {
+    "analytic_eigenvalues": [
+      32378.530258227365,
+      160021.46974177263
+    ],
+    "max_abs_difference": 1.1641532182693481e-10,
+    "mixing_angle_rad": 0.012969618083229443,
+    "numeric_eigenvalues": [
+      32378.530258227365,
+      160021.4697417725
+    ],
+    "tan_2theta": 0.02594505541888221
+  },
+  "schema_version": 1,
+  "unitarity": {
+    "condition": "|eigenvalue| <= 8*pi",
+    "numeric_eigenvalues": [
+      0.09999999999999985,
+      0.09999999999999991,
+      0.09999999999999998,
+      0.09999999999999998,
+      0.39999999999999997,
+      0.4000000000000002,
+      0.4999999999999999,
+      0.5,
+      0.7585786437626906,
+      1.0414213562373096
+    ],
+    "passes": true,
+    "spectral_radius": 1.0414213562373096,
+    "symbolic_eigenvalues": [
+      {
+        "eigenvalue": "2 lambda_A",
+        "multiplicity": 2
+      },
+      {
+        "eigenvalue": "2 lambda_B",
+        "multiplicity": 2
+      },
+      {
+        "eigenvalue": "lambda_AB",
+        "multiplicity": 4
+      },
+      {
+        "eigenvalue": "2(lambda_A+lambda_B) - sqrt(4(lambda_A-lambda_B)^2+lambda_AB^2)",
+        "multiplicity": 1
+      },
+      {
+        "eigenvalue": "2(lambda_A+lambda_B) + sqrt(4(lambda_A-lambda_B)^2+lambda_AB^2)",
+        "multiplicity": 1
+      }
+    ]
+  },
+  "vacuum": {
+    "all_sufficient_conditions_pass": true,
+    "analytic_sufficient_conditions": {
+      "bfb": true,
+      "nonnegative_portal": true,
+      "nonnegative_single_A": true,
+      "nonnegative_single_B": true
+    },
+    "minimum_sampled_potential_GeV4": 2.6797859397448778,
+    "negative_sample_count": 0,
+    "random_seed": 20260915,
+    "samples": 200000
+  }
+}

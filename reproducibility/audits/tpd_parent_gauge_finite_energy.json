@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "theory": "TP-G parent point-matched to the frozen TP-D Higgs-pole candidate",
+  "kinetic_mixing_slice": "epsilon_Ym=epsilon_YE=epsilon_mE=0 protected by C_m x C_E",
+  "factorization": "The two Abelian gauge sectors are identical except for the 0.2 GeV dark-mass split and are tested separately; lambda_AB and SM Higgs portals belong to the already-tested scalar block.",
+  "sectors": {
+    "m": {
+      "sector": "m",
+      "matching": {
+        "f_GeV": 1000.0,
+        "g": 0.3,
+        "Q_Phi": 3.0,
+        "m_vector_GeV": 899.9999999999999,
+        "lambda_Phi": 0.2,
+        "m_radial_GeV": 632.4555320336759,
+        "m_dark_GeV": 62.0,
+        "lambda_dark": 0.1,
+        "mu_dark_GeV": 1.0,
+        "kappa": 0.0004714045207910317,
+        "lambda_dark_Phi_at_matching": 0.0
+      },
+      "vector_width_to_dark_pair_GeV": 0.5219259583592187,
+      "neutral_longitudinal_J0": {
+        "basis": [
+          "X_L X_L / sqrt(2)",
+          "rho rho / sqrt(2)",
+          "S Sbar"
+        ],
+        "scan_points": 90,
+        "energy_range_GeV": [
+          1800.0000179999997,
+          20000.0
+        ],
+        "maximum": {
+          "sqrt_s_GeV": 20000.0,
+          "max_abs_eigenvalue": 0.19098861132615702,
+          "eigenvalues": [
+            -0.19098861132615702,
+            0.02930371698409203,
+            0.16862914600100154
+          ],
+          "matrix": [
+            [
+              -0.010906477788697128,
+              -0.1798086674523884,
+              -3.4942022406117115e-05
+            ],
+            [
+              -0.1798086674523884,
+              -0.011452989157765957,
+              0.0
+            ],
+            [
+              -3.4942022406117115e-05,
+              0.0,
+              0.029303718605399636
+            ]
+          ]
+        },
+        "passes_abs_Re_a0_le_half": true
+      },
+      "other_helicities": {
+        "all_J_abs_bound": 0.031974844380991824,
+        "energy_points": 24,
+        "angular_nodes": 64,
+        "sqrt_s_GeV": 20000.0,
+        "incoming_helicities": [
+          -1,
+          1
+        ],
+        "outgoing_helicities": [
+          0,
+          0
+        ]
+      },
+      "angular_quadrature_convergence_XLXL_to_rhorho_at_endpoint": {
+        "80": -0.17980857188979704,
+        "160": -0.1798086674523884,
+        "320": -0.1798086674526669
+      },
+      "scalar_QED_Ward_check": {
+        "maximum_abs_contracted_amplitude": 3.2741809263825415e-13,
+        "relative_to_characteristic_amplitude_times_M": 8.476865794398988e-16
+      },
+      "longitudinal_Goldstone_fixed_angle_check_at_endpoint": {
+        "-0.5": {
+          "longitudinal": -1.188459298742882,
+          "goldstone": -1.1982741517332847,
+          "relative_difference": 0.008190824258543561
+        },
+        "0.0": {
+          "longitudinal": -1.2021149048233781,
+          "goldstone": -1.198803594013175,
+          "relative_difference": 0.002762179581993207
+        },
+        "0.5": {
+          "longitudinal": -1.1884592987428997,
+          "goldstone": -1.1982741517332847,
+          "relative_difference": 0.008190824258528795
+        }
+      },
+      "charged_XS_rhoS_blocks": {
+        "J_scan": {
+          "J_values": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "maximum_over_clean_regions": {
+            "sqrt_s_GeV": 20000.0,
+            "J": 0,
+            "basis": [
+              "X_+0 S",
+              "rho S"
+            ],
+            "max_abs_eigenvalue": 0.06131630093725153,
+            "eigenvalues": [
+              -0.06128586125222334,
+              0.06131630093725153
+            ],
+            "hermiticity_residual": 0.0
+          },
+          "clean_region_maxima": {
+            "below_pole_interval": {
+              "sqrt_s_GeV": 1170.0326322393619,
+              "J": 0,
+              "max_abs_eigenvalue": 0.002413580052699903
+            },
+            "above_pole_interval": {
+              "sqrt_s_GeV": 20000.0,
+              "J": 0,
+              "max_abs_eigenvalue": 0.06131630093725153
+            }
+          }
+        },
+        "all_J_entry_bound": {
+          "maximum": 0.06130165619503211,
+          "location_energy_helicities_process": [
+            20000.0,
+            0,
+            0,
+            "XS_to_rhoS"
+          ]
+        },
+        "Compton_Ward_check": {
+          "maximum_abs_contracted_amplitude": 4.0927261579781767e-13,
+          "relative_to_characteristic_amplitude_times_M": 2.2660213020037046e-16
+        },
+        "physical_u_channel_pole": {
+          "energy_interval_GeV": [
+            1274.3013772259683,
+            13002.516129032254
+          ],
+          "exact_condition": "u-m_S^2=M_X^2-2*E_X*E_S-2*p^2*cos(theta)=0",
+          "analytic_lower_boundary_GeV": "sqrt(2*M_X^2+m_S^2)",
+          "analytic_upper_boundary_GeV": "(M_X^2-m_S^2)/m_S",
+          "interval_exists_iff": "M_X>2*m_S",
+          "decay_condition_X_to_S_Sbar": true,
+          "numeric_boundary_residuals_GeV2": {
+            "lower_cos_theta_plus_one": 1.7462298274040222e-10,
+            "upper_cos_theta_minus_one": 1.127773430198431e-10
+          },
+          "X_is_conventional_asymptotic_state": false,
+          "verdict_treatment": "not scored as PASS or FAIL",
+          "classification": "physical sequential kinematics caused by X -> S Sbar being open; not a fundamental unitarity failure",
+          "required_precision_upgrade": "complex-mass or stable-state inclusive treatment if the unstable X is to be used beyond a formal gauge-consistency diagnostic"
+        },
+        "clean_regions_below_half": true
+      },
+      "neutral_vector_resonance": {
+        "sqrt_s_GeV": 899.9999999999999,
+        "J": 1,
+        "a1_real": -0.00041649199685847273,
+        "a1_imag": 1.0000000000000078,
+        "argand_circle_residual": 1.7346556113739808e-07,
+        "interpretation": "A width-resummed physical X resonance; imaginary saturation is not a tree-level Re(a_J) violation."
+      },
+      "phase_sensitive_kappa_bound": {
+        "kappa": 0.0004714045207910317,
+        "quartic_partial_wave_scale_kappa_over_16pi": 9.378294959969856e-06,
+        "interpretation": "The r S^3 vertex adds residual-charge-allowed scalar channels at O(kappa); its norm is negligible relative to the reported gauge blocks but its number-changing cosmology is deferred to C16."
+      }
+    },
+    "E": {
+      "sector": "E",
+      "matching": {
+        "f_GeV": 1000.0,
+        "g": 0.3,
+        "Q_Phi": 3.0,
+        "m_vector_GeV": 899.9999999999999,
+        "lambda_Phi": 0.2,
+        "m_radial_GeV": 632.4555320336759,
+        "m_dark_GeV": 62.2,
+        "lambda_dark": 0.1,
+        "mu_dark_GeV": 1.0,
+        "kappa": 0.0004714045207910317,
+        "lambda_dark_Phi_at_matching": 0.0
+      },
+      "vector_width_to_dark_pair_GeV": 0.5218280687747989,
+      "neutral_longitudinal_J0": {
+        "basis": [
+          "X_L X_L / sqrt(2)",
+          "rho rho / sqrt(2)",
+          "S Sbar"
+        ],
+        "scan_points": 90,
+        "energy_range_GeV": [
+          1800.0000179999997,
+          20000.0
+        ],
+        "maximum": {
+          "sqrt_s_GeV": 20000.0,
+          "max_abs_eigenvalue": 0.1909886113243805,
+          "eigenvalues": [
+            -0.1909886113243805,
+            0.02930371499909033,
+            0.16862914599818388
+          ],
+          "matrix": [
+            [
+              -0.010906477788697128,
+              -0.1798086674523884,
+              -3.4930802858613676e-05
+            ],
+            [
+              -0.1798086674523884,
+              -0.011452989157765957,
+              0.0
+            ],
+            [
+              -3.4930802858613676e-05,
+              0.0,
+              0.029303716619356816
+            ]
+          ]
+        },
+        "passes_abs_Re_a0_le_half": true
+      },
+      "other_helicities": {
+        "all_J_abs_bound": 0.031974844380991824,
+        "energy_points": 24,
+        "angular_nodes": 64,
+        "sqrt_s_GeV": 20000.0,
+        "incoming_helicities": [
+          -1,
+          1
+        ],
+        "outgoing_helicities": [
+          0,
+          0
+        ]
+      },
+      "angular_quadrature_convergence_XLXL_to_rhorho_at_endpoint": {
+        "80": -0.17980857188979704,
+        "160": -0.1798086674523884,
+        "320": -0.1798086674526669
+      },
+      "scalar_QED_Ward_check": {
+        "maximum_abs_contracted_amplitude": 9.208633855450898e-14,
+        "relative_to_characteristic_amplitude_times_M": 2.3843260543885327e-16
+      },
+      "longitudinal_Goldstone_fixed_angle_check_at_endpoint": {
+        "-0.5": {
+          "longitudinal": -1.188459298742882,
+          "goldstone": -1.1982741517332847,
+          "relative_difference": 0.008190824258543561
+        },
+        "0.0": {
+          "longitudinal": -1.2021149048233781,
+          "goldstone": -1.198803594013175,
+          "relative_difference": 0.002762179581993207
+        },
+        "0.5": {
+          "longitudinal": -1.1884592987428997,
+          "goldstone": -1.1982741517332847,
+          "relative_difference": 0.008190824258528795
+        }
+      },
+      "charged_XS_rhoS_blocks": {
+        "J_scan": {
+          "J_values": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "maximum_over_clean_regions": {
+            "sqrt_s_GeV": 20000.0,
+            "J": 0,
+            "basis": [
+              "X_+0 S",
+              "rho S"
+            ],
+            "max_abs_eigenvalue": 0.06131629902719186,
+            "eigenvalues": [
+              -0.06128586115044814,
+              0.06131629902719186
+            ],
+            "hermiticity_residual": 0.0
+          },
+          "clean_region_maxima": {
+            "below_pole_interval": {
+              "sqrt_s_GeV": 1170.2601871907082,
+              "J": 0,
+              "max_abs_eigenvalue": 0.002416302466494588
+            },
+            "above_pole_interval": {
+              "sqrt_s_GeV": 20000.0,
+              "J": 0,
+              "max_abs_eigenvalue": 0.06131629902719186
+            }
+          }
+        },
+        "all_J_entry_bound": {
+          "maximum": 0.06130165518892319,
+          "location_energy_helicities_process": [
+            20000.0,
+            0,
+            0,
+            "XS_to_rhoS"
+          ]
+        },
+        "Compton_Ward_check": {
+          "maximum_abs_contracted_amplitude": 5.32054400537163e-13,
+          "relative_to_characteristic_amplitude_times_M": 2.9505674674280373e-16
+        },
+        "physical_u_channel_pole": {
+          "energy_interval_GeV": [
+            1274.311123705667,
+            12960.308038585204
+          ],
+          "exact_condition": "u-m_S^2=M_X^2-2*E_X*E_S-2*p^2*cos(theta)=0",
+          "analytic_lower_boundary_GeV": "sqrt(2*M_X^2+m_S^2)",
+          "analytic_upper_boundary_GeV": "(M_X^2-m_S^2)/m_S",
+          "interval_exists_iff": "M_X>2*m_S",
+          "decay_condition_X_to_S_Sbar": true,
+          "numeric_boundary_residuals_GeV2": {
+            "lower_cos_theta_plus_one": 4.911271389573812e-10,
+            "upper_cos_theta_minus_one": -2.2737367544323206e-11
+          },
+          "X_is_conventional_asymptotic_state": false,
+          "verdict_treatment": "not scored as PASS or FAIL",
+          "classification": "physical sequential kinematics caused by X -> S Sbar being open; not a fundamental unitarity failure",
+          "required_precision_upgrade": "complex-mass or stable-state inclusive treatment if the unstable X is to be used beyond a formal gauge-consistency diagnostic"
+        },
+        "clean_regions_below_half": true
+      },
+      "neutral_vector_resonance": {
+        "sqrt_s_GeV": 899.9999999999999,
+        "J": 1,
+        "a1_real": -0.0004164260264589607,
+        "a1_imag": 1.0000000000000082,
+        "argand_circle_residual": 1.7341061364639643e-07,
+        "interpretation": "A width-resummed physical X resonance; imaginary saturation is not a tree-level Re(a_J) violation."
+      },
+      "phase_sensitive_kappa_bound": {
+        "kappa": 0.0004714045207910317,
+        "quartic_partial_wave_scale_kappa_over_16pi": 9.378294959969856e-06,
+        "interpretation": "The r S^3 vertex adds residual-charge-allowed scalar channels at O(kappa); its norm is negligible relative to the reported gauge blocks but its number-changing cosmology is deferred to C16."
+      }
+    }
+  },
+  "combined_summary": {
+    "maximum_neutral_longitudinal_J0_abs_eigenvalue": 0.19098861132615702,
+    "maximum_other_helicity_all_J_entry_bound": 0.031974844380991824,
+    "maximum_charged_block_abs_eigenvalue_J0_to_J4_clean_regions": 0.06131630093725153,
+    "maximum_charged_all_J_entry_bound": 0.06130165619503211,
+    "tree_unitarity_condition": "abs(Re a_J eigenvalue) <= 1/2",
+    "formal_off_pole_gauge_blocks_below_half": true,
+    "pole_contaminated_XS_interval_verdict": "not scored",
+    "stable_state_genuine_unitarity_violation_found": false
+  },
+  "resonance_treatment": "The X pole in S Sbar scattering is a physical J=1 resonance. Its width to the open S Sbar channel is included when bounding the elastic amplitude; a pole is not counted as fundamental unitarity failure.",
+  "classification": "conditional pass on the protected zero-mixing point-matched benchmark",
+  "scope_warning": "The result applies to the protected epsilon=0 TP-G benchmark through 20 TeV. The charged XS block contains a physical u-channel pole because X is unstable; the pole-excised two-body result passes, but a stable-state inclusive or complex-mass calculation is required for an unconditional full-S-matrix PASS. Nonzero kinetic mixing and loop-improved amplitudes are outside this benchmark. Tiny kappa channels are bounded here and their number-changing cosmology is deferred to C16."
+}

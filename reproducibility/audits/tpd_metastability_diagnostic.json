@@ -1,0 +1,61 @@
+{
+  "benchmarks": [
+    {
+      "benchmark": "B0",
+      "beta_lambda_H_at_minimum": -0.0003985094258064107,
+      "controlled_cutoff_GeV": 2110893930333835.2,
+      "cutoff_definition": "first high-energy scalar-unitarity or 4*pi boundary",
+      "first_BFB_failure_GeV": 357066418.9504254,
+      "lambda_HA_initial": 0.02,
+      "lambda_HB_initial": 0.03,
+      "leading_Fubini_action": 960.8977029122985,
+      "leading_diagnostic_long_lived": true,
+      "log10_expected_decay_events_order_of_magnitude": -188.73223525909995,
+      "log_expected_decay_events_order_of_magnitude": -434.5720314750488,
+      "minimum_at_scan_endpoint": true,
+      "minimum_lambda_H": -0.027389955236445974,
+      "minimum_scale_GeV": 2110893930333835.2
+    },
+    {
+      "benchmark": "B1",
+      "beta_lambda_H_at_minimum": 4.535452553718193e-07,
+      "controlled_cutoff_GeV": 717907824533302.1,
+      "cutoff_definition": "first high-energy scalar-unitarity or 4*pi boundary",
+      "first_BFB_failure_GeV": null,
+      "lambda_HA_initial": 0.18,
+      "lambda_HB_initial": 0.18,
+      "leading_Fubini_action": null,
+      "leading_diagnostic_long_lived": true,
+      "minimum_at_scan_endpoint": false,
+      "minimum_lambda_H": 0.00408593979914651,
+      "minimum_scale_GeV": 231831170242.71683,
+      "note": "No negative Higgs quartic occurs inside the declared perturbative interval."
+    },
+    {
+      "benchmark": "B2",
+      "beta_lambda_H_at_minimum": -4.931513030805009e-08,
+      "controlled_cutoff_GeV": 2155512800438808.5,
+      "cutoff_definition": "first high-energy scalar-unitarity or 4*pi boundary",
+      "first_BFB_failure_GeV": null,
+      "lambda_HA_initial": 0.2385,
+      "lambda_HB_initial": 0.0,
+      "leading_Fubini_action": null,
+      "leading_diagnostic_long_lived": true,
+      "minimum_at_scan_endpoint": false,
+      "minimum_lambda_H": 3.3197801612785835e-06,
+      "minimum_scale_GeV": 1035290769043.9321,
+      "note": "No negative Higgs quartic occurs inside the declared perturbative interval."
+    }
+  ],
+  "classification": "leading semiclassical diagnostic only",
+  "formula": "S4=8*pi^2/(3*abs(lambda_H)); ln(N_decay)~4*ln(T_U*mu)-S4",
+  "limitations": [
+    "minimum at a cutoff is UV sensitive and does not identify a stationary bounce scale",
+    "one-loop no-threshold running",
+    "no fluctuation determinant or gauge-consistent effective quartic",
+    "no gravitational or higher-dimensional operators",
+    "no multi-field bounce search"
+  ],
+  "schema_version": 1,
+  "universe_age_years": 13800000000.0
+}

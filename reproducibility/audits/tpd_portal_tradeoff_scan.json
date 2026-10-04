@@ -1,0 +1,246 @@
+{
+  "equal_portal_scan": [
+    {
+      "first_BFB_failure_GeV": 348696568.1843257,
+      "first_sufficient_global_EW_failure_GeV": 348696568.1843257,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 4022420973042526.5,
+      "lambda_HA": 0.02,
+      "lambda_HB": 0.02,
+      "minimum_BFB_margin": -0.028010699386417294,
+      "unitarity_boundary_GeV": 2143527554872576.0
+    },
+    {
+      "first_BFB_failure_GeV": 390512644.85573334,
+      "first_sufficient_global_EW_failure_GeV": 390512644.85573334,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 3869013295250143.0,
+      "lambda_HA": 0.04,
+      "lambda_HB": 0.04,
+      "minimum_BFB_margin": -0.026359863533766088,
+      "unitarity_boundary_GeV": 2061560912644518.8
+    },
+    {
+      "first_BFB_failure_GeV": 477253002.26699436,
+      "first_sufficient_global_EW_failure_GeV": 477253002.26699436,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 3622384193500120.5,
+      "lambda_HA": 0.06,
+      "lambda_HB": 0.06,
+      "minimum_BFB_margin": -0.023667026679042878,
+      "unitarity_boundary_GeV": 1929785890092029.5
+    },
+    {
+      "first_BFB_failure_GeV": 649142811.5292941,
+      "first_sufficient_global_EW_failure_GeV": 649142811.5292941,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 3298964029522422.0,
+      "lambda_HA": 0.08,
+      "lambda_HB": 0.08,
+      "minimum_BFB_margin": -0.020219665054226805,
+      "unitarity_boundary_GeV": 1756993452887014.8
+    },
+    {
+      "first_BFB_failure_GeV": 1019028256.8863783,
+      "first_sufficient_global_EW_failure_GeV": 1019028256.8863783,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 2921073892989668.0,
+      "lambda_HA": 0.1,
+      "lambda_HB": 0.1,
+      "minimum_BFB_margin": -0.016148090203047673,
+      "unitarity_boundary_GeV": 1555042757135213.5
+    },
+    {
+      "first_BFB_failure_GeV": 1986050409.8597803,
+      "first_sufficient_global_EW_failure_GeV": 1986050409.8597803,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 2514078185626608.0,
+      "lambda_HA": 0.12,
+      "lambda_HB": 0.12,
+      "minimum_BFB_margin": -0.011571503457479872,
+      "unitarity_boundary_GeV": 1337546445324203.0
+    },
+    {
+      "first_BFB_failure_GeV": 5759730353.526254,
+      "first_sufficient_global_EW_failure_GeV": 3411388362.8902035,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 2103202250339686.5,
+      "lambda_HA": 0.14,
+      "lambda_HB": 0.14,
+      "minimum_BFB_margin": -0.00660357420119328,
+      "unitarity_boundary_GeV": 1118075146858555.5
+    },
+    {
+      "first_BFB_failure_GeV": 57741268170.81434,
+      "first_sufficient_global_EW_failure_GeV": 785648662.6829475,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 1710632694524517.5,
+      "lambda_HA": 0.16,
+      "lambda_HB": 0.16,
+      "minimum_BFB_margin": -0.00135166315958079,
+      "unitarity_boundary_GeV": 908503595224889.5
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 230538045.13598776,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 1353415660777141.2,
+      "lambda_HA": 0.18,
+      "lambda_HB": 0.18,
+      "minimum_BFB_margin": 0.004085940899699827,
+      "unitarity_boundary_GeV": 717883954393959.4
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 81755262.90718916,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 1042436668657188.0,
+      "lambda_HA": 0.2,
+      "lambda_HB": 0.2,
+      "minimum_BFB_margin": 0.009622579160482288,
+      "unitarity_boundary_GeV": 552034962785832.75
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 33687787.70176181,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 782486675510088.4,
+      "lambda_HA": 0.22,
+      "lambda_HB": 0.22,
+      "minimum_BFB_margin": 0.015184703052940767,
+      "unitarity_boundary_GeV": 413577908194991.2
+    }
+  ],
+  "fixed_inputs": {
+    "M_A_GeV": 180.0,
+    "M_B_GeV": 400.0,
+    "lambda_A": 0.2,
+    "lambda_AB": 0.1,
+    "lambda_B": 0.25,
+    "mu_A_GeV": 60.0,
+    "mu_B_GeV": 90.0
+  },
+  "interpretation": "Asymmetric portals perform better because beta_lambda_H depends on squares while beta_muH2 is weighted linearly by dark mass-squared. Near-critical points have small BFB margins and are not robust predictions.",
+  "largest_simple_certificate_reach_on_grid": {
+    "first_BFB_failure_GeV": null,
+    "first_sufficient_global_EW_failure_GeV": 1462388726380618.5,
+    "first_sufficient_global_EW_failure_conditions": [
+      "global_margin_muH2"
+    ],
+    "four_pi_boundary_GeV": 4046952033868082.5,
+    "lambda_HA": 0.2385,
+    "lambda_HB": 0.0,
+    "minimum_BFB_margin": 3.3280733673768225e-06,
+    "unitarity_boundary_GeV": 2155390478403973.2
+  },
+  "light_species_only_initial_portal_scan": [
+    {
+      "first_BFB_failure_GeV": 31037739889.880257,
+      "first_sufficient_global_EW_failure_GeV": 31037739889.880257,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 4050446531842192.5,
+      "lambda_HA": 0.225,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": -0.0026952917355231474,
+      "unitarity_boundary_GeV": 2157475105925729.8
+    },
+    {
+      "first_BFB_failure_GeV": 57716586645.280846,
+      "first_sufficient_global_EW_failure_GeV": 57716586645.280846,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 4049192712544293.5,
+      "lambda_HA": 0.23,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": -0.0017009107722095762,
+      "unitarity_boundary_GeV": 2156729707989638.8
+    },
+    {
+      "first_BFB_failure_GeV": 147715779874.74533,
+      "first_sufficient_global_EW_failure_GeV": 147715779874.74533,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 4047891733962065.5,
+      "lambda_HA": 0.235,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": -0.0007003700524501686,
+      "unitarity_boundary_GeV": 2155953279950533.2
+    },
+    {
+      "first_BFB_failure_GeV": 480326971694.48535,
+      "first_sufficient_global_EW_failure_GeV": 480326971694.48535,
+      "first_sufficient_global_EW_failure_conditions": [
+        "BFB_margin"
+      ],
+      "four_pi_boundary_GeV": 4047087769528926.5,
+      "lambda_HA": 0.238,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": -9.736659477160805e-05,
+      "unitarity_boundary_GeV": 2155471878498077.8
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 1462388726380618.5,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 4046952033868082.5,
+      "lambda_HA": 0.2385,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": 3.3280733673768225e-06,
+      "unitarity_boundary_GeV": 2155390478403973.2
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 1392839692040098.0,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 4046541802674525.0,
+      "lambda_HA": 0.24,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": 0.0003056889532580291,
+      "unitarity_boundary_GeV": 2155144243372157.2
+    },
+    {
+      "first_BFB_failure_GeV": null,
+      "first_sufficient_global_EW_failure_GeV": 1183548821838478.0,
+      "first_sufficient_global_EW_failure_conditions": [
+        "global_margin_muH2"
+      ],
+      "four_pi_boundary_GeV": 4045140995910423.0,
+      "lambda_HA": 0.245,
+      "lambda_HB": 0.0,
+      "minimum_BFB_margin": 0.0013166604790426453,
+      "unitarity_boundary_GeV": 2154300858364638.8
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Sparse deterministic grid, one-loop MS-bar, no thresholds or two-loop uncertainty; not a proof of global optimality."
+}

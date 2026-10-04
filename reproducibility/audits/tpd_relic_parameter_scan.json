@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "status": "leading-order triage scan; not a precision likelihood or viability certification",
+  "sampling": {
+    "requested_points": 160,
+    "seed": 20260919,
+    "ranges": {
+      "mA_GeV": "log-uniform [130,1500]",
+      "mB_over_mA": "log-uniform [1.05,3]",
+      "lambda_A_lambda_B": "log-uniform [0.05,1]",
+      "lambda_HA_lambda_HB": "log-uniform [0.002,0.25]",
+      "lambda_AB": "log-uniform [0.002,0.8]",
+      "cubic_fraction_of_sufficient_bound": "uniform [0.35,0.995]"
+    },
+    "accepted_internal": 160,
+    "failed_internal": 0,
+    "solver_failures": 0
+  },
+  "filters": {
+    "tree_BFB": "exact three-field copositivity",
+    "global_vacuum": "sufficient, not necessary, inert-EW certificate",
+    "unitarity": "exact eigenvalues of high-energy scalar quartic matrix; |Lambda|<=8*pi",
+    "relic_target_window": [
+      0.1,
+      0.14
+    ],
+    "direct_detection": "computed but not cut; official mass-dependent limit not yet ingested"
+  },
+  "near_relic_count": 4,
+  "near_relic_points": [
+    {
+      "sample_index": 151,
+      "parameters": {
+        "mA": 287.3881512232936,
+        "mB": 451.8144614670611,
+        "mu_A": 552.4374722909085,
+        "mu_B": 278.8235522379704,
+        "lambda_HA": 0.09848361249209668,
+        "lambda_HB": 0.24677287862566083,
+        "lambda_AB": 0.0142443640566163,
+        "lambda_A": 0.5697719148807844,
+        "lambda_B": 0.21616641581403365,
+        "cubic_fraction_A": 0.8646424329744765,
+        "cubic_fraction_B": 0.4507755868618819,
+        "bare_mA2": 79606.70000034533,
+        "bare_mB2": 196656.09250922033
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.3207543689205226,
+          "bar_HB": 0.2906238830325776,
+          "bar_AB": 0.35807168362544367,
+          "pairwise_margin": 0.2906238830325776,
+          "final_margin": 0.5032043521381154
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.2934618346935345,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 79606.70000034533,
+          "m_b2": 196656.09250922033,
+          "mu_a": 552.4374722909085,
+          "mu_b": 278.8235522379704,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.5697719148807844,
+          "lambda_b": 0.21616641581403365,
+          "lambda_ha": 0.09848361249209668,
+          "lambda_hb": 0.24677287862566083,
+          "lambda_ab": 0.0142443640566163
+        }
+      },
+      "omega_h2": {
+        "A": 0.05650700711798012,
+        "B": 0.06346791342329067,
+        "total": 0.11997492054127079,
+        "fraction_A": 0.47099016080233186,
+        "fraction_B": 0.5290098391976681
+      },
+      "absolute_relic_residual": 2.5079458729204696e-05,
+      "direct_detection": {
+        "sigma_A_cm2": 1.0246338214374994e-45,
+        "sigma_B_cm2": 2.6090495498101463e-45,
+        "fraction_rescaled_sigma_A_cm2": 4.825924483223556e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.3802128828038138e-45
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 2.055250534844349e-09,
+        "ann_A_hh": 6.014900607223463e-10,
+        "semi_A": 1.005836981009628e-08,
+        "ann_B_SM": 4.925778654787331e-09,
+        "ann_B_hh": 1.3762296423146308e-09,
+        "semi_B": 1.0319542363670052e-09,
+        "conversion_B_to_A": 7.629099838564638e-12,
+        "ann_A": 2.656740595566695e-09,
+        "ann_B": 6.302008297101962e-09
+      }
+    },
+    {
+      "sample_index": 82,
+      "parameters": {
+        "mA": 172.02646388157828,
+        "mB": 351.580748326872,
+        "mu_A": 205.24342772782526,
+        "mu_B": 483.64172271123607,
+        "lambda_HA": 0.1040147876278821,
+        "lambda_HB": 0.004932664607549693,
+        "lambda_AB": 0.2436293520012642,
+        "lambda_A": 0.23736802495493511,
+        "lambda_B": 0.566519453683174,
+        "cubic_fraction_A": 0.8635839963191949,
+        "cubic_fraction_B": 0.6095829745462049,
+        "bare_mA2": 26440.193034091215,
+        "bare_mB2": 123459.50295320906
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.22725436382971098,
+          "bar_HB": 0.27320284064740885,
+          "bar_AB": 0.48852110329544224,
+          "pairwise_margin": 0.22725436382971098,
+          "final_margin": 0.4623617705834526
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.310421704942201,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 26440.193034091215,
+          "m_b2": 123459.50295320906,
+          "mu_a": 205.24342772782526,
+          "mu_b": 483.64172271123607,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.23736802495493511,
+          "lambda_b": 0.566519453683174,
+          "lambda_ha": 0.1040147876278821,
+          "lambda_hb": 0.004932664607549693,
+          "lambda_ab": 0.2436293520012642
+        }
+      },
+      "omega_h2": {
+        "A": 0.027119023901193605,
+        "B": 0.10044819182767231,
+        "total": 0.12756721572886592,
+        "fraction_A": 0.21258615504184833,
+        "fraction_B": 0.7874138449581516
+      },
+      "absolute_relic_residual": 0.007567215728865928,
+      "direct_detection": {
+        "sigma_A_cm2": 3.176030556167037e-45,
+        "sigma_B_cm2": 1.7195218533891655e-48,
+        "fraction_rescaled_sigma_A_cm2": 6.751801242309736e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.3539753140667299e-48
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 5.092160907487698e-09,
+        "ann_A_hh": 1.7015469761077262e-09,
+        "semi_A": 3.499766415251385e-08,
+        "ann_B_SM": 3.37452227773015e-12,
+        "ann_B_hh": 1.0982759669997764e-12,
+        "semi_B": 5.671276711266231e-12,
+        "conversion_B_to_A": 4.165669464891089e-09,
+        "ann_A": 6.793707883595424e-09,
+        "ann_B": 4.472798244729926e-12
+      }
+    },
+    {
+      "sample_index": 141,
+      "parameters": {
+        "mA": 141.5633313987751,
+        "mB": 414.3938204085377,
+        "mu_A": 53.736630922940215,
+        "mu_B": 762.7198087534923,
+        "lambda_HA": 0.14678717056077537,
+        "lambda_HB": 0.12758894938609996,
+        "lambda_AB": 0.007965433063952755,
+        "lambda_A": 0.11380312485785316,
+        "lambda_B": 0.44953884454699783,
+        "cubic_fraction_A": 0.42524447611557264,
+        "cubic_fraction_B": 0.9255360700684436,
+        "bare_mA2": 15590.742915971205,
+        "bare_mB2": 167854.7437606654
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.1947370813429134,
+          "bar_HB": 0.30496432966670367,
+          "bar_AB": 0.23016610507860913,
+          "pairwise_margin": 0.1947370813429134,
+          "final_margin": 0.31886263121329017
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.8304585394770976,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 15590.742915971205,
+          "m_b2": 167854.7437606654,
+          "mu_a": 53.736630922940215,
+          "mu_b": 762.7198087534923,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.11380312485785316,
+          "lambda_b": 0.44953884454699783,
+          "lambda_ha": 0.14678717056077537,
+          "lambda_hb": 0.12758894938609996,
+          "lambda_ab": 0.007965433063952755
+        }
+      },
+      "omega_h2": {
+        "A": 0.018199567700279022,
+        "B": 0.11191643492923059,
+        "total": 0.13011600262950962,
+        "fraction_A": 0.13987186304900714,
+        "fraction_B": 0.8601281369509928
+      },
+      "absolute_relic_residual": 0.010116002629509624,
+      "direct_detection": {
+        "sigma_A_cm2": 9.318506901211178e-45,
+        "sigma_B_cm2": 8.28790524745253e-46,
+        "fraction_rescaled_sigma_A_cm2": 1.3033969211074378e-45,
+        "fraction_rescaled_sigma_B_cm2": 7.128660499717702e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.4823462569514965e-08,
+        "ann_A_hh": 2.49375128350663e-09,
+        "semi_A": 1.3471690959468349e-08,
+        "ann_B_SM": 1.5857260369706675e-09,
+        "ann_B_hh": 4.702710855449996e-10,
+        "semi_B": 3.483048275446136e-09,
+        "conversion_B_to_A": 3.4541900912354345e-12,
+        "ann_A": 1.7317213853021596e-08,
+        "ann_B": 2.055997122515667e-09
+      }
+    },
+    {
+      "sample_index": 10,
+      "parameters": {
+        "mA": 321.22316379752084,
+        "mB": 343.47164751512366,
+        "mu_A": 550.7208236554189,
+        "mu_B": 983.4851594184845,
+        "lambda_HA": 0.08403040257131071,
+        "lambda_HB": 0.23262961079199376,
+        "lambda_AB": 0.005419119392901066,
+        "lambda_A": 0.43863273126001967,
+        "lambda_B": 0.9848090619859332,
+        "cubic_fraction_A": 0.8737365383059459,
+        "cubic_fraction_B": 0.9918891066769313,
+        "bare_mA2": 100637.17928016328,
+        "bare_mB2": 110921.27033923657
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.2802416231739136,
+          "bar_HB": 0.47327141486801494,
+          "bar_AB": 0.6599534175060978,
+          "pairwise_margin": 0.2802416231739136,
+          "final_margin": 0.7745154493784384
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.9732322094721426,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 100637.17928016328,
+          "m_b2": 110921.27033923657,
+          "mu_a": 550.7208236554189,
+          "mu_b": 983.4851594184845,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.43863273126001967,
+          "lambda_b": 0.9848090619859332,
+          "lambda_ha": 0.08403040257131071,
+          "lambda_hb": 0.23262961079199376,
+          "lambda_ab": 0.005419119392901066
+        }
+      },
+      "omega_h2": {
+        "A": 0.12405708555163213,
+        "B": 0.011697579484600443,
+        "total": 0.13575466503623257,
+        "fraction_A": 0.9138329465033236,
+        "fraction_B": 0.08616705349667644
+      },
+      "absolute_relic_residual": 0.015754665036232574,
+      "direct_detection": {
+        "sigma_A_cm2": 5.974965730786023e-46,
+        "sigma_B_cm2": 4.0067137859605756e-45,
+        "fraction_rescaled_sigma_A_cm2": 5.4601205390205756e-46,
+        "fraction_rescaled_sigma_B_cm2": 3.4524672114073593e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.18683575555286e-09,
+        "ann_A_hh": 3.555477850022934e-10,
+        "semi_A": 3.6946702309793814e-09,
+        "ann_B_SM": 7.889432016439277e-09,
+        "ann_B_hh": 2.019921752491006e-09,
+        "semi_B": 6.010229241519218e-08,
+        "conversion_B_to_A": 8.766904212163863e-13,
+        "ann_A": 1.5423835405551534e-09,
+        "ann_B": 9.909353768930284e-09
+      }
+    }
+  ],
+  "best_20_by_relic_residual": [
+    {
+      "sample_index": 151,
+      "parameters": {
+        "mA": 287.3881512232936,
+        "mB": 451.8144614670611,
+        "mu_A": 552.4374722909085,
+        "mu_B": 278.8235522379704,
+        "lambda_HA": 0.09848361249209668,
+        "lambda_HB": 0.24677287862566083,
+        "lambda_AB": 0.0142443640566163,
+        "lambda_A": 0.5697719148807844,
+        "lambda_B": 0.21616641581403365,
+        "cubic_fraction_A": 0.8646424329744765,
+        "cubic_fraction_B": 0.4507755868618819,
+        "bare_mA2": 79606.70000034533,
+        "bare_mB2": 196656.09250922033
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.3207543689205226,
+          "bar_HB": 0.2906238830325776,
+          "bar_AB": 0.35807168362544367,
+          "pairwise_margin": 0.2906238830325776,
+          "final_margin": 0.5032043521381154
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.2934618346935345,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 79606.70000034533,
+          "m_b2": 196656.09250922033,
+          "mu_a": 552.4374722909085,
+          "mu_b": 278.8235522379704,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.5697719148807844,
+          "lambda_b": 0.21616641581403365,
+          "lambda_ha": 0.09848361249209668,
+          "lambda_hb": 0.24677287862566083,
+          "lambda_ab": 0.0142443640566163
+        }
+      },
+      "omega_h2": {
+        "A": 0.05650700711798012,
+        "B": 0.06346791342329067,
+        "total": 0.11997492054127079,
+        "fraction_A": 0.47099016080233186,
+        "fraction_B": 0.5290098391976681
+      },
+      "absolute_relic_residual": 2.5079458729204696e-05,
+      "direct_detection": {
+        "sigma_A_cm2": 1.0246338214374994e-45,
+        "sigma_B_cm2": 2.6090495498101463e-45,
+        "fraction_rescaled_sigma_A_cm2": 4.825924483223556e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.3802128828038138e-45
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 2.055250534844349e-09,
+        "ann_A_hh": 6.014900607223463e-10,
+        "semi_A": 1.005836981009628e-08,
+        "ann_B_SM": 4.925778654787331e-09,
+        "ann_B_hh": 1.3762296423146308e-09,
+        "semi_B": 1.0319542363670052e-09,
+        "conversion_B_to_A": 7.629099838564638e-12,
+        "ann_A": 2.656740595566695e-09,
+        "ann_B": 6.302008297101962e-09
+      }
+    },
+    {
+      "sample_index": 82,
+      "parameters": {
+        "mA": 172.02646388157828,
+        "mB": 351.580748326872,
+        "mu_A": 205.24342772782526,
+        "mu_B": 483.64172271123607,
+        "lambda_HA": 0.1040147876278821,
+        "lambda_HB": 0.004932664607549693,
+        "lambda_AB": 0.2436293520012642,
+        "lambda_A": 0.23736802495493511,
+        "lambda_B": 0.566519453683174,
+        "cubic_fraction_A": 0.8635839963191949,
+        "cubic_fraction_B": 0.6095829745462049,
+        "bare_mA2": 26440.193034091215,
+        "bare_mB2": 123459.50295320906
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.22725436382971098,
+          "bar_HB": 0.27320284064740885,
+          "bar_AB": 0.48852110329544224,
+          "pairwise_margin": 0.22725436382971098,
+          "final_margin": 0.4623617705834526
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.310421704942201,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 26440.193034091215,
+          "m_b2": 123459.50295320906,
+          "mu_a": 205.24342772782526,
+          "mu_b": 483.64172271123607,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.23736802495493511,
+          "lambda_b": 0.566519453683174,
+          "lambda_ha": 0.1040147876278821,
+          "lambda_hb": 0.004932664607549693,
+          "lambda_ab": 0.2436293520012642
+        }
+      },
+      "omega_h2": {
+        "A": 0.027119023901193605,
+        "B": 0.10044819182767231,
+        "total": 0.12756721572886592,
+        "fraction_A": 0.21258615504184833,
+        "fraction_B": 0.7874138449581516
+      },
+      "absolute_relic_residual": 0.007567215728865928,
+      "direct_detection": {
+        "sigma_A_cm2": 3.176030556167037e-45,
+        "sigma_B_cm2": 1.7195218533891655e-48,
+        "fraction_rescaled_sigma_A_cm2": 6.751801242309736e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.3539753140667299e-48
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 5.092160907487698e-09,
+        "ann_A_hh": 1.7015469761077262e-09,
+        "semi_A": 3.499766415251385e-08,
+        "ann_B_SM": 3.37452227773015e-12,
+        "ann_B_hh": 1.0982759669997764e-12,
+        "semi_B": 5.671276711266231e-12,
+        "conversion_B_to_A": 4.165669464891089e-09,
+        "ann_A": 6.793707883595424e-09,
+        "ann_B": 4.472798244729926e-12
+      }
+    },
+    {
+      "sample_index": 141,
+      "parameters": {
+        "mA": 141.5633313987751,
+        "mB": 414.3938204085377,
+        "mu_A": 53.736630922940215,
+        "mu_B": 762.7198087534923,
+        "lambda_HA": 0.14678717056077537,
+        "lambda_HB": 0.12758894938609996,
+        "lambda_AB": 0.007965433063952755,
+        "lambda_A": 0.11380312485785316,
+        "lambda_B": 0.44953884454699783,
+        "cubic_fraction_A": 0.42524447611557264,
+        "cubic_fraction_B": 0.9255360700684436,
+        "bare_mA2": 15590.742915971205,
+        "bare_mB2": 167854.7437606654
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.1947370813429134,
+          "bar_HB": 0.30496432966670367,
+          "bar_AB": 0.23016610507860913,
+          "pairwise_margin": 0.1947370813429134,
+          "final_margin": 0.31886263121329017
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.8304585394770976,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 15590.742915971205,
+          "m_b2": 167854.7437606654,
+          "mu_a": 53.736630922940215,
+          "mu_b": 762.7198087534923,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.11380312485785316,
+          "lambda_b": 0.44953884454699783,
+          "lambda_ha": 0.14678717056077537,
+          "lambda_hb": 0.12758894938609996,
+          "lambda_ab": 0.007965433063952755
+        }
+      },
+      "omega_h2": {
+        "A": 0.018199567700279022,
+        "B": 0.11191643492923059,
+        "total": 0.13011600262950962,
+        "fraction_A": 0.13987186304900714,
+        "fraction_B": 0.8601281369509928
+      },
+      "absolute_relic_residual": 0.010116002629509624,
+      "direct_detection": {
+        "sigma_A_cm2": 9.318506901211178e-45,
+        "sigma_B_cm2": 8.28790524745253e-46,
+        "fraction_rescaled_sigma_A_cm2": 1.3033969211074378e-45,
+        "fraction_rescaled_sigma_B_cm2": 7.128660499717702e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.4823462569514965e-08,
+        "ann_A_hh": 2.49375128350663e-09,
+        "semi_A": 1.3471690959468349e-08,
+        "ann_B_SM": 1.5857260369706675e-09,
+        "ann_B_hh": 4.702710855449996e-10,
+        "semi_B": 3.483048275446136e-09,
+        "conversion_B_to_A": 3.4541900912354345e-12,
+        "ann_A": 1.7317213853021596e-08,
+        "ann_B": 2.055997122515667e-09
+      }
+    },
+    {
+      "sample_index": 10,
+      "parameters": {
+        "mA": 321.22316379752084,
+        "mB": 343.47164751512366,
+        "mu_A": 550.7208236554189,
+        "mu_B": 983.4851594184845,
+        "lambda_HA": 0.08403040257131071,
+        "lambda_HB": 0.23262961079199376,
+        "lambda_AB": 0.005419119392901066,
+        "lambda_A": 0.43863273126001967,
+        "lambda_B": 0.9848090619859332,
+        "cubic_fraction_A": 0.8737365383059459,
+        "cubic_fraction_B": 0.9918891066769313,
+        "bare_mA2": 100637.17928016328,
+        "bare_mB2": 110921.27033923657
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.2802416231739136,
+          "bar_HB": 0.47327141486801494,
+          "bar_AB": 0.6599534175060978,
+          "pairwise_margin": 0.2802416231739136,
+          "final_margin": 0.7745154493784384
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.9732322094721426,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 100637.17928016328,
+          "m_b2": 110921.27033923657,
+          "mu_a": 550.7208236554189,
+          "mu_b": 983.4851594184845,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.43863273126001967,
+          "lambda_b": 0.9848090619859332,
+          "lambda_ha": 0.08403040257131071,
+          "lambda_hb": 0.23262961079199376,
+          "lambda_ab": 0.005419119392901066
+        }
+      },
+      "omega_h2": {
+        "A": 0.12405708555163213,
+        "B": 0.011697579484600443,
+        "total": 0.13575466503623257,
+        "fraction_A": 0.9138329465033236,
+        "fraction_B": 0.08616705349667644
+      },
+      "absolute_relic_residual": 0.015754665036232574,
+      "direct_detection": {
+        "sigma_A_cm2": 5.974965730786023e-46,
+        "sigma_B_cm2": 4.0067137859605756e-45,
+        "fraction_rescaled_sigma_A_cm2": 5.4601205390205756e-46,
+        "fraction_rescaled_sigma_B_cm2": 3.4524672114073593e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.18683575555286e-09,
+        "ann_A_hh": 3.555477850022934e-10,
+        "semi_A": 3.6946702309793814e-09,
+        "ann_B_SM": 7.889432016439277e-09,
+        "ann_B_hh": 2.019921752491006e-09,
+        "semi_B": 6.010229241519218e-08,
+        "conversion_B_to_A": 8.766904212163863e-13,
+        "ann_A": 1.5423835405551534e-09,
+        "ann_B": 9.909353768930284e-09
+      }
+    },
+    {
+      "sample_index": 110,
+      "parameters": {
+        "mA": 164.97823538278385,
+        "mB": 312.30280320014674,
+        "mu_A": 80.3933139056822,
+        "mu_B": 244.68534051320808,
+        "lambda_HA": 0.23422636977730205,
+        "lambda_HB": 0.13040131534911478,
+        "lambda_AB": 0.18739153705916248,
+        "lambda_A": 0.06935075933651844,
+        "lambda_B": 0.4155547630372356,
+        "cubic_fraction_A": 0.7174333902469443,
+        "cubic_fraction_B": 0.4135998316696713,
+        "bare_mA2": 20117.91465388513,
+        "bare_mB2": 93580.29741193754
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.21183827346328032,
+          "bar_HB": 0.29707545213261355,
+          "bar_AB": 0.26345747906095895,
+          "pairwise_margin": 0.21183827346328032,
+          "final_margin": 0.36952930803920325
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.7437643592807048,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 20117.91465388513,
+          "m_b2": 93580.29741193754,
+          "mu_a": 80.3933139056822,
+          "mu_b": 244.68534051320808,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.06935075933651844,
+          "lambda_b": 0.4155547630372356,
+          "lambda_ha": 0.23422636977730205,
+          "lambda_hb": 0.13040131534911478,
+          "lambda_ab": 0.18739153705916248
+        }
+      },
+      "omega_h2": {
+        "A": 0.011523718369580991,
+        "B": 0.05393919861295728,
+        "total": 0.06546291698253827,
+        "fraction_A": 0.17603429392941433,
+        "fraction_B": 0.8239657060705857
+      },
+      "absolute_relic_residual": 0.05453708301746173,
+      "direct_detection": {
+        "sigma_A_cm2": 1.750257774732894e-44,
+        "sigma_B_cm2": 1.5220053076395495e-45,
+        "fraction_rescaled_sigma_A_cm2": 3.081053915695729e-45,
+        "fraction_rescaled_sigma_B_cm2": 1.2540801779524004e-45
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 2.7987114304934307e-08,
+        "ann_A_hh": 3.890041677241052e-09,
+        "semi_A": 3.475104775392278e-08,
+        "ann_B_SM": 3.0327920134131646e-09,
+        "ann_B_hh": 8.550991770579956e-10,
+        "semi_B": 2.084721326638086e-09,
+        "conversion_B_to_A": 3.040864909508678e-09,
+        "ann_A": 3.187715598217536e-08,
+        "ann_B": 3.8878911904711605e-09
+      }
+    },
+    {
+      "sample_index": 65,
+      "parameters": {
+        "mA": 211.05261623593034,
+        "mB": 256.5519853825624,
+        "mu_A": 215.0354112216573,
+        "mu_B": 134.24111500510017,
+        "lambda_HA": 0.10692321415653915,
+        "lambda_HB": 0.20115977708155092,
+        "lambda_AB": 0.3658041592448719,
+        "lambda_A": 0.23425917710033423,
+        "lambda_B": 0.0999070627319298,
+        "cubic_fraction_A": 0.728709064462671,
+        "cubic_fraction_B": 0.5792972135563902,
+        "bare_mA2": 41302.13493419039,
+        "bare_mB2": 59721.337033598684
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.22755717552696547,
+          "bar_HB": 0.21427387781118745,
+          "bar_AB": 0.3358862170422787,
+          "pairwise_margin": 0.21427387781118745,
+          "final_margin": 0.36738149790564345
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.2720134972958528,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 41302.13493419039,
+          "m_b2": 59721.337033598684,
+          "mu_a": 215.0354112216573,
+          "mu_b": 134.24111500510017,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.23425917710033423,
+          "lambda_b": 0.0999070627319298,
+          "lambda_ha": 0.10692321415653915,
+          "lambda_hb": 0.20115977708155092,
+          "lambda_ab": 0.3658041592448719
+        }
+      },
+      "omega_h2": {
+        "A": 0.04115882022595449,
+        "B": 0.016442598757867417,
+        "total": 0.05760141898382191,
+        "fraction_A": 0.7145452482258201,
+        "fraction_B": 0.2854547517741799
+      },
+      "absolute_relic_residual": 0.06239858101617809,
+      "direct_detection": {
+        "sigma_A_cm2": 2.2341856413128677e-45,
+        "sigma_B_cm2": 5.360068296346762e-45,
+        "fraction_rescaled_sigma_A_cm2": 1.596426733654466e-45,
+        "fraction_rescaled_sigma_B_cm2": 1.5300569650263163e-45
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 4.2241032585245695e-09,
+        "ann_A_hh": 1.2727973513831206e-09,
+        "semi_A": 1.1834599965711342e-08,
+        "ann_B_SM": 1.0736947056706034e-08,
+        "ann_B_hh": 2.561512236267658e-09,
+        "semi_B": 4.953669914083216e-09,
+        "conversion_B_to_A": 1.1497763290520228e-08,
+        "ann_A": 5.49690060990769e-09,
+        "ann_B": 1.3298459292973691e-08
+      }
+    },
+    {
+      "sample_index": 74,
+      "parameters": {
+        "mA": 135.2949278785859,
+        "mB": 210.761508348422,
+        "mu_A": 57.79780985051781,
+        "mu_B": 161.4031268003133,
+        "lambda_HA": 0.05904993197055783,
+        "lambda_HB": 0.021828949302604025,
+        "lambda_AB": 0.16048411466444237,
+        "lambda_A": 0.0789396926709453,
+        "lambda_B": 0.07488653698615688,
+        "cubic_fraction_A": 0.5335878318030802,
+        "cubic_fraction_B": 0.9398454756025388,
+        "bare_mA2": 16514.78745678002,
+        "bare_mB2": 43758.73114230694
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.13058678837701101,
+          "bar_HB": 0.10934760204279032,
+          "bar_AB": 0.15712846845199321,
+          "pairwise_margin": 0.10934760204279032,
+          "final_margin": 0.13465310646495188
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 0.7984643709636186,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 16514.78745678002,
+          "m_b2": 43758.73114230694,
+          "mu_a": 57.79780985051781,
+          "mu_b": 161.4031268003133,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.0789396926709453,
+          "lambda_b": 0.07488653698615688,
+          "lambda_ha": 0.05904993197055783,
+          "lambda_hb": 0.021828949302604025,
+          "lambda_ab": 0.16048411466444237
+        }
+      },
+      "omega_h2": {
+        "A": 0.10020834187375027,
+        "B": 0.08595884303458018,
+        "total": 0.18616718490833045,
+        "fraction_A": 0.5382707050283502,
+        "fraction_B": 0.4617292949716498
+      },
+      "absolute_relic_residual": 0.06616718490833046,
+      "direct_detection": {
+        "sigma_A_cm2": 1.649994599871787e-45,
+        "sigma_B_cm2": 9.337583196864399e-47,
+        "fraction_rescaled_sigma_A_cm2": 8.881437565659573e-46,
+        "fraction_rescaled_sigma_B_cm2": 4.3114357062273227e-47
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 2.6272921672699134e-09,
+        "ann_A_hh": 7.802759424566324e-10,
+        "semi_A": 2.905079777092246e-09,
+        "ann_B_SM": 1.7640344463722872e-10,
+        "ann_B_hh": 6.751217705508708e-11,
+        "semi_B": 2.802429003629974e-10,
+        "conversion_B_to_A": 4.422228282413021e-09,
+        "ann_A": 3.4075681097265458e-09,
+        "ann_B": 2.439156216923158e-10
+      }
+    },
+    {
+      "sample_index": 117,
+      "parameters": {
+        "mA": 190.8335153659883,
+        "mB": 423.89488483917813,
+        "mu_A": 359.9779728871441,
+        "mu_B": 274.33826800438885,
+        "lambda_HA": 0.10136081087936617,
+        "lambda_HB": 0.0025564389481493783,
+        "lambda_AB": 0.5042568744025864,
+        "lambda_A": 0.5004622619212628,
+        "lambda_B": 0.0730908764773921,
+        "cubic_fraction_A": 0.9288676945451367,
+        "cubic_fraction_B": 0.7981215609341608,
+        "bare_mA2": 33344.96707133661,
+        "bare_mB2": 179609.3822467853
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.30514365970361296,
+          "bar_HB": 0.09852405109249743,
+          "bar_AB": 0.4433853988201667,
+          "pairwise_margin": 0.09852405109249743,
+          "final_margin": 0.33736971597057297
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.153589809447485,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 33344.96707133661,
+          "m_b2": 179609.3822467853,
+          "mu_a": 359.9779728871441,
+          "mu_b": 274.33826800438885,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.5004622619212628,
+          "lambda_b": 0.0730908764773921,
+          "lambda_ha": 0.10136081087936617,
+          "lambda_hb": 0.0025564389481493783,
+          "lambda_ab": 0.5042568744025864
+        }
+      },
+      "omega_h2": {
+        "A": 0.016548158497092836,
+        "B": 0.03514404147994429,
+        "total": 0.051692199977037126,
+        "fraction_A": 0.32012873324106755,
+        "fraction_B": 0.6798712667589324
+      },
+      "absolute_relic_residual": 0.06830780002296287,
+      "direct_detection": {
+        "sigma_A_cm2": 2.4534677581143512e-45,
+        "sigma_B_cm2": 3.180121232700308e-49,
+        "fraction_rescaled_sigma_A_cm2": 7.854255254529492e-46,
+        "fraction_rescaled_sigma_B_cm2": 2.162073050922936e-49
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 4.3010079338596896e-09,
+        "ann_A_hh": 1.3927800522249387e-09,
+        "semi_A": 5.4963140669969265e-08,
+        "ann_B_SM": 6.063021969139823e-13,
+        "ann_B_hh": 1.9639606783984958e-13,
+        "semi_B": 1.5770534784131743e-13,
+        "conversion_B_to_A": 1.2569154429466545e-08,
+        "ann_A": 5.693787986084628e-09,
+        "ann_B": 8.026982647538319e-13
+      }
+    },
+    {
+      "sample_index": 68,
+      "parameters": {
+        "mA": 138.3409205816782,
+        "mB": 218.85701520213874,
+        "mu_A": 96.69307116931006,
+        "mu_B": 233.10780069602043,
+        "lambda_HA": 0.2253843019538112,
+        "lambda_HB": 0.0023963958397348493,
+        "lambda_AB": 0.6837995741176652,
+        "lambda_A": 0.14018815260810827,
+        "lambda_B": 0.15064374164486888,
+        "cubic_fraction_A": 0.7759865351345532,
+        "cubic_fraction_B": 0.9154383370206384,
+        "bare_mA2": 12306.32884614593,
+        "bare_mB2": 47825.75320693486
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.24736965718759354,
+          "bar_HB": 0.14080769311020278,
+          "bar_AB": 0.48722173255629464,
+          "pairwise_margin": 0.14080769311020278,
+          "final_margin": 0.4036727616709979
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.357884856071752,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 12306.32884614593,
+          "m_b2": 47825.75320693486,
+          "mu_a": 96.69307116931006,
+          "mu_b": 233.10780069602043,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.14018815260810827,
+          "lambda_b": 0.15064374164486888,
+          "lambda_ha": 0.2253843019538112,
+          "lambda_hb": 0.0023963958397348493,
+          "lambda_ab": 0.6837995741176652
+        }
+      },
+      "omega_h2": {
+        "A": 0.006081489853872169,
+        "B": 0.006137111254537805,
+        "total": 0.012218601108409975,
+        "fraction_A": 0.4977239047182188,
+        "fraction_B": 0.5022760952817811
+      },
+      "absolute_relic_residual": 0.10778139889159002,
+      "direct_detection": {
+        "sigma_A_cm2": 2.299770410971857e-44,
+        "sigma_B_cm2": 1.0439747538187927e-48,
+        "fraction_rescaled_sigma_A_cm2": 1.1446507089043355e-44,
+        "fraction_rescaled_sigma_B_cm2": 5.243635629208618e-49
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 3.6594402570817574e-08,
+        "ann_A_hh": 1.7796057092210113e-09,
+        "semi_A": 1.11837095482567e-07,
+        "ann_B_SM": 2.0105953921433857e-12,
+        "ann_B_hh": 7.811676429539822e-13,
+        "semi_B": 5.597405947982228e-12,
+        "conversion_B_to_A": 7.524405739934153e-08,
+        "ann_A": 3.837400828003859e-08,
+        "ann_B": 2.791763035097368e-12
+      }
+    },
+    {
+      "sample_index": 61,
+      "parameters": {
+        "mA": 138.77210474217412,
+        "mB": 160.40659251993213,
+        "mu_A": 118.35720750277885,
+        "mu_B": 104.56774228189653,
+        "lambda_HA": 0.2432250482690062,
+        "lambda_HB": 0.23568604129668272,
+        "lambda_AB": 0.22022989245635902,
+        "lambda_A": 0.893550343632581,
+        "lambda_B": 0.07864686395781356,
+        "cubic_fraction_A": 0.3828370004054459,
+        "cubic_fraction_B": 0.9116777110726977,
+        "bare_mA2": 11885.02431839087,
+        "bare_mB2": 18586.125654143347
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.4616281865961954,
+          "bar_HB": 0.21871722323721557,
+          "bar_AB": 0.37520914140251593,
+          "pairwise_margin": 0.21871722323721557,
+          "final_margin": 0.5557195112957996
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.6362148941853034,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 11885.02431839087,
+          "m_b2": 18586.125654143347,
+          "mu_a": 118.35720750277885,
+          "mu_b": 104.56774228189653,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.893550343632581,
+          "lambda_b": 0.07864686395781356,
+          "lambda_ha": 0.2432250482690062,
+          "lambda_hb": 0.23568604129668272,
+          "lambda_ab": 0.22022989245635902
+        }
+      },
+      "omega_h2": {
+        "A": 0.003700885773391901,
+        "B": 0.005932827794617879,
+        "total": 0.00963371356800978,
+        "fraction_A": 0.3841598307096506,
+        "fraction_B": 0.6158401692903495
+      },
+      "absolute_relic_residual": 0.11036628643199022,
+      "direct_detection": {
+        "sigma_A_cm2": 2.6617600572979066e-44,
+        "sigma_B_cm2": 1.873989119332972e-44,
+        "fraction_rescaled_sigma_A_cm2": 1.0225412930012736e-44,
+        "fraction_rescaled_sigma_B_cm2": 1.1540777764982904e-44
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 4.235179589939794e-08,
+        "ann_A_hh": 1.4863115721153001e-09,
+        "semi_A": 1.9317300912544106e-07,
+        "ann_B_SM": 2.99178218646244e-08,
+        "ann_B_hh": 3.6799917959522334e-09,
+        "semi_B": 6.987760097012894e-08,
+        "conversion_B_to_A": 9.404261232650999e-09,
+        "ann_A": 4.383810747151324e-08,
+        "ann_B": 3.3597813660576634e-08
+      }
+    },
+    {
+      "sample_index": 6,
+      "parameters": {
+        "mA": 135.8593870448027,
+        "mB": 204.57607147648156,
+        "mu_A": 117.42603998159524,
+        "mu_B": 303.9317564376124,
+        "lambda_HA": 0.02500111093176033,
+        "lambda_HB": 0.1671315141971106,
+        "lambda_AB": 0.07370488127478068,
+        "lambda_A": 0.1087371032203026,
+        "lambda_B": 0.37768343585576164,
+        "cubic_fraction_A": 0.8922127717454621,
+        "cubic_fraction_B": 0.8595160161647605,
+        "bare_mA2": 17699.935768465788,
+        "bare_mB2": 36785.254462043325
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.13111246271159838,
+          "bar_HB": 0.304622302577946,
+          "bar_AB": 0.23950535265507267,
+          "pairwise_margin": 0.13111246271159838,
+          "final_margin": 0.25970523734969453
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.5858825307323834,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 17699.935768465788,
+          "m_b2": 36785.254462043325,
+          "mu_a": 117.42603998159524,
+          "mu_b": 303.9317564376124,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.1087371032203026,
+          "lambda_b": 0.37768343585576164,
+          "lambda_ha": 0.02500111093176033,
+          "lambda_hb": 0.1671315141971106,
+          "lambda_ab": 0.07370488127478068
+        }
+      },
+      "omega_h2": {
+        "A": 0.23004469837871733,
+        "B": 0.009346209044483475,
+        "total": 0.2393909074232008,
+        "fraction_A": 0.9609583791419404,
+        "fraction_B": 0.039041620858059706
+      },
+      "absolute_relic_residual": 0.1193909074232008,
+      "direct_detection": {
+        "sigma_A_cm2": 2.933397501961605e-46,
+        "sigma_B_cm2": 5.808206579431171e-45,
+        "fraction_rescaled_sigma_A_cm2": 2.818872908864041e-46,
+        "fraction_rescaled_sigma_B_cm2": 2.2676179913943964e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 4.670114128637677e-10,
+        "ann_A_hh": 1.8123868929717655e-10,
+        "semi_A": 2.1316503050120406e-09,
+        "ann_B_SM": 1.0769720015413748e-08,
+        "ann_B_hh": 2.6894010219736457e-09,
+        "semi_B": 6.984566876467279e-08,
+        "conversion_B_to_A": 9.653318599215843e-10,
+        "ann_A": 6.482501021609443e-10,
+        "ann_B": 1.3459121037387393e-08
+      }
+    },
+    {
+      "sample_index": 105,
+      "parameters": {
+        "mA": 255.5753761107186,
+        "mB": 408.818243307043,
+        "mu_A": 336.59125251584493,
+        "mu_B": 671.6882673870629,
+        "lambda_HA": 0.14216109544537164,
+        "lambda_HB": 0.08344401858375239,
+        "lambda_AB": 0.08945288406466133,
+        "lambda_A": 0.8181769904891448,
+        "lambda_B": 0.4717495778519421,
+        "cubic_fraction_A": 0.5021794936437053,
+        "cubic_fraction_B": 0.8034741133210173,
+        "bare_mA2": 61009.5652493652,
+        "bare_mB2": 164602.98893671844
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.3964397095483456,
+          "bar_HB": 0.2887778751589098,
+          "bar_AB": 0.6659950231399113,
+          "pairwise_margin": 0.2887778751589098,
+          "final_margin": 0.7166176784208131
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.295717601907023,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 61009.5652493652,
+          "m_b2": 164602.98893671844,
+          "mu_a": 336.59125251584493,
+          "mu_b": 671.6882673870629,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.8181769904891448,
+          "lambda_b": 0.4717495778519421,
+          "lambda_ha": 0.14216109544537164,
+          "lambda_hb": 0.08344401858375239,
+          "lambda_ab": 0.08945288406466133
+        }
+      },
+      "omega_h2": {
+        "A": 0.03679900171828361,
+        "B": 0.2155902570140228,
+        "total": 0.2523892587323064,
+        "fraction_A": 0.14580256665088123,
+        "fraction_B": 0.8541974333491188
+      },
+      "absolute_relic_residual": 0.1323892587323064,
+      "direct_detection": {
+        "sigma_A_cm2": 2.6974301223299464e-45,
+        "sigma_B_cm2": 3.642070275403336e-46,
+        "fraction_rescaled_sigma_A_cm2": 3.932922351971067e-46,
+        "fraction_rescaled_sigma_B_cm2": 3.1110470813266477e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 5.4014867270978615e-09,
+        "ann_A_hh": 1.455535142261239e-09,
+        "semi_A": 1.592057180090431e-08,
+        "ann_B_SM": 6.983201472287366e-10,
+        "ann_B_hh": 2.134714196370291e-10,
+        "semi_B": 1.2541656822695342e-09,
+        "conversion_B_to_A": 3.7170713830802535e-10,
+        "ann_A": 6.8570218693591e-09,
+        "ann_B": 9.117915668657657e-10
+      }
+    },
+    {
+      "sample_index": 138,
+      "parameters": {
+        "mA": 230.10395619247856,
+        "mB": 345.0576232238038,
+        "mu_A": 99.67299377598381,
+        "mu_B": 253.14601685016387,
+        "lambda_HA": 0.07521371532996778,
+        "lambda_HB": 0.02907997634361313,
+        "lambda_AB": 0.26619547893425477,
+        "lambda_A": 0.11045776780896002,
+        "lambda_B": 0.06701880547700836,
+        "cubic_fraction_A": 0.4441109548187101,
+        "cubic_fraction_B": 0.948142185529126,
+        "bare_mA2": 50667.94167053036,
+        "bare_mB2": 118183.28690860033
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.15715354355982805,
+          "bar_HB": 0.10765886974755481,
+          "bar_AB": 0.21913696107107525,
+          "pairwise_margin": 0.10765886974755481,
+          "final_margin": 0.17950266425524553
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 0.8374444565720006,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 50667.94167053036,
+          "m_b2": 118183.28690860033,
+          "mu_a": 99.67299377598381,
+          "mu_b": 253.14601685016387,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.11045776780896002,
+          "lambda_b": 0.06701880547700836,
+          "lambda_ha": 0.07521371532996778,
+          "lambda_hb": 0.02907997634361313,
+          "lambda_ab": 0.26619547893425477
+        }
+      },
+      "omega_h2": {
+        "A": 0.1672755971459251,
+        "B": 0.09142906918091215,
+        "total": 0.25870466632683725,
+        "fraction_A": 0.6465890218408188,
+        "fraction_B": 0.3534109781591812
+      },
+      "absolute_relic_residual": 0.13870466632683726,
+      "direct_detection": {
+        "sigma_A_cm2": 9.307241656711684e-46,
+        "sigma_B_cm2": 6.203772159889775e-47,
+        "fraction_rescaled_sigma_A_cm2": 6.017960278849329e-46,
+        "fraction_rescaled_sigma_B_cm2": 2.1924811873033418e-47
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.8266436393795332e-09,
+        "ann_A_hh": 5.782047070399613e-10,
+        "semi_A": 7.422607773093993e-10,
+        "ann_B_SM": 1.2207610835331108e-10,
+        "ann_B_hh": 3.884375194328393e-11,
+        "semi_B": 6.050635882697029e-11,
+        "conversion_B_to_A": 4.411466324884937e-09,
+        "ann_A": 2.4048483464194945e-09,
+        "ann_B": 1.6091986029659501e-10
+      }
+    },
+    {
+      "sample_index": 139,
+      "parameters": {
+        "mA": 342.6046391019965,
+        "mB": 686.7203469953647,
+        "mu_A": 219.38323195449667,
+        "mu_B": 649.6989621954815,
+        "lambda_HA": 0.1501368686049536,
+        "lambda_HB": 0.11945364640187235,
+        "lambda_AB": 0.2522951514589252,
+        "lambda_A": 0.08059061697147064,
+        "lambda_B": 0.38472110145720567,
+        "cubic_fraction_A": 0.766890708264226,
+        "cubic_fraction_B": 0.5104012398886925,
+        "bare_mA2": 112826.96832331947,
+        "bare_mB2": 467963.93882248475
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.1771815787654502,
+          "bar_HB": 0.28283342092452785,
+          "bar_AB": 0.3022296898932242,
+          "pairwise_margin": 0.1771815787654502,
+          "final_margin": 0.34627282759462213
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.6401341018020346,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 112826.96832331947,
+          "m_b2": 467963.93882248475,
+          "mu_a": 219.38323195449667,
+          "mu_b": 649.6989621954815,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.08059061697147064,
+          "lambda_b": 0.38472110145720567,
+          "lambda_ha": 0.1501368686049536,
+          "lambda_hb": 0.11945364640187235,
+          "lambda_ab": 0.2522951514589252
+        }
+      },
+      "omega_h2": {
+        "A": 0.10216200912845337,
+        "B": 0.22631473190429682,
+        "total": 0.3284767410327502,
+        "fraction_A": 0.311017482721151,
+        "fraction_B": 0.688982517278849
+      },
+      "absolute_relic_residual": 0.2084767410327502,
+      "direct_detection": {
+        "sigma_A_cm2": 1.6773448476698075e-45,
+        "sigma_B_cm2": 2.650102526256726e-46,
+        "fraction_rescaled_sigma_A_cm2": 5.21683572177556e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.825874309587396e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 3.3039529020385875e-09,
+        "ann_A_hh": 9.260213438430026e-10,
+        "semi_A": 1.2649572359158994e-09,
+        "ann_B_SM": 4.751467097502413e-10,
+        "ann_B_hh": 1.5080365572485846e-10,
+        "semi_B": 1.0503908670276048e-10,
+        "conversion_B_to_A": 1.1636080521736802e-09,
+        "ann_A": 4.22997424588159e-09,
+        "ann_B": 6.259503654750997e-10
+      }
+    },
+    {
+      "sample_index": 29,
+      "parameters": {
+        "mA": 143.74178290614793,
+        "mB": 296.9225643673245,
+        "mu_A": 116.8504189295503,
+        "mu_B": 249.00930983136755,
+        "lambda_HA": 0.08434854668226346,
+        "lambda_HB": 0.005356959086028474,
+        "lambda_AB": 0.11836029596428517,
+        "lambda_A": 0.10633559455807554,
+        "lambda_B": 0.12120264530382327,
+        "cubic_fraction_A": 0.887710678116453,
+        "cubic_fraction_B": 0.8037026384555834,
+        "bare_mA2": 18104.91484294496,
+        "bare_mB2": 88000.62831417877
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.1594690686163959,
+          "bar_HB": 0.12790475363635706,
+          "bar_AB": 0.1727061597609133,
+          "pairwise_margin": 0.12790475363635706,
+          "final_margin": 0.16161473901627144
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 0.8187962545321195,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 18104.91484294496,
+          "m_b2": 88000.62831417877,
+          "mu_a": 116.8504189295503,
+          "mu_b": 249.00930983136755,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.10633559455807554,
+          "lambda_b": 0.12120264530382327,
+          "lambda_ha": 0.08434854668226346,
+          "lambda_hb": 0.005356959086028474,
+          "lambda_ab": 0.11836029596428517
+        }
+      },
+      "omega_h2": {
+        "A": 0.04849547099597947,
+        "B": 0.28495925094729807,
+        "total": 0.3334547219432775,
+        "fraction_A": 0.14543345109453515,
+        "fraction_B": 0.8545665489054649
+      },
+      "absolute_relic_residual": 0.21345472194327753,
+      "direct_detection": {
+        "sigma_A_cm2": 2.9850218413017293e-45,
+        "sigma_B_cm2": 2.840661494236306e-48,
+        "fraction_rescaled_sigma_A_cm2": 4.3412202797307434e-46,
+        "fraction_rescaled_sigma_B_cm2": 2.427534289738161e-48
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 4.7484903943535424e-09,
+        "ann_A_hh": 1.4286793858249978e-09,
+        "semi_A": 1.9716545976174367e-08,
+        "ann_B_SM": 5.68637431135362e-12,
+        "ann_B_hh": 1.8929589127241932e-12,
+        "semi_B": 4.955727285488806e-12,
+        "conversion_B_to_A": 1.3830526831869261e-09,
+        "ann_A": 6.17716978017854e-09,
+        "ann_B": 7.579333224077813e-12
+      }
+    },
+    {
+      "sample_index": 112,
+      "parameters": {
+        "mA": 329.20037459667617,
+        "mB": 733.5365487796594,
+        "mu_A": 161.02184674266837,
+        "mu_B": 639.1974401941998,
+        "lambda_HA": 0.20579546283048736,
+        "lambda_HB": 0.05294368018563289,
+        "lambda_AB": 0.28429891919758066,
+        "lambda_A": 0.08002303896855865,
+        "lambda_B": 0.5092168930580564,
+        "cubic_fraction_A": 0.593702925748073,
+        "cubic_fraction_B": 0.4076516766694549,
+        "bare_mA2": 102134.78488956843,
+        "bare_mB2": 536471.031927308
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.2046506628540269,
+          "bar_HB": 0.2831511193319041,
+          "bar_AB": 0.3440134813476726,
+          "pairwise_margin": 0.2046506628540269,
+          "final_margin": 0.4043296295051497
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 2.094056683783373,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 102134.78488956843,
+          "m_b2": 536471.031927308,
+          "mu_a": 161.02184674266837,
+          "mu_b": 639.1974401941998,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.08002303896855865,
+          "lambda_b": 0.5092168930580564,
+          "lambda_ha": 0.20579546283048736,
+          "lambda_hb": 0.05294368018563289,
+          "lambda_ab": 0.28429891919758066
+        }
+      },
+      "omega_h2": {
+        "A": 0.06595027682032352,
+        "B": 0.28525525725032636,
+        "total": 0.35120553407064986,
+        "fraction_A": 0.18778256725036885,
+        "fraction_B": 0.8122174327496312
+      },
+      "absolute_relic_residual": 0.23120553407064987,
+      "direct_detection": {
+        "sigma_A_cm2": 3.412624410041148e-45,
+        "sigma_B_cm2": 4.563352985192433e-47,
+        "fraction_rescaled_sigma_A_cm2": 6.408313727788022e-46,
+        "fraction_rescaled_sigma_B_cm2": 3.7064348463633638e-47
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 6.758167777390598e-09,
+        "ann_A_hh": 1.7565181927737902e-09,
+        "semi_A": 1.6318738003837269e-09,
+        "ann_B_SM": 8.134064205191335e-11,
+        "ann_B_hh": 2.6350844404924023e-11,
+        "semi_B": 1.3427584670075855e-11,
+        "conversion_B_to_A": 1.3352711849900262e-09,
+        "ann_A": 8.514685970164387e-09,
+        "ann_B": 1.0769148645683737e-10
+      }
+    },
+    {
+      "sample_index": 52,
+      "parameters": {
+        "mA": 219.91923035087547,
+        "mB": 417.91667616960177,
+        "mu_A": 214.08601860093466,
+        "mu_B": 1104.986321427679,
+        "lambda_HA": 0.13381724300624642,
+        "lambda_HB": 0.060653523464976634,
+        "lambda_AB": 0.007810300140289825,
+        "lambda_A": 0.1707002212210701,
+        "lambda_B": 0.9020369907544644,
+        "cubic_fraction_A": 0.8205556717175504,
+        "cubic_fraction_B": 0.9328927931074773,
+        "bare_mA2": 44308.18031166964,
+        "bare_mB2": 172815.80987113935
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.21552150190015454,
+          "bar_HB": 0.37195328680866924,
+          "bar_AB": 0.39630534613453966,
+          "pairwise_margin": 0.21552150190015454,
+          "final_margin": 0.4706963645205926
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.6108065827962013,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 44308.18031166964,
+          "m_b2": 172815.80987113935,
+          "mu_a": 214.08601860093466,
+          "mu_b": 1104.986321427679,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.1707002212210701,
+          "lambda_b": 0.9020369907544644,
+          "lambda_ha": 0.13381724300624642,
+          "lambda_hb": 0.060653523464976634,
+          "lambda_ab": 0.007810300140289825
+        }
+      },
+      "omega_h2": {
+        "A": 0.02921634332540965,
+        "B": 0.3266658035633129,
+        "total": 0.35588214688872255,
+        "fraction_A": 0.0820955577031096,
+        "fraction_B": 0.9179044422968903
+      },
+      "absolute_relic_residual": 0.23588214688872255,
+      "direct_detection": {
+        "sigma_A_cm2": 3.2241072321832543e-45,
+        "sigma_B_cm2": 1.8415961724139865e-46,
+        "fraction_rescaled_sigma_A_cm2": 2.646848813207133e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.690409307575748e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 6.222638444362036e-09,
+        "ann_A_hh": 1.7153050674631186e-09,
+        "semi_A": 1.4292791433733194e-08,
+        "ann_B_SM": 3.5188630082608586e-10,
+        "ann_B_hh": 1.095346189969102e-10,
+        "semi_B": 1.5695306013989546e-09,
+        "conversion_B_to_A": 2.954273973991023e-12,
+        "ann_A": 7.937943511825154e-09,
+        "ann_B": 4.614209198229961e-10
+      }
+    },
+    {
+      "sample_index": 119,
+      "parameters": {
+        "mA": 152.2460778806592,
+        "mB": 200.95589546827574,
+        "mu_A": 103.23812967963839,
+        "mu_B": 270.6257950522284,
+        "lambda_HA": 0.06288435366826992,
+        "lambda_HB": 0.027140808858187645,
+        "lambda_AB": 0.02704041109618073,
+        "lambda_A": 0.41511327714500085,
+        "lambda_B": 0.2613167145663835,
+        "cubic_fraction_A": 0.3662049120049263,
+        "cubic_fraction_B": 0.8872235032358498,
+        "bare_mA2": 21272.708633727347,
+        "bare_mB2": 39560.57581164254
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.2631937665266148,
+          "bar_HB": 0.19744553934832143,
+          "bar_AB": 0.34287721208721994,
+          "pairwise_margin": 0.19744553934832143,
+          "final_margin": 0.3369244903134573
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 1.670820649885723,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 21272.708633727347,
+          "m_b2": 39560.57581164254,
+          "mu_a": 103.23812967963839,
+          "mu_b": 270.6257950522284,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.41511327714500085,
+          "lambda_b": 0.2613167145663835,
+          "lambda_ha": 0.06288435366826992,
+          "lambda_hb": 0.027140808858187645,
+          "lambda_ab": 0.02704041109618073
+        }
+      },
+      "omega_h2": {
+        "A": 0.07215958107637434,
+        "B": 0.29649408678733197,
+        "total": 0.3686536678637063,
+        "fraction_A": 0.19573813409894572,
+        "fraction_B": 0.8042618659010543
+      },
+      "absolute_relic_residual": 0.2486536678637063,
+      "direct_detection": {
+        "sigma_A_cm2": 1.4800147455253182e-45,
+        "sigma_B_cm2": 1.5871123174023186e-46,
+        "fraction_rescaled_sigma_A_cm2": 2.8969532472805178e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.276453913788535e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 2.3572751328520087e-09,
+        "ann_A_hh": 8.953504457922003e-10,
+        "semi_A": 6.453022661870368e-09,
+        "ann_B_SM": 2.905602289309908e-10,
+        "ann_B_hh": 1.1481064316682314e-10,
+        "semi_B": 1.6279169495385149e-09,
+        "conversion_B_to_A": 1.1755586083369737e-10,
+        "ann_A": 3.252625578644209e-09,
+        "ann_B": 4.053708720978139e-10
+      }
+    },
+    {
+      "sample_index": 75,
+      "parameters": {
+        "mA": 204.55183729034678,
+        "mB": 308.7982456020412,
+        "mu_A": 497.80807081654336,
+        "mu_B": 283.9238315059341,
+        "lambda_HA": 0.15750034130100957,
+        "lambda_HB": 0.04417417753177732,
+        "lambda_AB": 0.06805676722759152,
+        "lambda_A": 0.8798278224690856,
+        "lambda_B": 0.19876334476149016,
+        "cubic_fraction_A": 0.91885390920377,
+        "cubic_fraction_B": 0.6923225200829378,
+        "bare_mA2": 37067.28108179109,
+        "bare_mB2": 94017.34244763893
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.4161448700931658,
+          "bar_HB": 0.18245133893141238,
+          "bar_AB": 0.45221198062373835,
+          "pairwise_margin": 0.18245133893141238,
+          "final_margin": 0.4805354511717691
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 3.5392158445980995,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 37067.28108179109,
+          "m_b2": 94017.34244763893,
+          "mu_a": 497.80807081654336,
+          "mu_b": 283.9238315059341,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.8798278224690856,
+          "lambda_b": 0.19876334476149016,
+          "lambda_ha": 0.15750034130100957,
+          "lambda_hb": 0.04417417753177732,
+          "lambda_ab": 0.06805676722759152
+        }
+      },
+      "omega_h2": {
+        "A": 0.017465507076046573,
+        "B": 0.39278247184559245,
+        "total": 0.410247978921639,
+        "fraction_A": 0.04257304843269597,
+        "fraction_B": 0.9574269515673041
+      },
+      "absolute_relic_residual": 0.290247978921639,
+      "direct_detection": {
+        "sigma_A_cm2": 5.1593000622479683e-45,
+        "sigma_B_cm2": 1.7863302666141735e-46,
+        "fraction_rescaled_sigma_A_cm2": 2.196471314288941e-46,
+        "fraction_rescaled_sigma_B_cm2": 1.7102807416568176e-46
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 9.56572979884963e-09,
+        "ann_A_hh": 2.470484285138666e-09,
+        "semi_A": 1.665216543195952e-07,
+        "ann_B_SM": 3.5636055588896686e-10,
+        "ann_B_hh": 1.1217405457941886e-10,
+        "semi_B": 3.4502041286676107e-10,
+        "conversion_B_to_A": 3.619559134761645e-10,
+        "ann_A": 1.2036214083988294e-08,
+        "ann_B": 4.685346104683857e-10
+      }
+    },
+    {
+      "sample_index": 127,
+      "parameters": {
+        "mA": 166.93392788998113,
+        "mB": 178.8322011280056,
+        "mu_A": 59.589019544372896,
+        "mu_B": 74.58055882863819,
+        "lambda_HA": 0.05432491561068006,
+        "lambda_HB": 0.0023223403174057757,
+        "lambda_AB": 0.14610767557146398,
+        "lambda_A": 0.05090306232995028,
+        "lambda_B": 0.0943484270465319,
+        "cubic_fraction_A": 0.5436942852021396,
+        "cubic_fraction_B": 0.4530747155233281,
+        "bare_mA2": 26220.231605133653,
+        "bare_mB2": 31910.561045704773
+      },
+      "consistency": {
+        "bfb": {
+          "passes": true,
+          "bar_HA": 0.10831672581485113,
+          "bar_HB": 0.11164704066470535,
+          "bar_AB": 0.14235480359922104,
+          "pairwise_margin": 0.10831672581485113,
+          "final_margin": 0.11848776533099514
+        },
+        "sufficient_global_conditions": {
+          "positive_dark_masses": true,
+          "nonnegative_portals": true,
+          "A_single_field_nonnegative": true,
+          "B_single_field_nonnegative": true,
+          "SM_Higgs_minimum": true
+        },
+        "sufficient_global_pass": true,
+        "high_energy_scalar_unitarity_radius": 0.7877594561234992,
+        "high_energy_scalar_unitarity_pass": true,
+        "parameters_for_vacuum": {
+          "mu_h2": 7843.78125,
+          "m_a2": 26220.231605133653,
+          "m_b2": 31910.561045704773,
+          "mu_a": 59.589019544372896,
+          "mu_b": 74.58055882863819,
+          "lambda_h": 0.12938347743146458,
+          "lambda_a": 0.05090306232995028,
+          "lambda_b": 0.0943484270465319,
+          "lambda_ha": 0.05432491561068006,
+          "lambda_hb": 0.0023223403174057757,
+          "lambda_ab": 0.14610767557146398
+        }
+      },
+      "omega_h2": {
+        "A": 0.2466730162654299,
+        "B": 0.17258154158567132,
+        "total": 0.4192545578511012,
+        "fraction_A": 0.5883609650656109,
+        "fraction_B": 0.41163903493438914
+      },
+      "absolute_relic_residual": 0.2992545578511012,
+      "direct_detection": {
+        "sigma_A_cm2": 9.197084825439334e-46,
+        "sigma_B_cm2": 1.4656309775805902e-48,
+        "fraction_rescaled_sigma_A_cm2": 5.411205703685772e-46,
+        "fraction_rescaled_sigma_B_cm2": 6.033109211812194e-49
+      },
+      "rates_GeV_minus2": {
+        "ann_A_SM": 1.4717017502324985e-09,
+        "ann_A_hh": 6.130714927734699e-10,
+        "semi_A": 9.593638161469327e-10,
+        "ann_B_SM": 2.412007190562482e-12,
+        "ann_B_hh": 1.1961150557922847e-12,
+        "semi_B": 1.8300394677840498e-12,
+        "conversion_B_to_A": 2.3814542301544254e-09,
+        "ann_A": 2.0847732430059685e-09,
+        "ann_B": 3.6081222463547664e-12
+      }
+    }
+  ],
+  "limitations": [
+    "threshold rather than thermally averaged cross sections",
+    "constant g*=g*s=90",
+    "tree-level rates",
+    "restricted hierarchy mB>mA",
+    "no resonant Higgs region below 130 GeV",
+    "no experimental exclusions applied"
+  ]
+}

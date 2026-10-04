@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "status": "minimal Higgs-pole candidate diagnostic; not a precision viable benchmark",
+  "assumptions": {
+    "thermal_average": "narrow-width Gondolo-Gelmini expression",
+    "finite_width_crosscheck": "direct numerical Breit-Wigner thermal integral at x=15,20,25",
+    "gstar_equal_gstar_s": 80.0,
+    "component_target_Omega_h2": 0.06,
+    "conversion": "included in a coupled cross-check at lambda_AB=1e-5; numerically negligible",
+    "semiannihilation": "kinematically closed at m_i < m_h",
+    "off_pole_continuum": "neglected in relic solve",
+    "self_couplings_and_cubics": "not fixed by pole solve; require subsequent vacuum/unitarity/RG completion"
+  },
+  "components": {
+    "A": {
+      "mass_GeV": 62.0,
+      "lambda_Hi": 0.0005539381702448959,
+      "omega_h2": 0.059999984801373744,
+      "xi": 0.49999987334478124,
+      "sigma_SI_raw_cm2": 6.803033178549791e-49,
+      "sigma_SI_effective_cm2": 3.40151572763524e-49,
+      "LZ_90CL_limit_cm2": 2.5059615801633362e-48,
+      "R_component": 0.13573694643050083,
+      "higgs_invisible_width_GeV": 4.16405544694552e-07
+    },
+    "B": {
+      "mass_GeV": 62.2,
+      "lambda_Hi": 0.0004917087212953458,
+      "omega_h2": 0.060000000126185095,
+      "xi": 0.5000000010515425,
+      "sigma_SI_raw_cm2": 5.326477218896094e-49,
+      "sigma_SI_effective_cm2": 2.6632386150490643e-49,
+      "LZ_90CL_limit_cm2": 2.5086541389559775e-48,
+      "R_component": 0.10616204815532762,
+      "higgs_invisible_width_GeV": 2.7077739149863787e-07
+    }
+  },
+  "fixed_candidate_parameter_vector": {
+    "mA": 62.0,
+    "mB": 62.2,
+    "mu_A": 1.0,
+    "mu_B": 1.0,
+    "lambda_HA": 0.0005539381702448959,
+    "lambda_HB": 0.0004917087212953458,
+    "lambda_AB": 1e-05,
+    "lambda_A": 0.1,
+    "lambda_B": 0.1,
+    "bare_mA2": 3827.2089463056527,
+    "bare_mB2": 3853.935254335698
+  },
+  "tree_level_consistency": {
+    "exact_copositive_BFB": {
+      "passes": true,
+      "bar_HA": 0.11402382725336575,
+      "bar_HB": 0.11399271252889097,
+      "bar_AB": 0.10000500000000001,
+      "pairwise_margin": 0.10000500000000001,
+      "final_margin": 0.08712436709129973
+    },
+    "sufficient_global_EW_conditions": {
+      "positive_dark_masses": true,
+      "nonnegative_portals": true,
+      "A_single_field_nonnegative": true,
+      "B_single_field_nonnegative": true,
+      "SM_Higgs_minimum": true
+    },
+    "sufficient_global_EW_pass": true,
+    "high_energy_scalar_unitarity_radius": 0.7763037805278146,
+    "high_energy_scalar_unitarity_pass": true,
+    "physical_scalar_finite_energy_max_abs_a0": 0.008318230759791947,
+    "physical_scalar_finite_energy_pass": true,
+    "physical_scalar_finite_energy_scope": "Physical scalars only. No external Goldstones or vectors, no gauge diagrams, no widths/resummation, and no UV gauge-origin states."
+  },
+  "coupled_relic_crosscheck": {
+    "Omega_A_h2": 0.0599999982855722,
+    "Omega_B_h2": 0.060000047963884744,
+    "Omega_total_h2": 0.12000004624945694,
+    "conversion_GeV_minus2": 2.060178215846719e-17,
+    "solver_nfev": 4684
+  },
+  "one_loop_RGE_cutoff_diagnostic": {
+    "first_BFB_failure_GeV": 336215632.9172903,
+    "first_sufficient_global_EW_failure_GeV": 336215632.9172903,
+    "first_sufficient_global_EW_failure_conditions": [
+      "BFB_margin"
+    ],
+    "unitarity_boundary_GeV": null,
+    "four_pi_boundary_GeV": null,
+    "last_integrated_scale_GeV": 2.4350000000000036e+18,
+    "failure_interpretation": "The first BFB failure is the SM-like Higgs-quartic instability; all other reported global-minimum margins remain positive in this one-loop run.",
+    "scope": "One-loop MS-bar running with no threshold matching or two-loop terms. Running sufficient tree-level inequalities are diagnostics, not an RG-improved tunnelling calculation."
+  },
+  "totals": {
+    "Omega_h2": 0.11999998492755884,
+    "Higgs_invisible_width_GeV": 6.871829361931899e-07,
+    "Higgs_invisible_branching_fraction": 0.00016881251378729717,
+    "combined_LZ_rate_ratio_proxy": 0.24189899458582845
+  },
+  "finite_width_crosschecks": {
+    "A": {
+      "15": {
+        "NWA_GeV_minus2": 0.008786264015541207,
+        "finite_width_GeV_minus2": 0.008778389262511864,
+        "relative_difference": 0.0008970612710206272
+      },
+      "20": {
+        "NWA_GeV_minus2": 0.012934267098204413,
+        "finite_width_GeV_minus2": 0.01292138006984827,
+        "relative_difference": 0.00099734148260322
+      },
+      "25": {
+        "NWA_GeV_minus2": 0.016908735294588622,
+        "finite_width_GeV_minus2": 0.01689067252347864,
+        "relative_difference": 0.0010693932455840827
+      }
+    },
+    "B": {
+      "15": {
+        "NWA_GeV_minus2": 0.007878530794125196,
+        "finite_width_GeV_minus2": 0.007869668171300352,
+        "relative_difference": 0.0011261749074966687
+      },
+      "20": {
+        "NWA_GeV_minus2": 0.011980748161086921,
+        "finite_width_GeV_minus2": 0.011965538624779299,
+        "relative_difference": 0.0012711117137782502
+      },
+      "25": {
+        "NWA_GeV_minus2": 0.016179160139159987,
+        "finite_width_GeV_minus2": 0.01615676816093767,
+        "relative_difference": 0.0013859193868024366
+      }
+    }
+  },
+  "constant_gstar_sensitivity": {
+    "70": {
+      "components": {
+        "A": {
+          "lambda_Hi": 0.0005739298275602244,
+          "R_component": 0.14571128649039902
+        },
+        "B": {
+          "lambda_Hi": 0.0005091854471081031,
+          "R_component": 0.11384276375029913
+        }
+      },
+      "combined_LZ_rate_ratio_proxy": 0.25955405024069816
+    },
+    "90": {
+      "components": {
+        "A": {
+          "lambda_Hi": 0.0005368818024328235,
+          "R_component": 0.12750668898435033
+        },
+        "B": {
+          "lambda_Hi": 0.00047679080811111914,
+          "R_component": 0.09981808035704433
+        }
+      },
+      "combined_LZ_rate_ratio_proxy": 0.22732476934139467
+    }
+  },
+  "screening_verdict": "candidate_survives_leading_pole_and_direct_detection_screen",
+  "required_before_viability_claim": [
+    "full finite-width thermal average including off-pole continuum and running g*(T)",
+    "loop-improved metastability calculation and threshold/two-loop uncertainty around the one-loop absolute-stability cutoff",
+    "external-Goldstone/transverse-vector finite-energy unitarity in a gauge-complete parent",
+    "current Higgs invisible-width likelihood and a proper two-component LZ likelihood/recast",
+    "higher-order number-changing rates induced by the nonzero cubic couplings"
+  ]
+}

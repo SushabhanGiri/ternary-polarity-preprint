@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "checks": {
+    "four_original_points_excluded": true,
+    "pole_vector_preserved": true,
+    "precision_thermal_relic_near_target": true,
+    "pole_direct_detection_survives": true,
+    "electroweak_gauge_block_passes": true,
+    "sequential_interval_unscored": true,
+    "m_pole_matches_open_decay": true,
+    "E_pole_matches_open_decay": true,
+    "cutoff_ordering": true,
+    "bounce_capped_at_unitarity": true,
+    "parent_states_prompt": true,
+    "cmb_injection_safe": true,
+    "claim_ledger_complete_through_M21": true
+  },
+  "passed": true,
+  "failed_checks": [],
+  "claim_regression": {
+    "surviving_status": "conditionally viable conventional Z3xZ3 scalar EFT benchmark",
+    "forbidden_claims": [
+      "experimental confirmation",
+      "demonstrated broad novelty",
+      "three-generation explanation",
+      "gravity or quantum-gravity explanation",
+      "unification or fundamental-constant derivation",
+      "absolute vacuum stability",
+      "unconditional unstable-vector S-matrix pass"
+    ]
+  }
+}

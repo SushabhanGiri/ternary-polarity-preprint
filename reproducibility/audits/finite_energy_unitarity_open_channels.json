@@ -1,0 +1,279 @@
+{
+  "evaluated_points": 273,
+  "grid_points": 289,
+  "maximum_over_scan": {
+    "max_abs_eigenvalue": 0.020271536413554787,
+    "max_eigenvalue": -0.0003854418535551252,
+    "min_eigenvalue": -0.020271536413554787,
+    "open_channels": 10,
+    "retained_channels": 10,
+    "sqrt_s_GeV": 20000.0
+  },
+  "passes_abs_Re_a0_le_half": true,
+  "s_channel_excision_Cs": 0.25,
+  "sampled_scan": [
+    {
+      "max_abs_eigenvalue": 0.00013840453041156475,
+      "max_eigenvalue": 0.00013840453041156475,
+      "min_eigenvalue": 0.00013840453041156475,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 250.54377931171712
+    },
+    {
+      "max_abs_eigenvalue": 0.00832321959064244,
+      "max_eigenvalue": 0.00832321959064244,
+      "min_eigenvalue": 0.00832321959064244,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 277.29931140462764
+    },
+    {
+      "max_abs_eigenvalue": 0.0071013904486348835,
+      "max_eigenvalue": 0.0071013904486348835,
+      "min_eigenvalue": 0.0071013904486348835,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 317.46974781523926
+    },
+    {
+      "max_abs_eigenvalue": 0.004728509463645978,
+      "max_eigenvalue": 0.004728509463645978,
+      "min_eigenvalue": 0.004728509463645978,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 369.65798969225995
+    },
+    {
+      "max_abs_eigenvalue": 0.002485418482044595,
+      "max_eigenvalue": 0.002485418482044595,
+      "min_eigenvalue": 0.002485418482044595,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 430.4253563802516
+    },
+    {
+      "max_abs_eigenvalue": 0.0005553376099334797,
+      "max_eigenvalue": 0.0005553376099334797,
+      "min_eigenvalue": 0.0005553376099334797,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 501.18215372350164
+    },
+    {
+      "max_abs_eigenvalue": 0.0010550925820860596,
+      "max_eigenvalue": -0.0010550925820860596,
+      "min_eigenvalue": -0.0010550925820860596,
+      "open_channels": 1,
+      "retained_channels": 1,
+      "sqrt_s_GeV": 583.5705250343656
+    },
+    {
+      "max_abs_eigenvalue": 0.0019640118219388415,
+      "max_eigenvalue": 0.00019706235350078953,
+      "min_eigenvalue": -0.0019640118219388415,
+      "open_channels": 3,
+      "retained_channels": 3,
+      "sqrt_s_GeV": 645.8899326601585
+    },
+    {
+      "max_abs_eigenvalue": 0.004340116872112816,
+      "max_eigenvalue": -8.42941285539634e-05,
+      "min_eigenvalue": -0.004340116872112816,
+      "open_channels": 4,
+      "retained_channels": 4,
+      "sqrt_s_GeV": 908.8929875482232
+    },
+    {
+      "max_abs_eigenvalue": 0.004839795840670409,
+      "max_eigenvalue": 4.8836962727083544e-05,
+      "min_eigenvalue": -0.004839795840670409,
+      "open_channels": 7,
+      "retained_channels": 7,
+      "sqrt_s_GeV": 1002.5535333623837
+    },
+    {
+      "max_abs_eigenvalue": 0.00762160009560494,
+      "max_eigenvalue": -0.0005610778770093984,
+      "min_eigenvalue": -0.00762160009560494,
+      "open_channels": 7,
+      "retained_channels": 6,
+      "sqrt_s_GeV": 1109.6160727334563
+    },
+    {
+      "max_abs_eigenvalue": 0.011192992686113429,
+      "max_eigenvalue": -0.0006559709242944938,
+      "min_eigenvalue": -0.011192992686113429,
+      "open_channels": 7,
+      "retained_channels": 6,
+      "sqrt_s_GeV": 1270.3584909679216
+    },
+    {
+      "max_abs_eigenvalue": 0.012719317501707631,
+      "max_eigenvalue": 0.0011597512109788593,
+      "min_eigenvalue": -0.012719317501707631,
+      "open_channels": 9,
+      "retained_channels": 8,
+      "sqrt_s_GeV": 1382.4431061453765
+    },
+    {
+      "max_abs_eigenvalue": 0.01430689068970712,
+      "max_eigenvalue": 0.0031958543981803664,
+      "min_eigenvalue": -0.01430689068970712,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 1550.7960670761752
+    },
+    {
+      "max_abs_eigenvalue": 0.019316838627566932,
+      "max_eigenvalue": 0.019316838627566932,
+      "min_eigenvalue": -0.015430428508462048,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 1722.3515310308237
+    },
+    {
+      "max_abs_eigenvalue": 0.016518932455686287,
+      "max_eigenvalue": 0.016321227918483085,
+      "min_eigenvalue": -0.016518932455686287,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 1971.8567039918792
+    },
+    {
+      "max_abs_eigenvalue": 0.017420241015683798,
+      "max_eigenvalue": 0.010827934079594682,
+      "min_eigenvalue": -0.017420241015683798,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 2296.0064389601484
+    },
+    {
+      "max_abs_eigenvalue": 0.01808237316897636,
+      "max_eigenvalue": 0.00566310645992801,
+      "min_eigenvalue": -0.01808237316897636,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 2673.442526059019
+    },
+    {
+      "max_abs_eigenvalue": 0.01857522044391603,
+      "max_eigenvalue": 0.00122642606403772,
+      "min_eigenvalue": -0.01857522044391603,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 3112.924606334212
+    },
+    {
+      "max_abs_eigenvalue": 0.01894631301076681,
+      "max_eigenvalue": 5.2532315017040095e-06,
+      "min_eigenvalue": -0.01894631301076681,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 3624.65230139272
+    },
+    {
+      "max_abs_eigenvalue": 0.019229083031567007,
+      "max_eigenvalue": -0.0001255481197916369,
+      "min_eigenvalue": -0.019229083031567007,
+      "open_channels": 10,
+      "retained_channels": 9,
+      "sqrt_s_GeV": 4220.501929040624
+    },
+    {
+      "max_abs_eigenvalue": 0.019447572076326088,
+      "max_eigenvalue": -0.00023141040469413444,
+      "min_eigenvalue": -0.019447572076326088,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 4914.302132149714
+    },
+    {
+      "max_abs_eigenvalue": 0.019619182591352077,
+      "max_eigenvalue": -0.00030157096841592484,
+      "min_eigenvalue": -0.019619182591352077,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 5722.154817624008
+    },
+    {
+      "max_abs_eigenvalue": 0.019756636735123824,
+      "max_eigenvalue": -0.00032204373996553583,
+      "min_eigenvalue": -0.019756636735123824,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 6662.808853906291
+    },
+    {
+      "max_abs_eigenvalue": 0.01986908703728943,
+      "max_eigenvalue": -0.0003383451030395435,
+      "min_eigenvalue": -0.01986908703728943,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 7758.095199899744
+    },
+    {
+      "max_abs_eigenvalue": 0.019962979308607368,
+      "max_eigenvalue": -0.00035128371926133027,
+      "min_eigenvalue": -0.019962979308607368,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 9033.433563897039
+    },
+    {
+      "max_abs_eigenvalue": 0.020042688932514534,
+      "max_eigenvalue": -0.0003615135478160393,
+      "min_eigenvalue": -0.020042688932514534,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 10518.422351197261
+    },
+    {
+      "max_abs_eigenvalue": 0.02011105498167942,
+      "max_eigenvalue": -0.0003695712534163417,
+      "min_eigenvalue": -0.02011105498167942,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 12247.525592078082
+    },
+    {
+      "max_abs_eigenvalue": 0.02016985702689077,
+      "max_eigenvalue": -0.00037589608562564337,
+      "min_eigenvalue": -0.02016985702689077,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 14260.872792537495
+    },
+    {
+      "max_abs_eigenvalue": 0.02022023087176055,
+      "max_eigenvalue": -0.00038084523340178026,
+      "min_eigenvalue": -0.02022023087176055,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 16605.190270962285
+    },
+    {
+      "max_abs_eigenvalue": 0.020262994605271638,
+      "max_eigenvalue": -0.0003847070777910748,
+      "min_eigenvalue": -0.020262994605271638,
+      "open_channels": 10,
+      "retained_channels": 10,
+      "sqrt_s_GeV": 19334.885595441723
+    }
+  ],
+  "skipped_all_channels_due_tu_poles": 0,
+  "skipped_s_channel_points": 16,
+  "sqrt_s_range_GeV": [
+    250.54377931171712,
+    20000.0
+  ],
+  "thresholds_GeV": [
+    250.54127389897812,
+    625.270636949489,
+    899.8940470774487,
+    1000.0,
+    1274.6234101279597,
+    1549.2468202559194
+  ],
+  "tu_policy": "Remove every state participating in any detected t/u pole before diagonalisation."
+}

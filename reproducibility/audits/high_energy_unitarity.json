@@ -1,0 +1,86 @@
+{
+  "basis_dimension": 36,
+  "benchmark_couplings": {
+    "kappa": 0.05,
+    "lamH": 0.13,
+    "lamHS": 0.02,
+    "lamHc": 0.05,
+    "lamS": 0.3,
+    "lamSc": 0.08,
+    "lamc": 0.25
+  },
+  "benchmark_eigenvalues": [
+    -0.008496231131985887,
+    -0.008496231131985839,
+    0.01999999999999979,
+    0.019999999999999876,
+    0.019999999999999938,
+    0.02000000000000004,
+    0.020000000000000077,
+    0.02000000000000014,
+    0.020000000000000157,
+    0.020000000000000205,
+    0.04999999999999981,
+    0.049999999999999864,
+    0.04999999999999994,
+    0.04999999999999997,
+    0.04999999999999997,
+    0.050000000000000024,
+    0.05000000000000016,
+    0.050000000000000176,
+    0.07999999999999995,
+    0.08000000000000039,
+    0.2599999999999996,
+    0.25999999999999973,
+    0.2599999999999998,
+    0.2599999999999999,
+    0.2599999999999999,
+    0.25999999999999995,
+    0.26,
+    0.26000000000000006,
+    0.2600000000000002,
+    0.5884962311319859,
+    0.588496231131986,
+    0.5999999999999999,
+    0.5999999999999999,
+    0.7591819531577825,
+    0.9870672960748983,
+    1.2337507507673175
+  ],
+  "benchmark_max_abs_a0": 0.024544691315994446,
+  "benchmark_passes": true,
+  "benchmark_spectral_radius": 1.2337507507673175,
+  "eigenvalue_condition": "every normalized quartic eigenvalue satisfies |L|<=8*pi",
+  "partial_wave_convention": "a0=-L/(16*pi); require |Re a0|<=1/2",
+  "scope_warning": "Quartic high-energy scalar limit only; finite-energy exchange diagrams, gauge/Goldstone channels, and resonance excisions are not included.",
+  "single_coupling_diagnostics": {
+    "kappa": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 5.923843917544486,
+      "spectral_radius_for_unit_coupling": 4.2426406871192865
+    },
+    "lamH": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 4.188790204786392,
+      "spectral_radius_for_unit_coupling": 5.999999999999998
+    },
+    "lamHS": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 17.771531752633464,
+      "spectral_radius_for_unit_coupling": 1.4142135623730951
+    },
+    "lamHc": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 17.771531752633464,
+      "spectral_radius_for_unit_coupling": 1.4142135623730951
+    },
+    "lamS": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 6.283185307179586,
+      "spectral_radius_for_unit_coupling": 4.0
+    },
+    "lamSc": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 25.132741228718345,
+      "spectral_radius_for_unit_coupling": 1.0
+    },
+    "lamc": {
+      "necessary_individual_bound_from_abs_eigenvalue_le_8pi": 6.283185307179586,
+      "spectral_radius_for_unit_coupling": 4.0
+    }
+  }
+}

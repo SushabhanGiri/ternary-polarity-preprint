@@ -1,0 +1,5 @@
+Scalar-loop quadratic-mass beta functions; RHS equals (16*pi^2)*beta:
+beta_mH2 += 12*lamH*mH2 + 2*lamHS*mS2 + 2*lamHc*mc2
+beta_mS2 +=  4*lamHS*mH2 + 8*lamS*mS2 + 2*lamSc*mc2
+beta_mc2 +=  4*lamHc*mH2 + 2*lamSc*mS2 + 8*lamc*mc2
+Check: exact real-scalar tensor contraction passed.

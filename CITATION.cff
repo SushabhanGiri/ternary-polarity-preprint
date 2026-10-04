@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the Zenodo record and the associated manuscript."
+title: "Ternary Polarity TP-D v0.3: Reproducibility Package for Kernel Sensitive Z3 x Z3 Two Component Scalar Dark Matter Near the Higgs Resonance"
+authors:
+  - family-names: "Giri"
+    given-names: "Sushabhan"
+    orcid: "https://orcid.org/0009-0006-1579-5477"
+    email: "sushabhangiri2025@gmail.com"
+version: "1.0"
+date-released: "2026-10-02"
+doi: "10.5281/zenodo.23090199"
+url: "https://doi.org/10.5281/zenodo.23090199"
+keywords:
+  - "Z3 symmetry"
+  - "Z3 x Z3"
+  - "scalar dark matter"
+  - "two-component dark matter"
+  - "Higgs portal"
+  - "effective field theory"
+  - "thermal freeze-out"
+  - "direct detection"
+  - "partial-wave unitarity"
+  - "vacuum metastability"
+  - "reproducibility"
+abstract: >-
+  Reproducibility archive for the TP-D v0.3 scientific freeze associated with the manuscript
+  Kernel Sensitive Z3 x Z3 Two Component Scalar Dark Matter Near the Higgs Resonance. The
+  package preserves audit records, numerical outputs, verification code, manuscript source,
+  figures, and clean manuscript PDFs for a conditionally viable numerical benchmark within a
+  conventional product-discrete scalar effective field theory.

@@ -1,0 +1,52 @@
+{
+  "benchmarks": {
+    "B0": [
+      {
+        "first_BFB_failure_GeV": 357066853.0167252,
+        "first_sufficient_global_EW_failure_GeV": 357066853.0167252,
+        "four_pi_boundary_GeV": 3961075005091154.0,
+        "points": 3000,
+        "unitarity_boundary_GeV": 2110858759929938.5
+      },
+      {
+        "first_BFB_failure_GeV": 357066502.6629328,
+        "first_sufficient_global_EW_failure_GeV": 357066502.6629328,
+        "four_pi_boundary_GeV": 3961075005091154.0,
+        "points": 6000,
+        "unitarity_boundary_GeV": 2110891024989696.5
+      },
+      {
+        "first_BFB_failure_GeV": 357066437.7820907,
+        "first_sufficient_global_EW_failure_GeV": 357066437.7820907,
+        "four_pi_boundary_GeV": 3961075005091154.0,
+        "points": 9000,
+        "unitarity_boundary_GeV": 2110897371378243.2
+      }
+    ],
+    "B1": [
+      {
+        "first_BFB_failure_GeV": null,
+        "first_sufficient_global_EW_failure_GeV": 230538523.3378805,
+        "four_pi_boundary_GeV": 1353415660777141.2,
+        "points": 3000,
+        "unitarity_boundary_GeV": 717906307478888.0
+      },
+      {
+        "first_BFB_failure_GeV": null,
+        "first_sufficient_global_EW_failure_GeV": 230538665.08263382,
+        "four_pi_boundary_GeV": 1353415660777141.2,
+        "points": 6000,
+        "unitarity_boundary_GeV": 717907445525117.0
+      },
+      {
+        "first_BFB_failure_GeV": null,
+        "first_sufficient_global_EW_failure_GeV": 230538691.09805945,
+        "four_pi_boundary_GeV": 1353415660777141.2,
+        "points": 9000,
+        "unitarity_boundary_GeV": 717907959841017.0
+      }
+    ]
+  },
+  "interpretation": "Zero-crossing scales use interpolation in log(mu); unitarity crossings use the same convention. Sampling convergence does not estimate threshold, two-loop, matching, or input-parameter uncertainty.",
+  "schema_version": 1
+}

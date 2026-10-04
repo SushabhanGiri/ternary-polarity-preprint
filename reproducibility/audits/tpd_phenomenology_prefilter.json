@@ -1,0 +1,85 @@
+{
+  "benchmark": "B0 low spectrum plus TP-G0 parent spectrum",
+  "exact_TP_D_selection": {
+    "B_to_A_h_kinematically_open": true,
+    "allowed_pair_conversion": "B Bdag <-> A Adag through lambda_AB",
+    "allowed_self_semiannihilation": [
+      "A A -> Adag h",
+      "B B -> Bdag h"
+    ],
+    "amplitude": 0,
+    "final_charge": [
+      1,
+      0
+    ],
+    "initial_charge": [
+      0,
+      1
+    ],
+    "reason": "Separate Z3_m and Z3_E charge conservation",
+    "stable_species": [
+      "A",
+      "B"
+    ]
+  },
+  "generic_projected_Z3_comparator": {
+    "B_to_A_h_width_GeV": "|eta_HAB|^2 * coefficient",
+    "example_widths_and_ctau": {
+      "0.01": {
+        "ctau_m": 1.0222927748600272e-12,
+        "lifetime_s": 3.410001644737931e-21,
+        "width_GeV": 0.00019302394118070446
+      },
+      "1e-05": {
+        "ctau_m": 1.0222927748600273e-06,
+        "lifetime_s": 3.4100016447379312e-15,
+        "width_GeV": 1.9302394118070447e-10
+      },
+      "1e-07": {
+        "ctau_m": 0.010222927748600275,
+        "lifetime_s": 3.410001644737932e-11,
+        "width_GeV": 1.9302394118070442e-14
+      },
+      "1e-09": {
+        "ctau_m": 102.22927748600272,
+        "lifetime_s": 3.4100016447379313e-07,
+        "width_GeV": 1.9302394118070448e-18
+      }
+    },
+    "operator": "eta_HAB (HdagH) Adag B + h.c.",
+    "proper_decay_length_m": "hbar*c/(coefficient*|eta_HAB|^2)",
+    "width_coefficient_GeV": 1.9302394118070445
+  },
+  "parent_tree_decay_prefilter": {
+    "X_E_to_B_Bdag_width_GeV": 0.05164636528018469,
+    "X_m_to_A_Adag_width_GeV": 0.4135355384268147,
+    "rho_E_to_3B": {
+      "open": false,
+      "threshold_GeV": 1200.0
+    },
+    "rho_E_to_B_Bdag_via_modulus_portal": {
+      "matching_portal": 0.0,
+      "open": false,
+      "threshold_GeV": 800.0
+    },
+    "rho_E_to_X_E_X_E": {
+      "open": false,
+      "threshold_GeV": 1800.0
+    },
+    "rho_E_tree_status": "No open two- or three-body decay in the frozen factorized TP-G0 benchmark. It is an unintended additional stable/long-lived state unless an allowed portal, different hierarchy, or loop-induced decay is quantified.",
+    "rho_m_to_3A": {
+      "open": true,
+      "threshold_GeV": 540.0
+    }
+  },
+  "schema_version": 1,
+  "scope_warning": "No annihilation, semi-annihilation, coupled Boltzmann, collider production, or indirect-detection calculation is included.",
+  "spin_independent_direct_detection": {
+    "A_sigma_cm2": 1.0730223037658588e-46,
+    "B_sigma_cm2": 4.916964985350697e-47,
+    "f_N": 0.3,
+    "formula": "sigma_i=lambda_Hi^2*f_N^2*mu_Ni^2*m_N^2/(4*pi*m_h^4*m_i^2)",
+    "multicomponent_rescaling": "Compare xi_i*sigma_i with the experimental single-component limit, where xi_i=Omega_i/Omega_DM.",
+    "status": "No exclusion verdict is assigned until the coupled relic fractions and the experiment likelihood/limit at each mass are evaluated."
+  }
+}

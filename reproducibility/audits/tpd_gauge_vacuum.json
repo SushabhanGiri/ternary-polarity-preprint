@@ -1,0 +1,105 @@
+{
+  "benchmark": "TP-G0",
+  "extra_symmetry_for_zero_kinetic_mixing": "independent C_m and C_E charge conjugations",
+  "global_tree_vacuum_certified": true,
+  "matching": {
+    "mu_A_GeV": 60.0,
+    "mu_B_GeV": 89.99999999999999
+  },
+  "parameters": {
+    "all_abelian_kinetic_mixings": 0.0,
+    "all_other_modulus_portals": 0.0,
+    "f_E_GeV": 1000.0,
+    "f_m_GeV": 1000.0,
+    "g_E": 0.3,
+    "g_m": 0.3,
+    "kappa_E": 0.042426406871192854,
+    "kappa_m": 0.0282842712474619,
+    "lambda_A": 0.2,
+    "lambda_AB": 0.1,
+    "lambda_B": 0.25,
+    "lambda_H": 0.12938347743146458,
+    "lambda_HA": 0.02,
+    "lambda_HB": 0.03,
+    "lambda_Phi_E": 0.2,
+    "lambda_Phi_m": 0.2
+  },
+  "phenomenology_warning": "No collider, precision, relic-density, cosmic-string, or threshold-RGE viability is implied.",
+  "proof_scope": "For this factorized benchmark only: all omitted modulus portals vanish and the retained cross portals are nonnegative. Radiative stability of the chosen zero portals is not claimed.",
+  "schema_version": 1,
+  "sector_audits": [
+    {
+      "all_stationary_polynomial_roots": [
+        [
+          -159349.66259923816,
+          0.0
+        ],
+        [
+          -136424.2139259082,
+          -81339.6244445329
+        ],
+        [
+          -136424.2139259082,
+          81339.6244445329
+        ]
+      ],
+      "f_GeV": 1000.0,
+      "global_sector_vacuum_certified": true,
+      "kappa": 0.0282842712474619,
+      "lambda_dark": 0.2,
+      "lambda_phi": 0.2,
+      "mass2_GeV2": 31793.757116,
+      "positive_interior_stationary_points": [],
+      "quartic_BFB_margin": 0.1824558935707228,
+      "quartic_BFB_pass": true,
+      "sector": "m",
+      "stationary_polynomial_coefficients_ascending": [
+        102843188978527.1,
+        1757686502.7901454,
+        11056.802732544002,
+        0.02558272000000001
+      ]
+    },
+    {
+      "all_stationary_polynomial_roots": [
+        [
+          -647653.5315715831,
+          0.0
+        ],
+        [
+          -599933.2587972184,
+          -196659.23223571802
+        ],
+        [
+          -599933.2587972184,
+          196659.23223571802
+        ]
+      ],
+      "f_GeV": 1000.0,
+      "global_sector_vacuum_certified": true,
+      "kappa": 0.042426406871192854,
+      "lambda_dark": 0.25,
+      "lambda_phi": 0.2,
+      "mass2_GeV2": 159090.635674,
+      "positive_interior_stationary_points": [],
+      "quartic_BFB_margin": 0.21987551724630236,
+      "quartic_BFB_pass": true,
+      "sector": "E",
+      "stationary_polynomial_coefficients_ascending": [
+        1.2884982402046254e+16,
+        58681778223.64272,
+        92214.3814044,
+        0.04991252
+      ]
+    }
+  ],
+  "spectrum_GeV": {
+    "A": 180.0,
+    "B": 400.0,
+    "X_E": 899.9999999999999,
+    "X_m": 899.9999999999999,
+    "h": 125.25,
+    "rho_E": 632.4555320336759,
+    "rho_m": 632.4555320336759
+  }
+}
